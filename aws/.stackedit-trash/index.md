@@ -1,6 +1,8 @@
-# 인덱스
+# 디스크 저장 매체
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5ODM5NzY2XX0=
+eyJoaXN0b3J5IjpbLTI3NTA2NTQ1MCw1Mjk4Mzk3NjZdfQ==
 -->
