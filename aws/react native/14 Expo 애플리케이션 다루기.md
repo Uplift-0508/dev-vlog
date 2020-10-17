@@ -8,6 +8,9 @@ Create React Native App 도구를 이용해서 프로젝트를 생성하는 프�
 https://expo.io/learn
 https://snack.expo.io/
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDk2MjQ2MywxNDY0ODcyOTldfQ==
+eyJoaXN0b3J5IjpbLTQyMjE5MTIzNywxNzcwOTYyNDYzLDE0Nj
+Q4NzI5OV19
 -->
