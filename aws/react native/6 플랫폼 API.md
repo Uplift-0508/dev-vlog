@@ -1,6 +1,6 @@
 # 플랫폼 API
 
-
+리액트 네이티브는 스마트폰의 카메라롤, 위치, 영속되는 저장소 등을 쉽게 사용할 수 있게 해줍니다. 플랫폼 특유의 API 는 리액트 네이티브에 내장된 모듈을 통해 사용하기 편리한 비동기 자바스크립트 인터페이스로 제공됩니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjYzNDM0XX0=
+eyJoaXN0b3J5IjpbMTc0MjYyMTUwNl19
 -->
