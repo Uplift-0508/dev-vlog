@@ -27,9 +27,11 @@ iOS 의 경우, NSLocationWhenInUseUsageDescription 항목을 리액트 네이�
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 ```
 
-### 
+## 사진과 카메라 접근하기
+
+### 카메라롤 모듈 다루기
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTMyMzg0MiwxODIzNzUwOTk1LDEyMz
-A3Njk4MTAsMTIyMTk3NDgzNF19
+eyJoaXN0b3J5IjpbMTM0MTUwNTI0MywtNTA1MzIzODQyLDE4Mj
+M3NTA5OTUsMTIzMDc2OTgxMCwxMjIxOTc0ODM0XX0=
 -->
