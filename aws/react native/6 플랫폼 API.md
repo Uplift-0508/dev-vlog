@@ -19,16 +19,16 @@ navigator.geolocation.getCurrentPosition(
 
 ### 권한 다루기
 위치 정보는 민감한 개인정보이기 때문에 기본적으로 앱이 바로 접근할 수 없습니다. 이런 정보에 대한 접근은 허용되거나 거절당할 수 있기 때문에 모든 경우를 대비한 코드 작성이 필요합니다. 
+
 iOS 의 경우, NSLocationWhenInUseUsageDescription 항목을 리액트 네이티브 앱 생성 시 기본으로 포함되는 Info.plist 파일에 추가해야 합니다. 
 
-
-AndroidManifest.xml
+안드로이드의 경우, AndroidManifest.xml 파일에 다음 코드를 추가해야 합니다. (기본으로 추가되어있네요)
 ```
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMTczMDA0LDE4MjM3NTA5OTUsMTIzMD
-c2OTgxMCwxMjIxOTc0ODM0XX0=
+eyJoaXN0b3J5IjpbMjA4MzY1MzI5MywxODIzNzUwOTk1LDEyMz
+A3Njk4MTAsMTIyMTk3NDgzNF19
 -->
