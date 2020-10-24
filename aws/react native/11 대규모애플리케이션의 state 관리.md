@@ -5,6 +5,7 @@
 
 앱의 state 를 예측 가능하게 하고, 관리하기 쉽게 하기 위한 라이브러리가 많이 존재합니다. 리덕스는 그중 하나입니다. 
 
+리덕스에서 state 는 하나의 객체, 앱에 유일한 하나의 스토어로 존재합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTY2NTQ0Nyw5NzgyNjA5ODJdfQ==
+eyJoaXN0b3J5IjpbMTY2ODgzOTQzMiw5NzgyNjA5ODJdfQ==
 -->
