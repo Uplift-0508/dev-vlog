@@ -26,6 +26,13 @@ state 변화를 이끌어 내는 액션의 종류를 선언합니다.
 
 ## AsyncStorage 를 이용해 영속적인 데이터 저장
 앱을 재시작하면 생성한 데이터의 state 는 사라집니다. 앱의 state 를 AsyncStorage  로 저장하면 앱 재시작과 상관없이 계속 유지될 수 있습니다. 
+```
+import {AsyncStorage} from 'react-native';
+
+await AsyncStorage.getItem();
+await AsyncStorage.setItem();
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzAzMjA5MCw5NzgyNjA5ODJdfQ==
+eyJoaXN0b3J5IjpbLTIwNDU5MjQ3MzgsMjEyMzAzMjA5MCw5Nz
+gyNjA5ODJdfQ==
 -->
