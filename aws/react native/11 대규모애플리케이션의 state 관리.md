@@ -7,6 +7,8 @@
 
 리덕스에서 state 는 하나의 객체, 앱에 유일한 하나의 스토어로 존재합니다. 리덕스의 state 에 따라 렌더링해야하는 컴포넌트는 스토어에 연결해서 state 를 props 로 전달받을 수 있습니다. 컴포넌트는 이 state 를 직접 수정하지 못합니다. 
 
+state 의 변경은 미리 정의도니 액션을 통해 이루어집니다. 하나의 리듀서는 이전의 state 와 액션을 통해 받은 정보를 바탕으로 새로운 state 를 계산합니다. 결국 state 가 어떻게, 언제 변경되는지에 대한 로직은 한 곳에만 존재하기 때문에 디버깅이 편해집니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTU0MDQ2Niw5NzgyNjA5ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2MzIzMDk3MjAsOTc4MjYwOTgyXX0=
 -->
