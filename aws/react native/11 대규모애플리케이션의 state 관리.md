@@ -17,6 +17,10 @@ npm install --save redux react-redux
 
 ## 액션 (Action)
 state 변화를 이끌어 내는 액션의 종류를 선언합니다. 
+액션은 앱에서 일어나는 일에 해당합니다. 
+
+## 리듀서 (Reducer)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM4MjQ2MzIsOTc4MjYwOTgyXX0=
+eyJoaXN0b3J5IjpbMzg5MTA2NzU1LDk3ODI2MDk4Ml19
 -->
