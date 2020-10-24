@@ -29,10 +29,11 @@ state 변화를 이끌어 내는 액션의 종류를 선언합니다.
 ```
 import {AsyncStorage} from 'react-native';
 
-await AsyncStorage.getItem();
+// 아래 두 API 는 모두 비동기임
+await AsyncStorage.getItem(); 
 await AsyncStorage.setItem();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU5MjQ3MzgsMjEyMzAzMjA5MCw5Nz
-gyNjA5ODJdfQ==
+eyJoaXN0b3J5IjpbMTA5NDU1MDY2MSwyMTIzMDMyMDkwLDk3OD
+I2MDk4Ml19
 -->
