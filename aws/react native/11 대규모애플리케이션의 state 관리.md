@@ -33,7 +33,11 @@ import {AsyncStorage} from 'react-native';
 await AsyncStorage.getItem(); 
 await AsyncStorage.setItem();
 ```
+
+
+## 요약
+리덕스류의 state 관리 라이브러리 단점으로 많이 언급되는 것 중 하나는 너무 많은 보일러플레이트 코드가 앱에 추가된다는 점입니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjkzMTU2OCwyMTIzMDMyMDkwLDk3OD
+eyJoaXN0b3J5IjpbLTI4MTY3NzMzMiwyMTIzMDMyMDkwLDk3OD
 I2MDk4Ml19
 -->
