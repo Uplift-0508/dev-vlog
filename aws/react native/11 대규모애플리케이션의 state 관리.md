@@ -11,6 +11,12 @@ state 의 변경은 미리 정의도니 액션을 통해 이루어집니다. 하
 
 redux 패키지와 리덕스와 리액트를 연결해주는 react-redux 패키지도 설치해야 합니다. 
 
+```
+npm install --save redux react-redux
+```
+
+## 액션 (Action)
+state 변화를 이끌어 내는 액션의 종류를 선언합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1NDcyMjI3LDk3ODI2MDk4Ml19
+eyJoaXN0b3J5IjpbLTE0MDM4MjQ2MzIsOTc4MjYwOTgyXX0=
 -->
