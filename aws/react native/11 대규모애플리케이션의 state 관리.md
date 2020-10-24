@@ -20,7 +20,7 @@ state 변화를 이끌어 내는 액션의 종류를 선언합니다.
 액션은 앱에서 일어나는 일에 해당합니다. 
 
 ## 리듀서 (Reducer)
-리듀서는 액션에 따라 어떻게 앱의 state 가 변경되어야 할지 나타낸 것입니다. 
+리듀서는 액션에 따라 어떻게 앱의 state 가 변경되어야 할지 나타낸 것입니다. 리듀서는 사이드이펙트 없이 온전히 입력에 따라 결과가 결정되는 '순수 함수' 입니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0MjA0OTE2LDk3ODI2MDk4Ml19
+eyJoaXN0b3J5IjpbLTIxMTA0Mzg3NjksOTc4MjYwOTgyXX0=
 -->
