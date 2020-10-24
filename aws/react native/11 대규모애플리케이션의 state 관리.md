@@ -1,7 +1,6 @@
+# 대규모 애플리케이션의 State 관리
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTIzMzgzMzc2XX0=
 -->
