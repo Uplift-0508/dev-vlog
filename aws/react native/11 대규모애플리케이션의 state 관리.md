@@ -9,6 +9,8 @@
 
 state 의 변경은 미리 정의도니 액션을 통해 이루어집니다. 하나의 리듀서는 이전의 state 와 액션을 통해 받은 정보를 바탕으로 새로운 state 를 계산합니다. 결국 state 가 어떻게, 언제 변경되는지에 대한 로직은 한 곳에만 존재하기 때문에 디버깅이 편해집니다.
 
+redux 패키지와 리덕스와 리액트를 연결해주는 react-redux 패키지도 설치해야 합니다. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIzMDk3MjAsOTc4MjYwOTgyXX0=
+eyJoaXN0b3J5IjpbMzU1NDcyMjI3LDk3ODI2MDk4Ml19
 -->
