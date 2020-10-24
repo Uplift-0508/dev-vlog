@@ -23,6 +23,8 @@ state 변화를 이끌어 내는 액션의 종류를 선언합니다.
 리듀서는 액션에 따라 어떻게 앱의 state 가 변경되어야 할지 나타낸 것입니다. 리듀서는 사이드이펙트 없이 온전히 입력에 따라 결과가 결정되는 '순수 함수' 입니다. 
 
 리덕스에서는 스토어에 하나의 리듀서만 연결할 수 있습니다. 따라서 리듀서들을 하나의 리듀서로 합쳐서 연결합니다. 
+
+## AsyncStor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDIxNDk2Nyw5NzgyNjA5ODJdfQ==
+eyJoaXN0b3J5IjpbMjMxNzc5MTU1LDk3ODI2MDk4Ml19
 -->
