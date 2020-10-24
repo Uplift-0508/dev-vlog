@@ -37,7 +37,9 @@ await AsyncStorage.setItem();
 
 ## 요약
 리덕스류의 state 관리 라이브러리 단점으로 많이 언급되는 것 중 하나는 너무 많은 보일러플레이트 코드가 앱에 추가된다는 점입니다. 
+
+대규모 리액트 앱을 state 관리 없이 개발하다 보면 결국 state 변경 관련해 다양한 버그를 만나고 이미 구현한 컴포넌트를 수정하는 것이 어렵게 될 수 있습니다. 때문에 state 와 데이터 흐름 관리에 신경을 더 많이 써야 합니다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTY3NzMzMiwyMTIzMDMyMDkwLDk3OD
+eyJoaXN0b3J5IjpbLTQ5MjU5ODk0NCwyMTIzMDMyMDkwLDk3OD
 I2MDk4Ml19
 -->
