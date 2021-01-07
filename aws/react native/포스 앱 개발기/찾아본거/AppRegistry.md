@@ -14,8 +14,9 @@ view 가 소멸될때 앱을 종료하기 위해서는 AppRegistry.unmountApplic
 AppRegistry 가 require 시퀀스의 초기에 필요하다. JS 실행 환경이 셋업된 것을 확실히 하기 위해서. 다른 모듈들이 필요로 하기 전에.
 
 
-앱 개발에
+앱 개발에서 가장 중요한건
+스크롤 성능, 메모리 효율성, UI 응답성, 앱 시작 시간인것 같다!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0MTEzOTEyLDUwNDMzMDg2NSwxNjE1Nz
-g3MjBdfQ==
+eyJoaXN0b3J5IjpbLTY2Njc5MjcxMSw1MDQzMzA4NjUsMTYxNT
+c4NzIwXX0=
 -->
