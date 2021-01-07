@@ -32,8 +32,11 @@ javascript 에서는 스레드 관리가 어떻게 되는지 알면 좋을 듯
 프론트에서는 캐시가 어떤 종류가 있고 어떻게 사용할지.
 
 전체적으로 리액트 네이티브는 화면을 어떤 프로세스로 그릴지.
+
+프로파일링 도구 사용하는 법, 도구들 익히기.
+앱에도 그러
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDMxMjEzNSwxODkwNjEzMzE1LDUwNj
+eyJoaXN0b3J5IjpbMTkyNTA0NTUxMiwxODkwNjEzMzE1LDUwNj
 kyNDYxNiwtMTYyMzA3ODk1MywxNjEzMjU3MDQ3LDUwNDMzMDg2
 NSwxNjE1Nzg3MjBdfQ==
 -->
