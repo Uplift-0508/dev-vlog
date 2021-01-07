@@ -39,9 +39,9 @@ javascript 에서는 스레드 관리가 어떻게 되는지 알면 좋을 듯
 
 한번은 날잡고 단축키 공부좀 해야할듯..
 
-
+네이게이션은 날잡고 세가지 종류 정리해도 좋을듯
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTgwNzIyNywyMDQwNTkwNjIzLDE4OT
-A2MTMzMTUsNTA2OTI0NjE2LC0xNjIzMDc4OTUzLDE2MTMyNTcw
-NDcsNTA0MzMwODY1LDE2MTU3ODcyMF19
+eyJoaXN0b3J5IjpbNDI4MzcwODEwLDIwNDA1OTA2MjMsMTg5MD
+YxMzMxNSw1MDY5MjQ2MTYsLTE2MjMwNzg5NTMsMTYxMzI1NzA0
+Nyw1MDQzMzA4NjUsMTYxNTc4NzIwXX0=
 -->
