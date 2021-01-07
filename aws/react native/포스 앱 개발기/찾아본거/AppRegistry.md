@@ -19,7 +19,9 @@ AppRegistry 가 require 시퀀스의 초기에 필요하다. JS 실행 환경이
 성능 테스트는 어떻게 할까?
 테스트 코드는 어떻게 짤까?
 렌더링 효율이 중요한것 같다.
+
+노
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMwNzg5NTMsMTYxMzI1NzA0Nyw1MD
-QzMzA4NjUsMTYxNTc4NzIwXX0=
+eyJoaXN0b3J5IjpbODEyODUzNTEzLC0xNjIzMDc4OTUzLDE2MT
+MyNTcwNDcsNTA0MzMwODY1LDE2MTU3ODcyMF19
 -->
