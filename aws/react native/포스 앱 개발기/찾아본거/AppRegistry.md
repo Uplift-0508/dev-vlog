@@ -3,7 +3,7 @@
 AppRegistry.registerComponent('Appname', () => App)
 ``
 
-이였다. 문득 궁금해졌다. 이건 무
+이였다. 문득 궁금해졌다. 이건 무슨 기능일까?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY3MjAzNjZdfQ==
+eyJoaXN0b3J5IjpbMTYxNTc4NzIwXX0=
 -->
