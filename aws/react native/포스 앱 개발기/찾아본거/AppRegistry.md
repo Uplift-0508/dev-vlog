@@ -38,8 +38,10 @@ javascript 에서는 스레드 관리가 어떻게 되는지 알면 좋을 듯
 
 
 한번은 날잡고 단축키 공부좀 해야할듯..
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDU5MDYyMywxODkwNjEzMzE1LDUwNj
-kyNDYxNiwtMTYyMzA3ODk1MywxNjEzMjU3MDQ3LDUwNDMzMDg2
-NSwxNjE1Nzg3MjBdfQ==
+eyJoaXN0b3J5IjpbMTgyMTgwNzIyNywyMDQwNTkwNjIzLDE4OT
+A2MTMzMTUsNTA2OTI0NjE2LC0xNjIzMDc4OTUzLDE2MTMyNTcw
+NDcsNTA0MzMwODY1LDE2MTU3ODcyMF19
 -->
