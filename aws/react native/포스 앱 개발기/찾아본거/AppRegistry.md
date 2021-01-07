@@ -9,7 +9,9 @@ AppRegistry 는 JS 앤트리 포인트이다. 모든 리액트 네이티브 앱�
 App 의 root 컴포넌트들은 그들 스스로를 등록시키는데 AppRegistry.registerComponent 를 사용한다.
 그러면 native 시스템은 앱 번들을 로드할 수 있다. 그다음 실제로 앱을 실행시킨다. AppRegistry.runApplication 을 호출해서.
 
-view 가 소멸될때 앱을 종료하기 위해서는 AppRegistry.unmountApplicationComponentAtRootTag 에서 실행 응용 프로그램에 전달된 태그가 있습니다. 
+view 가 소멸될때 앱을 종료하기 위해서는 AppRegistry.unmountApplicationComponentAtRootTag 를 호출합니다. runApplication 에 넘겨진 태그와 같이! 둘은 한 쌍이다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc1NzQ0NzgsMTYxNTc4NzIwXX0=
+eyJoaXN0b3J5IjpbLTE0Nzc2NTY0MjEsMTYxNTc4NzIwXX0=
 -->
