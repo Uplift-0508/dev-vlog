@@ -7,7 +7,7 @@ AppRegistry.registerComponent('Appname', () => App)
 
 AppRegistry 는 JS 앤트리 포인트이다. 모든 리액트 네이티브 앱들을 실행시키는.
 App 의 root 컴포넌트들은 그들 스스로를 등록시키는데 AppRegistry.registerComponent 를 사용한다.
-그러면 native 시스템은 앱 번들을 로드할 수 있다. 
+그러면 native 시스템은 앱 번들을 로드할 수 있다. 그다음 실제로 앱을 실행시킨다. AppRegistry.runApplication 을 호출해서
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI0NDY3NTgsMTYxNTc4NzIwXX0=
+eyJoaXN0b3J5IjpbMTM5NDU0NjI2NywxNjE1Nzg3MjBdfQ==
 -->
