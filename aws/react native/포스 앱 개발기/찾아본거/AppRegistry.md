@@ -11,7 +11,7 @@ App 의 root 컴포넌트들은 그들 스스로를 등록시키는데 AppRegist
 
 view 가 소멸될때 앱을 종료하기 위해서는 AppRegistry.unmountApplicationComponentAtRootTag 를 호출합니다. runApplication 에 넘겨진 태그와 같이! 둘은 한 쌍이다.
 
-
+AppRegistry 가 초기에 필요하다. require 시퀀스안
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc2NTY0MjEsMTYxNTc4NzIwXX0=
+eyJoaXN0b3J5IjpbLTE4MTM3ODQyNzIsMTYxNTc4NzIwXX0=
 -->
