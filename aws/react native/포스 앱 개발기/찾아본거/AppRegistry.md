@@ -28,8 +28,10 @@ javascript 에서는 스레드 관리가 어떻게 되는지 알면 좋을 듯
 
 리액트/리액트네이티브에서는 스레드 관리가 어떻게 되는지
 화면을 그릴때 스레드는 어떻게 작동할지.
+
+프론트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDQ2NDg2MCwxODkwNjEzMzE1LDUwNj
-kyNDYxNiwtMTYyMzA3ODk1MywxNjEzMjU3MDQ3LDUwNDMzMDg2
-NSwxNjE1Nzg3MjBdfQ==
+eyJoaXN0b3J5IjpbOTEzODczOTEyLDE4OTA2MTMzMTUsNTA2OT
+I0NjE2LC0xNjIzMDc4OTUzLDE2MTMyNTcwNDcsNTA0MzMwODY1
+LDE2MTU3ODcyMF19
 -->
