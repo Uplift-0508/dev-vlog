@@ -20,8 +20,8 @@ AppRegistry 가 require 시퀀스의 초기에 필요하다. JS 실행 환경이
 테스트 코드는 어떻게 짤까?
 렌더링 효율이 중요한것 같다.
 
-노
+shadow thread 가 뭐지?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyODUzNTEzLC0xNjIzMDc4OTUzLDE2MT
+eyJoaXN0b3J5IjpbNTA2OTI0NjE2LC0xNjIzMDc4OTUzLDE2MT
 MyNTcwNDcsNTA0MzMwODY1LDE2MTU3ODcyMF19
 -->
