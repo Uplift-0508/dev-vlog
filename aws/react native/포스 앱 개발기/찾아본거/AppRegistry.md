@@ -29,9 +29,9 @@ javascript 에서는 스레드 관리가 어떻게 되는지 알면 좋을 듯
 리액트/리액트네이티브에서는 스레드 관리가 어떻게 되는지
 화면을 그릴때 스레드는 어떻게 작동할지.
 
-프론트
+프론트에서는 캐시가 어떤 종류가 있고 어떻게 사용할지.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzODczOTEyLDE4OTA2MTMzMTUsNTA2OT
+eyJoaXN0b3J5IjpbOTQ1NDYyOTkxLDE4OTA2MTMzMTUsNTA2OT
 I0NjE2LC0xNjIzMDc4OTUzLDE2MTMyNTcwNDcsNTA0MzMwODY1
 LDE2MTU3ODcyMF19
 -->
