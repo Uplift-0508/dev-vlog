@@ -21,7 +21,10 @@ AppRegistry 가 require 시퀀스의 초기에 필요하다. JS 실행 환경이
 렌더링 효율이 중요한것 같다.
 
 shadow thread 가 뭐지?
+
+프로파일링 툴들을 만들면서 무엇이 성능을 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2OTI0NjE2LC0xNjIzMDc4OTUzLDE2MT
-MyNTcwNDcsNTA0MzMwODY1LDE2MTU3ODcyMF19
+eyJoaXN0b3J5IjpbODQwNDgyMDA0LDUwNjkyNDYxNiwtMTYyMz
+A3ODk1MywxNjEzMjU3MDQ3LDUwNDMzMDg2NSwxNjE1Nzg3MjBd
+fQ==
 -->
