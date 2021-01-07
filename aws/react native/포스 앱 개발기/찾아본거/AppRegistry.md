@@ -23,8 +23,12 @@ AppRegistry 가 require 시퀀스의 초기에 필요하다. JS 실행 환경이
 shadow thread 가 뭐지?
 
 프로파일링 툴들을 만들면서 무엇이 성능을 결정하는지 알면 좋을 뜻
+
+javascript 에서는 스레드 관리가 어떻게 되는지 알면 좋을 듯
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTA4ODQwNSw1MDY5MjQ2MTYsLTE2Mj
+eyJoaXN0b3J5IjpbMTg5MDYxMzMxNSw1MDY5MjQ2MTYsLTE2Mj
 MwNzg5NTMsMTYxMzI1NzA0Nyw1MDQzMzA4NjUsMTYxNTc4NzIw
 XX0=
 -->
