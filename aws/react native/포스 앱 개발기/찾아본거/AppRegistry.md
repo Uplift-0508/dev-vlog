@@ -18,8 +18,8 @@ AppRegistry 가 require 시퀀스의 초기에 필요하다. JS 실행 환경이
 스크롤 성능, 메모리 효율성, UI 응답성, 앱 시작 시간인것 같다!
 성능 테스트는 어떻게 할까?
 테스트 코드는 어떻게 짤까?
-fp
+렌더링 효율이 중요한것 같다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjAxMTY2MSwxNjEzMjU3MDQ3LDUwND
-MzMDg2NSwxNjE1Nzg3MjBdfQ==
+eyJoaXN0b3J5IjpbLTE2MjMwNzg5NTMsMTYxMzI1NzA0Nyw1MD
+QzMzA4NjUsMTYxNTc4NzIwXX0=
 -->
