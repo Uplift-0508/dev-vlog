@@ -11,7 +11,7 @@ App 의 root 컴포넌트들은 그들 스스로를 등록시키는데 AppRegist
 
 view 가 소멸될때 앱을 종료하기 위해서는 AppRegistry.unmountApplicationComponentAtRootTag 를 호출합니다. runApplication 에 넘겨진 태그와 같이! 둘은 한 쌍이다.
 
-AppRegistry 가 초기에 필요하다. require 시퀀스안
+AppRegistry 가 require 시퀀스의 초기에 필요하다. JS 실행 환경이 셋업된 것을 확실히 하기 위해서. 다른 모듈들이 필요로 하기 전에.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3ODQyNzIsMTYxNTc4NzIwXX0=
+eyJoaXN0b3J5IjpbNTA0MzMwODY1LDE2MTU3ODcyMF19
 -->
