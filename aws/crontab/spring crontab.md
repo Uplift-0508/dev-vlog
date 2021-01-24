@@ -103,9 +103,27 @@ public class Scheduler {
 
 }  
 ```
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:task="http://www.springframework.org/schema/task"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+        http://www.springframework.org/schema/task 
+        http://www.springframework.org/schema/task/spring-task-4.1.xsd">
 
+
+    <task:scheduled-tasks scheduler="scheduledTasks">
+        <task:scheduled ref="schedulerBean" method="currentTime" cron="*/5 * * * * MON-FRI" />
+    </task:scheduled-tasks>
+
+    <task:scheduler id="scheduledTasks" />
+
+</beans>
+```
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NjA4MDk2LDE5NTA2MTI5NDJdfQ==
+eyJoaXN0b3J5IjpbMTY1MTI0NDM5MiwxOTUwNjEyOTQyXX0=
 -->
