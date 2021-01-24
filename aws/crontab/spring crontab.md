@@ -25,9 +25,11 @@ timezone 도 아래와 같이 선언할 수 있다.
 
 
 구문
-|syntax                          |의미                         |
+|syntax                          |의미                         
 |-------------------------------|-----------------------------|
-|`"0 0 * * * *"`            |매일 매시간?            |
+|*           |어떤 것이든 해당             |
+|*/x           |매 x            |
+|?           |정해지지않음            |
 
 
 예제
@@ -43,5 +45,5 @@ timezone 도 아래와 같이 선언할 수 있다.
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzI3ODUzMl19
+eyJoaXN0b3J5IjpbMTEwMjI0Mzc2XX0=
 -->
