@@ -30,7 +30,7 @@ timezone 도 아래와 같이 선언할 수 있다.
 |-------------------------------|-----------------------------|
 |`"0 0 * * * *"`            |매일 매시간의 최고치?            |
 |`"*/10 * * * * *"`            |매 10초            |
-|`0 0 8-10 * * *`|-- is en-dash, --- is em-dash|
+|`0 0 8-10 * * *`|매일|
 |`"0 0/30 8-10 * * *"`            |'Isn't this fun?'            |
 |`"0 0 9-17 * * MON-FRI"`            |"Isn't this fun?"            |
 |`0 0 0 25 12 ?`|-- is en-dash, --- is em-dash|
@@ -38,5 +38,5 @@ timezone 도 아래와 같이 선언할 수 있다.
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDA5ODk5Ml19
+eyJoaXN0b3J5IjpbLTcyODM1NzE5Ml19
 -->
