@@ -28,15 +28,15 @@ timezone 도 아래와 같이 선언할 수 있다.
 
 |syntax                          |의미                         |
 |-------------------------------|-----------------------------|
-|`"0 0 * * * *"`            |매일 매시간의 최고치?            |
+|`"0 0 * * * *"`            |매일 매시간?            |
 |`"*/10 * * * * *"`            |매 10초            |
-|`0 0 8-10 * * *`|매일|
-|`"0 0/30 8-10 * * *"`            |'Isn't this fun?'            |
+|`0 0 8-10 * * *`|매일 8, 9, 10 시|
+|`"0 0/30 8-10 * * *"`            |매일 8, 9, 10 시 30분 마다            |
 |`"0 0 9-17 * * MON-FRI"`            |"Isn't this fun?"            |
 |`0 0 0 25 12 ?`|-- is en-dash, --- is em-dash|
 
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODM1NzE5Ml19
+eyJoaXN0b3J5IjpbLTI1MzgzNjM1MF19
 -->
