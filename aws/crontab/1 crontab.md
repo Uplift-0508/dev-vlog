@@ -4,10 +4,14 @@
 
 Cron expression 은 6 개의 연속된 필드들로 구성되어 있다.
 
+second (초) , 
+minute (분) , 
+hour (시) , 
+일, 달, 요일
 
 
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTI1MDEwMSwtOTA2NzAwMDU0XX0=
+eyJoaXN0b3J5IjpbMTMxNjkwMDUwLC05MDY3MDAwNTRdfQ==
 -->
