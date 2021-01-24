@@ -42,8 +42,11 @@ timezone 도 아래와 같이 선언할 수 있다.
 |`"0 0 9-17 * * MON-FRI"`            |월요일부터 금요일까지 매일 9:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00            |
 |`0 0 0 25 12 ?`|매년 12월 25일 00:00:00 (매 크리스마스 자정) |
 
+
+@Scheduled() 가 붙은 메소드들은 표
+
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDYxMjk0Ml19
+eyJoaXN0b3J5IjpbLTE0MTY2NjIyMzUsMTk1MDYxMjk0Ml19
 -->
