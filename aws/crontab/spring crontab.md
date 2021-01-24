@@ -24,8 +24,16 @@ timezone 도 아래와 같이 선언할 수 있다.
 ```
 
 
+구문
+
+|                |syntax                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzU4NDQ2MF19
+eyJoaXN0b3J5IjpbMzI3NDk3NDAyXX0=
 -->
