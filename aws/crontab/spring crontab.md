@@ -43,10 +43,11 @@ timezone 도 아래와 같이 선언할 수 있다.
 |`0 0 0 25 12 ?`|매년 12월 25일 00:00:00 (매 크리스마스 자정) |
 
 
-@Scheduled() 가 붙은 메소드들은 표
+@Scheduled() 가 붙은 메소드들은 표현식에 해당하는 경우에만 호출된다.
+어떤 코드를 cron expression 에 해당하는 경우에만 실행하고 싶다면, 
 
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY2NjIyMzUsMTk1MDYxMjk0Ml19
+eyJoaXN0b3J5IjpbMTU1NzI1NDY1OSwxOTUwNjEyOTQyXX0=
 -->
