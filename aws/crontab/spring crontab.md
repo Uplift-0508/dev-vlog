@@ -18,10 +18,14 @@ day(s) of week(요일)
 @Scheduled(cron = "* * * * * *")
 ```
 
+timezone 도 아래와 같이 선언할 수 있다.
+```
+@Scheduled(cron="* * * * * *", zone="Europe/Istanbul")
+```
 
 
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNDcwMzUzXX0=
+eyJoaXN0b3J5IjpbMTQ1MzU4NDQ2MF19
 -->
