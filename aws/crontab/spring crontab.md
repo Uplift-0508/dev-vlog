@@ -124,6 +124,9 @@ public class Scheduler {
 ```
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
+https://www.baeldung.com/cron-expressions
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTI0NDM5MiwxOTUwNjEyOTQyXX0=
+eyJoaXN0b3J5IjpbMTI4NjQwNzQzNCwxNjUxMjQ0MzkyLDE5NT
+A2MTI5NDJdfQ==
 -->
