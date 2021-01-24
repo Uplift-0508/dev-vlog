@@ -31,9 +31,12 @@ timezone 도 아래와 같이 선언할 수 있다.
 |`"0 0 * * * *"`            |'Isn't this fun?'            |
 |`"*/10 * * * * *"`            |"Isn't this fun?"            |
 |`0 0 8-10 * * *`|-- is en-dash, --- is em-dash|
+|`"0 0/30 8-10 * * *"`            |'Isn't this fun?'            |
+|`"0 0 9-17 * * MON-FRI"`            |"Isn't this fun?"            |
+|`0 0 0 25 12 ?`|-- is en-dash, --- is em-dash|
 
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgwODAyOV19
+eyJoaXN0b3J5IjpbMjUyMDE3NjU4XX0=
 -->
