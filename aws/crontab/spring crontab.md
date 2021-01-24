@@ -125,8 +125,8 @@ public class Scheduler {
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 https://www.baeldung.com/cron-expressions
-
+https://www.freeformatter.com/cron-expression-generator-quartz.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjQwNzQzNCwxNjUxMjQ0MzkyLDE5NT
-A2MTI5NDJdfQ==
+eyJoaXN0b3J5IjpbLTMyNzY1MTQ4OCwxMjg2NDA3NDM0LDE2NT
+EyNDQzOTIsMTk1MDYxMjk0Ml19
 -->
