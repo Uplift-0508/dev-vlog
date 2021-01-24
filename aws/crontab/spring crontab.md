@@ -28,7 +28,7 @@ timezone 도 아래와 같이 선언할 수 있다.
 
 |syntax                          |의미                         |
 |-------------------------------|-----------------------------|
-|`"0 0 * * * *"`            |'Isn't this fun?'            |
+|`"0 0 * * * *"`            |매일 매시간 정각            |
 |`"*/10 * * * * *"`            |"Isn't this fun?"            |
 |`0 0 8-10 * * *`|-- is en-dash, --- is em-dash|
 |`"0 0/30 8-10 * * *"`            |'Isn't this fun?'            |
@@ -38,5 +38,5 @@ timezone 도 아래와 같이 선언할 수 있다.
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMDE3NjU4XX0=
+eyJoaXN0b3J5IjpbODE4NTc5NzgzXX0=
 -->
