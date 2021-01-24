@@ -33,10 +33,10 @@ timezone 도 아래와 같이 선언할 수 있다.
 |`0 0 8-10 * * *`|매일 8:00, 9:00, 10:00|
 |`"0 0/30 8-10 * * *"`            |매일 8:00, 8:30, 9:00, 9:30, 10:00            |
 |`"0 0 9-17 * * MON-FRI"`            |월요일부터 금요일까지 매일 9:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00            |
-|`0 0 0 25 12 ?`|-- is en-dash, --- is em-dash|
+|`0 0 0 25 12 ?`|매년 12월 25일 00:00:00 |
 
 [참고]
 https://riptutorial.com/spring/example/21209/cron-expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwMDE5NDUwXX0=
+eyJoaXN0b3J5IjpbMjA0OTU4MDExNl19
 -->
