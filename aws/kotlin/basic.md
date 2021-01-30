@@ -6,6 +6,7 @@ val longSum = 3L + intVar
 
 코틀린도 객체 지향 프로그래밍 (OOP, Object Oriented Programming) 언어다. 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxNTQ0OTE4LDE3MTY0OTY3ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2ODkwMDA5NTYsMTcxNjQ5Njc4Ml19
 -->
