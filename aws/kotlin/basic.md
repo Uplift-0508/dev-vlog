@@ -6,11 +6,13 @@ val longSum = 3L + intVar
 
 코틀린도 객체 지향 프로그래밍 (OOP, Object Oriented Programming) 언어다. 
 
-const 와 val (자바에서 final 키워드와 같은 목적으로 사용) 는 둘 다 한번 할당되면 변경이 불가능함을 나타내지만,
+const 와 val 는 
+둘 다 한번 할당되면 변경이 불가능함을 나타내지만,
 const 는 컴파일 타임에 val 은 실행시간에 할당됩니다.
+val 는 자바에서 final 키워드와 같은 목적으로 사용된다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjA1NzIxNywyMDgxNzgxNzkyLDE3MT
-Y0OTY3ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDYwNzA2OTMsMjA4MTc4MTc5MiwxNz
+E2NDk2NzgyXX0=
 -->
