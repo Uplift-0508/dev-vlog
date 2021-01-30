@@ -4,7 +4,8 @@
 val longSum = 3L + intVar
 다행히 더하기(+) 연산자의 경우 자동으로 intVar 의 값을 long 으로 변환하고 long 리터럴에 그 값을 더한다.
 
+코틀린도 객체 지향 프로그래밍 (OOP, Object Oriented Programming) 언어다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjQ5Njc4Ml19
+eyJoaXN0b3J5IjpbMzcxNTQ0OTE4LDE3MTY0OTY3ODJdfQ==
 -->
