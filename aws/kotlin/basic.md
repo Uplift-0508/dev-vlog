@@ -19,9 +19,10 @@ val 는 자바에서 final 키워드와 같은 목적으로 사용된다.
 
 **runBlocking 함수** 는 현재 스레드를 블록하고 모든 내부 코루틴이 종료될 때까지 블록한다. runBlocking 함수 시그니처는 다음과 같다.
 fun <T> runBlocking(block: suspend CoroutineScope.() -> T): T
-runBlocking 함수는 인자로 CoroutineScope 에 확장 함수로 추가될 suspend 함수를 받아서 실행하고
+runBlocking 함수는 인자로 CoroutineScope 에 확장 함수로 추가될 suspend 함수를 받아서 실행한뒤 그 반환값을 리턴한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODg5MzYwNCwtMTEzOTY3NTM0NSwtMT
+eyJoaXN0b3J5IjpbMTMwNTM4NDEwMiwtMTEzOTY3NTM0NSwtMT
 Q4MDE3MDk2NywxOTE3NTU0MDMzLC0xNjQ2MDcwNjkzLDIwODE3
 ODE3OTIsMTcxNjQ5Njc4Ml19
 -->
