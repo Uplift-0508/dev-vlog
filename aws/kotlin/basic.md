@@ -11,9 +11,9 @@ const 와 val 는
 const 는 컴파일 타임에 val 은 실행시간에 할당됩니다.
 val 는 자바에서 final 키워드와 같은 목적으로 사용된다. 
 
-코틀린에서 val 은 키워드지만 const 
+코틀린에서 val 은 키워드지만 const 는 private, inline 등과 같은 변경자임에 유의해야한다. const 가 val 키워드를 대체하는 것이 아니라 반드시 같이 사용되어야 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ1MDMyNzcsMTkxNzU1NDAzMywtMT
+eyJoaXN0b3J5IjpbLTE0ODAxNzA5NjcsMTkxNzU1NDAzMywtMT
 Y0NjA3MDY5MywyMDgxNzgxNzkyLDE3MTY0OTY3ODJdfQ==
 -->
