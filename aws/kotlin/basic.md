@@ -17,9 +17,11 @@ val 는 자바에서 final 키워드와 같은 목적으로 사용된다.
 동시성 코드를 마치 동기 코드처럼 작성할 수 있게 해주는 기술
 콜백 메소드 또는 리액티브 스트림과 같은 다른 방법들보다 훨씬 쉽게 동시적 코드를 작성할 수 있다. 
 
+**runBlocking 함수** 는 현재 스레드를 블록하고 모든 내부 코루틴이 종료될 때까지 블록한다. runBlocking 함수 시그니처는 다음과 같다.
+fun <T> runBlocking(block: suspend CoroutineScope.() -> T): T
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMwMDUzMywtMTEzOTY3NTM0NSwtMT
+eyJoaXN0b3J5IjpbLTk0MjM3NjI0NiwtMTEzOTY3NTM0NSwtMT
 Q4MDE3MDk2NywxOTE3NTU0MDMzLC0xNjQ2MDcwNjkzLDIwODE3
 ODE3OTIsMTcxNjQ5Njc4Ml19
 -->
