@@ -35,10 +35,11 @@ fun CoroutineScope.lauch(
 ``
 
 **Nothing 클래스**
+모든 타입의 하위 타입.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkyODczMzYsMTI0NDIxMTk1LDY5NT
+eyJoaXN0b3J5IjpbLTE2NDQ1MjcyMzYsMTI0NDIxMTk1LDY5NT
 Q0MTgxMiwtMTkxNzcwOTk5NiwtMTEzOTY3NTM0NSwtMTQ4MDE3
 MDk2NywxOTE3NTU0MDMzLC0xNjQ2MDcwNjkzLDIwODE3ODE3OT
 IsMTcxNjQ5Njc4Ml19
