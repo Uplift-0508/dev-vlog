@@ -45,11 +45,13 @@ fun CoroutineScope.lauch(
 조건문보다는 필터를 사용하는 
 코딩 스타일을 지칭한다.
 
-
+**컬렉션**
+코틀린은 자바와 다르게 중개자 역할을 하는 스트림을 거치지 않고 
+ㄷ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NTMzOTI1LC0xNjQ0NTI3MjM2LDEyND
-QyMTE5NSw2OTU0NDE4MTIsLTE5MTc3MDk5OTYsLTExMzk2NzUz
-NDUsLTE0ODAxNzA5NjcsMTkxNzU1NDAzMywtMTY0NjA3MDY5My
-wyMDgxNzgxNzkyLDE3MTY0OTY3ODJdfQ==
+eyJoaXN0b3J5IjpbMTgyMTMzNDY1LDM2ODUzMzkyNSwtMTY0ND
+UyNzIzNiwxMjQ0MjExOTUsNjk1NDQxODEyLC0xOTE3NzA5OTk2
+LC0xMTM5Njc1MzQ1LC0xNDgwMTcwOTY3LDE5MTc1NTQwMzMsLT
+E2NDYwNzA2OTMsMjA4MTc4MTc5MiwxNzE2NDk2NzgyXX0=
 -->
