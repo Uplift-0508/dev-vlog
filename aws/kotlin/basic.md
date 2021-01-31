@@ -13,7 +13,11 @@ val 는 자바에서 final 키워드와 같은 목적으로 사용된다.
 
 코틀린에서 val 은 키워드지만 const 는 private, inline 등과 같은 변경자임에 유의해야한다. const 가 val 키워드를 대체하는 것이 아니라 반드시 같이 사용되어야 한다.
 
+**코루틴 (Coroutine)**
+동시성 코드를 마치 동기 코드처럼 작성할 수 있게 해주는 기술
+콜백 메소드 또는 리액티브 스트림과 같은 다른 방법들보다 훨씬 쉽게 동시적 코드를 작성할 수 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODAxNzA5NjcsMTkxNzU1NDAzMywtMT
-Y0NjA3MDY5MywyMDgxNzgxNzkyLDE3MTY0OTY3ODJdfQ==
+eyJoaXN0b3J5IjpbLTExMzk2NzUzNDUsLTE0ODAxNzA5NjcsMT
+kxNzU1NDAzMywtMTY0NjA3MDY5MywyMDgxNzgxNzkyLDE3MTY0
+OTY3ODJdfQ==
 -->
