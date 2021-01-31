@@ -37,10 +37,16 @@ fun CoroutineScope.lauch(
 **Nothing 클래스**
 모든 타입의 하위 타입.
 
+**함수형 프로그래밍**
+불변성 (immutability) 를 선호하고, 
+순수함수를 사용하는 경우에
+동시성을 쉽게 구현할 수 있으며,
+반복보다는 변형 (transformation) 을 사용하고,
+조건문보다는 필터를 사용하는 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ1MjcyMzYsMTI0NDIxMTk1LDY5NT
-Q0MTgxMiwtMTkxNzcwOTk5NiwtMTEzOTY3NTM0NSwtMTQ4MDE3
-MDk2NywxOTE3NTU0MDMzLC0xNjQ2MDcwNjkzLDIwODE3ODE3OT
-IsMTcxNjQ5Njc4Ml19
+eyJoaXN0b3J5IjpbLTgyMDYxODkyNywtMTY0NDUyNzIzNiwxMj
+Q0MjExOTUsNjk1NDQxODEyLC0xOTE3NzA5OTk2LC0xMTM5Njc1
+MzQ1LC0xNDgwMTcwOTY3LDE5MTc1NTQwMzMsLTE2NDYwNzA2OT
+MsMjA4MTc4MTc5MiwxNzE2NDk2NzgyXX0=
 -->
