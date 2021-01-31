@@ -18,14 +18,22 @@ val 는 자바에서 final 키워드와 같은 목적으로 사용된다.
 콜백 메소드 또는 리액티브 스트림과 같은 다른 방법들보다 훨씬 쉽게 동시적 코드를 작성할 수 있다. 
 
 **runBlocking 함수** 는 현재 스레드를 블록하고 모든 내부 코루틴이 종료될 때까지 블록한다. runBlocking 함수 시그니처는 다음과 같다.
+``
 fun <T> runBlocking(block: suspend CoroutineScope.() -> T): T
+``
 runBlocking 함수는 인자로 CoroutineScope 에 확장 함수로 추가될 suspend 함수를 받아서 실행한뒤 그 반환값을 리턴한다.
 
 **launch 빌더**
 독립된 프로세스를 실행하는 코루틴을 시작하고, 해당 코루틴에서 리턴값을 받을 필요가 없을 때 lauch 코루틴 빌더를 사용한다. 
+launch 함수 시그니처는 다음과 같다.
+``
+fun CoroutineScope.lauch(
+	context: Coroutinecontext = EmptyC
+): Job
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY2NjM1ODEsNjk1NDQxODEyLC0xOT
-E3NzA5OTk2LC0xMTM5Njc1MzQ1LC0xNDgwMTcwOTY3LDE5MTc1
-NTQwMzMsLTE2NDYwNzA2OTMsMjA4MTc4MTc5MiwxNzE2NDk2Nz
-gyXX0=
+eyJoaXN0b3J5IjpbLTk2NTYxMDQ0NCw2OTU0NDE4MTIsLTE5MT
+c3MDk5OTYsLTExMzk2NzUzNDUsLTE0ODAxNzA5NjcsMTkxNzU1
+NDAzMywtMTY0NjA3MDY5MywyMDgxNzgxNzkyLDE3MTY0OTY3OD
+JdfQ==
 -->
