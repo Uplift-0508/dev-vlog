@@ -21,9 +21,9 @@ val 는 자바에서 final 키워드와 같은 목적으로 사용된다.
 fun <T> runBlocking(block: suspend CoroutineScope.() -> T): T
 runBlocking 함수는 인자로 CoroutineScope 에 확장 함수로 추가될 suspend 함수를 받아서 실행한뒤 그 반환값을 리턴한다.
 
-
+**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc3MDk5OTYsLTExMzk2NzUzNDUsLT
-E0ODAxNzA5NjcsMTkxNzU1NDAzMywtMTY0NjA3MDY5MywyMDgx
-NzgxNzkyLDE3MTY0OTY3ODJdfQ==
+eyJoaXN0b3J5IjpbNjk1NDQxODEyLC0xOTE3NzA5OTk2LC0xMT
+M5Njc1MzQ1LC0xNDgwMTcwOTY3LDE5MTc1NTQwMzMsLTE2NDYw
+NzA2OTMsMjA4MTc4MTc5MiwxNzE2NDk2NzgyXX0=
 -->
