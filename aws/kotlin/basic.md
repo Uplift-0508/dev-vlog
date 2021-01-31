@@ -43,9 +43,11 @@ fun CoroutineScope.lauch(
 동시성을 쉽게 구현할 수 있으며,
 반복보다는 변형 (transformation) 을 사용하고,
 조건문보다는 필터를 사용하는 
+코딩 스타일을 지칭한다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDYxODkyNywtMTY0NDUyNzIzNiwxMj
+eyJoaXN0b3J5IjpbMTgzMDY2NzU3NSwtMTY0NDUyNzIzNiwxMj
 Q0MjExOTUsNjk1NDQxODEyLC0xOTE3NzA5OTk2LC0xMTM5Njc1
 MzQ1LC0xNDgwMTcwOTY3LDE5MTc1NTQwMzMsLTE2NDYwNzA2OT
 MsMjA4MTc4MTc5MiwxNzE2NDk2NzgyXX0=
