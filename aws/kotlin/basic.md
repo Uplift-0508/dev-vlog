@@ -47,11 +47,12 @@ fun CoroutineScope.lauch(
 
 **컬렉션**
 코틀린은 자바와 다르게 중개자 역할을 하는 스트림을 거치지 않고 
-ㄷ
+다양한 메소드를 컬렉션 클래스에 직접 추가한다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTMzNDY1LDM2ODUzMzkyNSwtMTY0ND
-UyNzIzNiwxMjQ0MjExOTUsNjk1NDQxODEyLC0xOTE3NzA5OTk2
-LC0xMTM5Njc1MzQ1LC0xNDgwMTcwOTY3LDE5MTc1NTQwMzMsLT
-E2NDYwNzA2OTMsMjA4MTc4MTc5MiwxNzE2NDk2NzgyXX0=
+eyJoaXN0b3J5IjpbLTE0NTczMjYyNCwzNjg1MzM5MjUsLTE2ND
+Q1MjcyMzYsMTI0NDIxMTk1LDY5NTQ0MTgxMiwtMTkxNzcwOTk5
+NiwtMTEzOTY3NTM0NSwtMTQ4MDE3MDk2NywxOTE3NTU0MDMzLC
+0xNjQ2MDcwNjkzLDIwODE3ODE3OTIsMTcxNjQ5Njc4Ml19
 -->
