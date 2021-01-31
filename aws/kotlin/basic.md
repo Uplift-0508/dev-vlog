@@ -21,9 +21,11 @@ val 는 자바에서 final 키워드와 같은 목적으로 사용된다.
 fun <T> runBlocking(block: suspend CoroutineScope.() -> T): T
 runBlocking 함수는 인자로 CoroutineScope 에 확장 함수로 추가될 suspend 함수를 받아서 실행한뒤 그 반환값을 리턴한다.
 
-**
+**launch 빌더**
+독립된 프로세스를 실행하는 코루틴을 시작하고, 해당 코루틴에서 리턴값을 받을 필요가 없을 때 lauch 코루틴 빌더를 사용한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1NDQxODEyLC0xOTE3NzA5OTk2LC0xMT
-M5Njc1MzQ1LC0xNDgwMTcwOTY3LDE5MTc1NTQwMzMsLTE2NDYw
-NzA2OTMsMjA4MTc4MTc5MiwxNzE2NDk2NzgyXX0=
+eyJoaXN0b3J5IjpbLTE4ODY2NjM1ODEsNjk1NDQxODEyLC0xOT
+E3NzA5OTk2LC0xMTM5Njc1MzQ1LC0xNDgwMTcwOTY3LDE5MTc1
+NTQwMzMsLTE2NDYwNzA2OTMsMjA4MTc4MTc5MiwxNzE2NDk2Nz
+gyXX0=
 -->
