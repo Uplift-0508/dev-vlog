@@ -42,9 +42,9 @@ JMeter 는 Swing graphical API 를 사용하는 시각적 인터페이스를 제
 - 자동적으로 함수형의 테스팅이 가능하게 한다.
 
 **JMeter 동작 원리**
-JMeter 는 한 user 그룹이 타겟 서버에 request 를 보내도록 
+JMeter 는 한 user 그룹이 타겟 서버에 request 를 보내도록 시뮬레이션 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzA1OTQxNSwtMTA4NDgzNjMyMywxNz
-M5MDMyMTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5
-MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbMTczODU1ODk3LC0xMDg0ODM2MzIzLDE3Mz
+kwMzIxMjMsMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzNDM0Nzkx
+LDI2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
