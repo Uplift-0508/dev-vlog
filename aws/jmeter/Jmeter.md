@@ -193,9 +193,9 @@ JMeter 가 제공하는 Timer 들이다.
 ### Assertions
 Assertion 은 Sampler 를 사용해서 생성한 request 의 응답의 유효성을 테스트한다. 어플리케이션이 올바른 data 를 반환하는지 증명한다. assertion 이 fail 되면 강조 표시를 해준다. 
 
-
+JMeter 가 제공하는 Assertion 들이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MjU5NDc1LDc0NDI3NzUwMSwtNzQ0NT
+eyJoaXN0b3J5IjpbNjc3ODc0MDMzLDc0NDI3NzUwMSwtNzQ0NT
 UzMTI5LDE5MzMyMzk3MzgsMTk0OTcwMDkxNywtMTY3OTI2Mzk5
 MiwxNTU5MzE1ODYsLTEyNjU0NTI4MTcsLTE0NjcyNTkwMTEsLT
 cwMjgyODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYz
