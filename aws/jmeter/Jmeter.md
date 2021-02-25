@@ -33,9 +33,9 @@ JMeter 가 지원하는 프로토콜은 다음과 같다.
 JMeter 특성
 -   오픈소스 소프트웨어라 무료로 이용 가능
 -  간단하고 직관적인 GUI
-- 
+-  JMeter 는 다양한 서버 타입 (Web - HTTP, HTTPS, SOAP, Database - JDBC, LCAP, JMS, Mail - POP3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjIwODQwMCwxNzM5MDMyMTIzLDE0MD
+eyJoaXN0b3J5IjpbMTM5MzMzNTU1NywxNzM5MDMyMTIzLDE0MD
 k2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3
 MjUxNDUxMzksLTc0NDQ5NDk4Nl19
 -->
