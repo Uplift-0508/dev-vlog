@@ -120,14 +120,22 @@ test 실행 시작과 종료 시간을 설정할 수 있다.
 JMeter 는  두 종류 (Sampler 와 Logic Controller) 의 Controller 를 가진다. 
 
 #### Sampler
-Sampler 는 JMeter 가 server 로 특정 유형의 request 들을 전송하도록 한다. 타겟 서버로 부터 페이지에 user request 를 시뮬레이트한다. 예를 들어 HTTP 서비스에 POST, GET, DELETE 를 수행해야할 경우, HTTP Request sampler 를 추가할 수 있다. 
+Sampler 는 JMeter 가 server 로 특정 유형의 request 들을 전송하도록 한다. 타겟 서버로 부터 페이지에 user request 를 시뮬레이트한다. 예를 들어 HTTP 서비스에 POST, GET, DELETE 를 수행해야할 경우, HTTP Request sampler 를 추가한다.
+
+유용한 samplers :
+HTTP Request
+FTP Request
+JDBC Request
+Java Request
+SOAP/XML Request
+RPC Request
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTI0MzMzMiwxMTYyMjQwODkwLC0xNz
-c5MTA2MjIsLTE4MTE4MzY5MzgsLTkwMzMyNDQ1OSwtNjU5NzA2
-MTU4LDcxMTY1NzE0NCw1MDQ1OTM2MjcsMTUxMTcxMTAzOCwtMT
-M5MzQwNjc2MiwtMTYyNzk3OTM1OCwtMTIxNDk0MzQ5MSwtNzk4
-NTU1MjUxLC0xNDE2NTUxNzI1LDE1OTcxNjYwNjIsLTEwMDUxMj
-E4NDMsLTE5NzExNjgyNjMsLTE1NTI4NTY2NzksOTk2NTI5MDgz
-LC0xMDg0ODM2MzIzXX0=
+eyJoaXN0b3J5IjpbLTEzMjAyODA4MjMsMTE2MjI0MDg5MCwtMT
+c3OTEwNjIyLC0xODExODM2OTM4LC05MDMzMjQ0NTksLTY1OTcw
+NjE1OCw3MTE2NTcxNDQsNTA0NTkzNjI3LDE1MTE3MTEwMzgsLT
+EzOTM0MDY3NjIsLTE2Mjc5NzkzNTgsLTEyMTQ5NDM0OTEsLTc5
+ODU1NTI1MSwtMTQxNjU1MTcyNSwxNTk3MTY2MDYyLC0xMDA1MT
+IxODQzLC0xOTcxMTY4MjYzLC0xNTUyODU2Njc5LDk5NjUyOTA4
+MywtMTA4NDgzNjMyM119
 -->
