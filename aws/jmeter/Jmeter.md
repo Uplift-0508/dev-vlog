@@ -177,10 +177,11 @@ JMeter 가 제공하는 Listener 들이다.
 -   Summary Report
 
 ### Timer
-기본적으로 JMeter thread 는 각 sampler 사이에 pausing(멈춤) 없이 request 를 보낸다. 이것은 일반적으로 우리가 원하지 않는다. 
+기본적으로 JMeter thread 는 각 sampler 사이에 pausing(멈춤) 없이 request 를 보낸다. 이것은 일반적으로 우리가 원하지 않는다. timer element 를 추가해서 각 request 사이에 시간 텀을 정의할 수 있다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE1MzIzMjUsLTc0NDU1MzEyOSwxOT
+eyJoaXN0b3J5IjpbLTEzMDAxNzk3ODUsLTc0NDU1MzEyOSwxOT
 MzMjM5NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMx
 NTg2LC0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1OD
 UsNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIw
