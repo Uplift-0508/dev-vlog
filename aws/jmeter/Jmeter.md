@@ -36,9 +36,9 @@ JMeter 특성
 -  JMeter 는 다양한 서버 타입 (Web - HTTP, HTTPS, SOAP, Database - JDBC, LCAP, JMS, Mail - POP3 등)
 - 플랫폼에 독립적인 툴이다. Linux/Unix 에서는 JMeter shell script 를 실행하면되고, Windows 에서는 jmeter.bat 파일을 실행시키면 된다.
 - Swing 과 경량의 컴포넌트를 지원한다 (미리 컴파일된 JAR 는 javax.swing.* 패키지들을 사용한다.)
-- JMeter 는 test plans 
+- JMeter 는 test plans 을 XML 형식으로 저장한다. 즉 텍스트 편집기를 사용해서 test plan 을 생성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM3NTA0OTIsMTczOTAzMjEyMywxND
-A5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUs
-NzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbMjU5NDE2NDc1LDE3MzkwMzIxMjMsMTQwOT
+Y4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcy
+NTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
