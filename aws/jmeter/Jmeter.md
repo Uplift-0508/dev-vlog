@@ -20,8 +20,11 @@ JMeter 는 부하 테스트, 성능 기반의 비즈니스(함수형) 테스트,
 아파치 소프트웨어 재단의 Stefano Mazzocchi 는 JMeter 원년 개발자이다. 그는 Apache Tomcat project 의 성능을 테스트하기 위해 JMeter 를 만들었다. 이후에 아파치는 JMeter 를  GUI 를 개선하고 함수적인 테스팅도 가능하도록 하기위해서 새로 설계하였다. 
 
 JMeter 는 Swing graphical API 를 사용하는 시각적 인터페이스를 제공하는 자바 데스크탑 어플리케이션이다. 따라서 JVM 을 허용하는 환경과 워크스테이션이면 어디서든 실행할 수 있다. 
+
+JMeter 가 지원하는 프로토콜은 다음과 같다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzc5MjkwNCwxNzM5MDMyMTIzLDE0MD
-k2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3
-MjUxNDUxMzksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbLTE5OTI1MjUyODIsMTczOTAzMjEyMywxND
+A5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUs
+NzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
