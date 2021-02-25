@@ -133,14 +133,14 @@ RPC Request
 #### Logic Controllers
 Logic Controller 는 Thread 안에 sampler 들의 처리 순서를 제어한다. Logic controller 는 child element 들로 부터 오는 request 의 순서를 변경할 수 있다. 
 
-ForEach Controller, While Controller, Loop Controller, IF Controller, Run Time Controller, Interleave Controller, Throughput Controller, Run Once Controller 들이 있다.
+종류에는 ForEach Controller, While Controller, Loop Controller, IF Controller, Run Time Controller, Interleave Controller, Throughput Controller, Run Once Controller 들이 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY3NTQ0MTMsLTYzMzMxODQ2NCwzMD
-Q1MzYzMzYsLTEzMjAyODA4MjMsMTE2MjI0MDg5MCwtMTc3OTEw
-NjIyLC0xODExODM2OTM4LC05MDMzMjQ0NTksLTY1OTcwNjE1OC
-w3MTE2NTcxNDQsNTA0NTkzNjI3LDE1MTE3MTEwMzgsLTEzOTM0
-MDY3NjIsLTE2Mjc5NzkzNTgsLTEyMTQ5NDM0OTEsLTc5ODU1NT
-I1MSwtMTQxNjU1MTcyNSwxNTk3MTY2MDYyLC0xMDA1MTIxODQz
-LC0xOTcxMTY4MjYzXX0=
+eyJoaXN0b3J5IjpbNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NT
+M2MzM2LC0xMzIwMjgwODIzLDExNjIyNDA4OTAsLTE3NzkxMDYy
+MiwtMTgxMTgzNjkzOCwtOTAzMzI0NDU5LC02NTk3MDYxNTgsNz
+ExNjU3MTQ0LDUwNDU5MzYyNywxNTExNzExMDM4LC0xMzkzNDA2
+NzYyLC0xNjI3OTc5MzU4LC0xMjE0OTQzNDkxLC03OTg1NTUyNT
+EsLTE0MTY1NTE3MjUsMTU5NzE2NjA2MiwtMTAwNTEyMTg0Mywt
+MTk3MTE2ODI2M119
 -->
