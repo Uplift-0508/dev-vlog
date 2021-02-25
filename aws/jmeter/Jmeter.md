@@ -64,10 +64,10 @@ Test Plan node : 실제 test plan 이 저장되는 곳
 Workbench node : 실제 사용하지 않을 때 임시로 test 요소들을 저장하는 곳. 복사/붙여넣기 용도임. test plan 을 저장할 때 Workbench item 들은 함께 저장되지 않는다.
 
 STEP 2 : Elements 추가/삭제
-
+Elements 를 추가할 수 있다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjIwMTA1MDgsLTE5NzExNjgyNjMsLT
+eyJoaXN0b3J5IjpbLTEwMDUxMjE4NDMsLTE5NzExNjgyNjMsLT
 E1NTI4NTY2NzksOTk2NTI5MDgzLC0xMDg0ODM2MzIzLDE3Mzkw
 MzIxMjMsMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLD
 I2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
