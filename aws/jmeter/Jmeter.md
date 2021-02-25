@@ -7,15 +7,15 @@ test plans, listeners, functions, 그리고 regular expressions 들을 살펴본
 그 전에 어플리케이션 테스팅과 연관된 전문 용어들을 살펴본다.
 
 Performance Test
-: 주어진 인프라 설정에서 가능한 최고의 성능 기대값을 정한다. 어플리케이션이 상용화되기 전에 수정해야하는 게 있다면 테스팅 과정에서 초반에 알려준다.
+: 주어진 인프라 설정에서 가능한 최고의 성능 기대치를 정한다. 어플리케이션이 상용화되기 전에 수정해야하는 게 있다면 테스팅 과정에서 초반에 알려준다.
 
 Load Test
-: 기본적으로 최대치의 부하에서 시스템을 테스트한다.
+: 기본적으로 시스템이 작동되는 것을 전제로 최대치의 부하에서 시스템을 테스트한다.
 
 Stress Test
 : 리소스를 압도하여 시스템을 깨는 테스트이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg4MTM1ODEsMTQwOTY4Njk5MiwzMT
-Y0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcyNTE0NTEzOSwt
-NzQ0NDk0OTg2XX0=
+eyJoaXN0b3J5IjpbNjcyODU3MzIyLDE0MDk2ODY5OTIsMzE2ND
+U1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0
+NDQ5NDk4Nl19
 -->
