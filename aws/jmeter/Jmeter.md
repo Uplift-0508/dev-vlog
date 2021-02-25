@@ -49,10 +49,10 @@ JMeter 는 한 user 그룹이 타겟 서버에 request 를 보내도록 시뮬�
 JMeter 는 자바 프레임워크다. JDK 가 1.6 이거나 그 이상이어야 하고, 메모리와 디스크 용량, OS 가 필요하다. 
 
 ## Test Plan 
-Test Plan (테스트 계획) 은 실행 중인 테스트를 위한 컨테이너로 볼 수 있다.
+Test Plan (테스트 계획) 은 실행 중인 테스트를 위한 컨테이너로 볼 수 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzExNjgyNjMsLTE1NTI4NTY2NzksOT
-k2NTI5MDgzLC0xMDg0ODM2MzIzLDE3MzkwMzIxMjMsMTQwOTY4
-Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcyNT
-E0NTEzOSwtNzQ0NDk0OTg2XX0=
+eyJoaXN0b3J5IjpbMTQ1MjI2ODg5MSwtMTk3MTE2ODI2MywtMT
+U1Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4MzYzMjMsMTczOTAz
+MjEyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMj
+Y0ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
