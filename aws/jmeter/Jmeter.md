@@ -73,13 +73,15 @@ STEP 3 : Element 로드/저장
 ![enter image description here](https://www.tutorialspoint.com/jmeter/images/load_element.jpg)
 
 STEP 4 : Tree Elements 설정
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/adding_thread_group.jpg)
 
 STEP 5 : Test Plan 저장
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/save_test_plan.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1MzI2MTEsLTE0MTY1NTE3MjUsMTU5Nz
-E2NjA2MiwtMTAwNTEyMTg0MywtMTk3MTE2ODI2MywtMTU1Mjg1
-NjY3OSw5OTY1MjkwODMsLTEwODQ4MzYzMjMsMTczOTAzMjEyMy
-wxNDA5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1
-ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjY3ODMzMTMsLTE0MTY1NTE3MjUsMT
+U5NzE2NjA2MiwtMTAwNTEyMTg0MywtMTk3MTE2ODI2MywtMTU1
+Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4MzYzMjMsMTczOTAzMj
+EyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0
+ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
