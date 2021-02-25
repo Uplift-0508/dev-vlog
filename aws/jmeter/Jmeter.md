@@ -18,8 +18,10 @@ Stress Test
 ## JMeter 는 무엇인가
 JMeter 는 부하 테스트, 성능 기반의 비즈니스(함수형) 테스트, regression 테스트 등을 다른 프로토콜과 기술 위에서 수행할 수 있는 소프트웨어다. 
 아파치 소프트웨어 재단의 Stefano Mazzocchi 는 JMeter 원년 개발자이다. 그는 Apache Tomcat project 의 성능을 테스트하기 위해 JMeter 를 만들었다. 이후에 아파치는 JMeter 를  GUI 를 개선하고 함수적인 테스팅도 가능하도록 하기위해서 새로 설계하였다. 
+
+JMeter 는 자바 데스크탑 어플리케이션이다. Swing graphical API 으로 만든 시각적 인터페이스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3Mzc4NzQxLDE3MzkwMzIxMjMsMTQwOT
+eyJoaXN0b3J5IjpbNjk4NTYyNjcyLDE3MzkwMzIxMjMsMTQwOT
 Y4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcy
 NTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
