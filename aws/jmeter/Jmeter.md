@@ -22,9 +22,17 @@ JMeter 는 부하 테스트, 성능 기반의 비즈니스(함수형) 테스트,
 JMeter 는 Swing graphical API 를 사용하는 시각적 인터페이스를 제공하는 자바 데스크탑 어플리케이션이다. 따라서 JVM 을 허용하는 환경과 워크스테이션이면 어디서든 실행할 수 있다. 
 
 JMeter 가 지원하는 프로토콜은 다음과 같다.
+-   Web − HTTP, HTTPS sites 'web 1.0' web 2.0 (ajax, flex and flex-ws-amf)
+-   Web Services − SOAP / XML-RPC
+-   Database via JDBC drivers
+-   Directory − LDAP
+-   Messaging Oriented service via JMS
+-   Service − POP3, IMAP, SMTP
+-   FTP Service
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI1MjUyODIsMTczOTAzMjEyMywxND
+eyJoaXN0b3J5IjpbLTE5ODE1MzU3MzUsMTczOTAzMjEyMywxND
 A5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUs
 NzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
