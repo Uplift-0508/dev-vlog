@@ -119,9 +119,10 @@ test 실행 시작과 종료 시간을 설정할 수 있다.
 ### Controllers
 JMeter 는  두 종류 (Sampler 와 Logic Controller) 의 Controller 를 가진다. 
 
+#### Sampler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Mzk1NTA4OSwtNjU5NzA2MTU4LDcxMT
+eyJoaXN0b3J5IjpbLTkwMzMyNDQ1OSwtNjU5NzA2MTU4LDcxMT
 Y1NzE0NCw1MDQ1OTM2MjcsMTUxMTcxMTAzOCwtMTM5MzQwNjc2
 MiwtMTYyNzk3OTM1OCwtMTIxNDk0MzQ5MSwtNzk4NTU1MjUxLC
 0xNDE2NTUxNzI1LDE1OTcxNjYwNjIsLTEwMDUxMjE4NDMsLTE5
