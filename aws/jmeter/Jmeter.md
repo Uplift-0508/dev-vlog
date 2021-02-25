@@ -4,7 +4,11 @@ jMeter 는 오픈 소스 테스팅 소프트웨어이다. 100% 자바로 작성�
 
 test plans, listeners, functions, 그리고 regular expressions 들을 살펴본다.
 
+그 전에 어플리케이션 테스팅과 연관된 전문 용어들을 살펴본다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2NDU1NTg1LDkwMzQzNDc5MSwyNjQ4OT
-U4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbMTA5MzUyODI0MywzMTY0NTU1ODUsOTAzND
+M0NzkxLDI2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
+
 -->
