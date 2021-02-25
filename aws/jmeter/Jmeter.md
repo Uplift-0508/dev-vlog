@@ -120,9 +120,9 @@ test 실행 시작과 종료 시간을 설정할 수 있다.
 JMeter 는  두 종류 (Sampler 와 Logic Controller) 의 Controller 를 가진다. 
 
 #### Sampler
-Sampler 는 JMeter 가 server 로 특정 유형의 request 들을 전송하도록 한다.
+Sampler 는 JMeter 가 server 로 특정 유형의 request 들을 전송하도록 한다. 타겟 서버로 부터 페이지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk0MTY1ODUsLTkwMzMyNDQ1OSwtNj
+eyJoaXN0b3J5IjpbLTE4MTE4MzY5MzgsLTkwMzMyNDQ1OSwtNj
 U5NzA2MTU4LDcxMTY1NzE0NCw1MDQ1OTM2MjcsMTUxMTcxMTAz
 OCwtMTM5MzQwNjc2MiwtMTYyNzk3OTM1OCwtMTIxNDk0MzQ5MS
 wtNzk4NTU1MjUxLC0xNDE2NTUxNzI1LDE1OTcxNjYwNjIsLTEw
