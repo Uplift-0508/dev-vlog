@@ -46,8 +46,9 @@ JMeter 는 한 user 그룹이 타겟 서버에 request 를 보내도록 시뮬�
 
 ![enter image description here](https://www.tutorialspoint.com/jmeter/images/jmeter_process.jpg)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTcyOTE1NywtMTA4NDgzNjMyMywxNz
+eyJoaXN0b3J5IjpbMjAzNjA0ODIzMywtMTA4NDgzNjMyMywxNz
 M5MDMyMTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5
 MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
 -->
