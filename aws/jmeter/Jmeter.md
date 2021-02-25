@@ -79,9 +79,11 @@ STEP 5 : Test Plan 저장
 ![enter image description here](https://www.tutorialspoint.com/jmeter/images/save_test_plan.jpg)
 
 STEP 6 : Test Plan 실행
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/run_test_plan.jpg)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Njg2Mzk4NywtMTQxNjU1MTcyNSwxNT
+eyJoaXN0b3J5IjpbLTc5ODU1NTI1MSwtMTQxNjU1MTcyNSwxNT
 k3MTY2MDYyLC0xMDA1MTIxODQzLC0xOTcxMTY4MjYzLC0xNTUy
 ODU2Njc5LDk5NjUyOTA4MywtMTA4NDgzNjMyMywxNzM5MDMyMT
 IzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNjQ4
