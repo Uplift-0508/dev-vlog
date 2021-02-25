@@ -65,10 +65,14 @@ Workbench node : 실제 사용하지 않을 때 임시로 test 요소들을 저�
 
 STEP 2 : Elements 추가/삭제
 Elements 를 추가할 수 있다. 
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/adding_thread_group.jpg)
+
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/remove_element.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDUxMjE4NDMsLTE5NzExNjgyNjMsLT
-E1NTI4NTY2NzksOTk2NTI5MDgzLC0xMDg0ODM2MzIzLDE3Mzkw
-MzIxMjMsMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLD
-I2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
+eyJoaXN0b3J5IjpbMTU5NzE2NjA2MiwtMTAwNTEyMTg0MywtMT
+k3MTE2ODI2MywtMTU1Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4
+MzYzMjMsMTczOTAzMjEyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NS
+w5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5
+ODZdfQ==
 -->
