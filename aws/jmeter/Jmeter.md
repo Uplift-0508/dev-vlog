@@ -59,9 +59,10 @@ STEP 1 : JMeter 실행 (mac 에서 brew 로 5.4.1 설치함)
 1063  brew install jmeter
 1064  jmeter
 ```
-
+JMeter 를 실행하면 초기에 2개의 노드가 있다.
+Test P
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzgyMjIxOSwtMTk3MTE2ODI2MywtMT
+eyJoaXN0b3J5IjpbMTcwNTcwNjM0NywtMTk3MTE2ODI2MywtMT
 U1Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4MzYzMjMsMTczOTAz
 MjEyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMj
 Y0ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
