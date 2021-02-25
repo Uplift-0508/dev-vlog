@@ -53,9 +53,11 @@ Test Plan (테스트 계획) 은 실행 중인 테스트를 위한 컨테이너�
 test plan 은 최소 1개의 thread group 을 반드시 가져야 한다.
 
 **test plan 작성**
+STEP 1 : 
+ JMeter 실행
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3Mzc3MTk0LC0xOTcxMTY4MjYzLC0xNT
+eyJoaXN0b3J5IjpbMzY5NzEyNDM5LC0xOTcxMTY4MjYzLC0xNT
 UyODU2Njc5LDk5NjUyOTA4MywtMTA4NDgzNjMyMywxNzM5MDMy
 MTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNj
 Q4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
