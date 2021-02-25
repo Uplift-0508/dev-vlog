@@ -87,12 +87,12 @@ Shutdown : 현재 일 종료되면 스레드 종료
 
 ## Test Plan Elements
 JMeter Test Plan 은 Test Element 들로 구성된다. Test Plan 은 최소 1개의 Tread Group 으로 구성된다. 각 Thread Group 안에 다수의 Element 들을 (Sampler, Logic Controller, Configuration Element, Listener, Timer) 조합할 수 있다. 
-
+각 Smapler 는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc5NzkzNTgsLTEyMTQ5NDM0OTEsLT
-c5ODU1NTI1MSwtMTQxNjU1MTcyNSwxNTk3MTY2MDYyLC0xMDA1
-MTIxODQzLC0xOTcxMTY4MjYzLC0xNTUyODU2Njc5LDk5NjUyOT
-A4MywtMTA4NDgzNjMyMywxNzM5MDMyMTIzLDE0MDk2ODY5OTIs
-MzE2NDU1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3MjUxNDUxMz
-ksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbLTgyMDg4MjkwNSwtMTYyNzk3OTM1OCwtMT
+IxNDk0MzQ5MSwtNzk4NTU1MjUxLC0xNDE2NTUxNzI1LDE1OTcx
+NjYwNjIsLTEwMDUxMjE4NDMsLTE5NzExNjgyNjMsLTE1NTI4NT
+Y2NzksOTk2NTI5MDgzLC0xMDg0ODM2MzIzLDE3MzkwMzIxMjMs
+MTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NT
+g1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
