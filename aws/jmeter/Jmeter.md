@@ -96,16 +96,18 @@ Thread Group Element 는 test plan 의 시작점입니다. 이름 대로 thread 
 Thread Group Panel 은 다음 구성 요소가 있다.
 
 **Action to be taken after a Sampler error**
-
+: 테스트 실행중에 error 가 발생하면 테스트를
+- Continue : 테스트에서 다음 element 로 계속 진행
+- Stop Thread : 현재 스레드 종료
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4MzMyMSw1MDQ1OTM2MjcsMTUxMTcxMT
-AzOCwtMTM5MzQwNjc2MiwtMTYyNzk3OTM1OCwtMTIxNDk0MzQ5
-MSwtNzk4NTU1MjUxLC0xNDE2NTUxNzI1LDE1OTcxNjYwNjIsLT
-EwMDUxMjE4NDMsLTE5NzExNjgyNjMsLTE1NTI4NTY2NzksOTk2
-NTI5MDgzLC0xMDg0ODM2MzIzLDE3MzkwMzIxMjMsMTQwOTY4Nj
-k5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcyNTE0
-NTEzOV19
+eyJoaXN0b3J5IjpbMTE4OTE0Nzk1MCw1MDQ1OTM2MjcsMTUxMT
+cxMTAzOCwtMTM5MzQwNjc2MiwtMTYyNzk3OTM1OCwtMTIxNDk0
+MzQ5MSwtNzk4NTU1MjUxLC0xNDE2NTUxNzI1LDE1OTcxNjYwNj
+IsLTEwMDUxMjE4NDMsLTE5NzExNjgyNjMsLTE1NTI4NTY2Nzks
+OTk2NTI5MDgzLC0xMDg0ODM2MzIzLDE3MzkwMzIxMjMsMTQwOT
+Y4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcy
+NTE0NTEzOV19
 -->
