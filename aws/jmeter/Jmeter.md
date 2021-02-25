@@ -60,10 +60,11 @@ STEP 1 : JMeter 실행 (mac 에서 brew 로 5.4.1 설치함)
 1064  jmeter
 ```
 JMeter 를 실행하면 초기에 2개의 노드가 있다.
-Test P
+Test Plan node : 실제 test plan 이 저장되는 곳
+Work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTcwNjM0NywtMTk3MTE2ODI2MywtMT
-U1Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4MzYzMjMsMTczOTAz
-MjEyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMj
-Y0ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTE4Nzc4NTcxMzIsLTE5NzExNjgyNjMsLT
+E1NTI4NTY2NzksOTk2NTI5MDgzLC0xMDg0ODM2MzIzLDE3Mzkw
+MzIxMjMsMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLD
+I2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
