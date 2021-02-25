@@ -39,9 +39,9 @@ JMeter 특성
 - JMeter 는 test plans 을 XML 형식으로 저장한다. 즉 텍스트 편집기를 사용해서 test plan 을 생성할 수 있다.
 - 멀티 스레드 프레임워크는 다수의 스레드를 사용해 동시에 샘플링과 별개의 스레드 그룹들로 다른 함수들의 샘플링을 동시에 가능하도록 한다.
 - 확장성이 좋다.
-- 자동적으로 함수형의 테스팅
+- 자동적으로 함수형의 테스팅이 가능하게 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjExOTgzMjgsMTczOTAzMjEyMywxND
+eyJoaXN0b3J5IjpbLTEwODQ4MzYzMjMsMTczOTAzMjEyMywxND
 A5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUs
 NzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
