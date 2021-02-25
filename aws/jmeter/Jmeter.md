@@ -14,8 +14,11 @@ Load Test
 
 Stress Test
 : 리소스를 압도하여 시스템을 깨는 테스트이다.
+
+## JMeter 는 무엇인가
+JMeter 는 소프트웨어다. 부하 테스트, 성능 기반의 비즈니스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyODU3MzIyLDE0MDk2ODY5OTIsMzE2ND
-U1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0
-NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbLTkzNjYxMDY2OSwxNDA5Njg2OTkyLDMxNj
+Q1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1MTM5LC03
+NDQ0OTQ5ODZdfQ==
 -->
