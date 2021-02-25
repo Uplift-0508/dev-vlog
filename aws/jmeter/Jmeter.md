@@ -73,11 +73,11 @@ STEP 3 : Element 로드/저장
 ![enter image description here](https://www.tutorialspoint.com/jmeter/images/load_element.jpg)
 
 STEP 4 : Tree Elements 설정
-
+Test Plan 내의 Element 는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwNjA4MTkwLDE1OTcxNjYwNjIsLTEwMD
-UxMjE4NDMsLTE5NzExNjgyNjMsLTE1NTI4NTY2NzksOTk2NTI5
-MDgzLC0xMDg0ODM2MzIzLDE3MzkwMzIxMjMsMTQwOTY4Njk5Mi
-wzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcyNTE0NTEz
-OSwtNzQ0NDk0OTg2XX0=
+eyJoaXN0b3J5IjpbLTE0MTY1NTE3MjUsMTU5NzE2NjA2MiwtMT
+AwNTEyMTg0MywtMTk3MTE2ODI2MywtMTU1Mjg1NjY3OSw5OTY1
+MjkwODMsLTEwODQ4MzYzMjMsMTczOTAzMjEyMywxNDA5Njg2OT
+kyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1
+MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
