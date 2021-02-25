@@ -152,9 +152,9 @@ JMeter 가 제공하는 Logic Controller 들이다.
 -   Recording Controller
 
 #### Test Fragments
-
+Test Fragment 는 특별한 종류의 element 이고, Thread Group element 와 동등한 레벨이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzkyNTQxMTgsLTcwMjgyODU4NSw0OT
+eyJoaXN0b3J5IjpbLTE0NjcyNTkwMTEsLTcwMjgyODU4NSw0OT
 I1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYzMzYsLTEzMjAyODA4
 MjMsMTE2MjI0MDg5MCwtMTc3OTEwNjIyLC0xODExODM2OTM4LC
 05MDMzMjQ0NTksLTY1OTcwNjE1OCw3MTE2NTcxNDQsNTA0NTkz
