@@ -7,9 +7,10 @@ test plans, listeners, functions, 그리고 regular expressions 들을 살펴본
 그 전에 어플리케이션 테스팅과 연관된 전문 용어들을 살펴본다.
 
 Performance Test
-: 주어진 인프라 설정에서 가능한 최고의 성능 기대값을 정한다. 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzND
-M0NzkxLDI2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
+: 주어진 인프라 설정에서 가능한 최고의 성능 기대값을 정한다. 어플리케이션이 상용화되기 전에 수정해야하는 게 있다면 테스팅 과정에서 초반에 알려준다.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA0MTc3MDIyOSwxNDA5Njg2OTkyLDMxNj
+Q1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1MTM5LC03
+NDQ0OTQ5ODZdfQ==
 -->
