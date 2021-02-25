@@ -69,10 +69,12 @@ Elements 를 추가할 수 있다.
 
 ![enter image description here](https://www.tutorialspoint.com/jmeter/images/remove_element.jpg)
 
+STEP 3 : Element 로드/저장
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzE2NjA2MiwtMTAwNTEyMTg0MywtMT
-k3MTE2ODI2MywtMTU1Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4
-MzYzMjMsMTczOTAzMjEyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NS
-w5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzc0OTcwODcsMTU5NzE2NjA2MiwtMT
+AwNTEyMTg0MywtMTk3MTE2ODI2MywtMTU1Mjg1NjY3OSw5OTY1
+MjkwODMsLTEwODQ4MzYzMjMsMTczOTAzMjEyMywxNDA5Njg2OT
+kyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1
+MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
