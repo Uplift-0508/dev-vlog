@@ -38,8 +38,10 @@ JMeter 특성
 - Swing 과 경량의 컴포넌트를 지원한다 (미리 컴파일된 JAR 는 javax.swing.* 패키지들을 사용한다.)
 - JMeter 는 test plans 을 XML 형식으로 저장한다. 즉 텍스트 편집기를 사용해서 test plan 을 생성할 수 있다.
 - 멀티 스레드 프레임워크는 다수의 스레드를 사용해 동시에 샘플링과 별개의 스레드 그룹들로 다른 함수들의 샘플링을 동시에 가능하도록 한다.
+- 확장성이 좋다.
+- 자동적으로 함수형의 테스팅
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEyMDU3MjYsMTczOTAzMjEyMywxND
+eyJoaXN0b3J5IjpbLTEzMjExOTgzMjgsMTczOTAzMjEyMywxND
 A5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUs
 NzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
