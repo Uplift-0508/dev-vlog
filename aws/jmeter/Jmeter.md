@@ -16,9 +16,9 @@ Stress Test
 : 리소스를 압도하여 시스템을 깨는 테스트이다.
 
 ## JMeter 는 무엇인가
-JMeter 는 소프트웨어다. 부하 테스트, 성능 기반의 비즈니스
+JMeter 는 부하 테스트, 성능 기반의 비즈니스(함수형) 테스트, regression 테스트 등을 다른 프로토콜과 기술 위엣수행할 수 있는 소프트웨어다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjYxMDY2OSwxNDA5Njg2OTkyLDMxNj
+eyJoaXN0b3J5IjpbMTYwMzQ5NDMwMSwxNDA5Njg2OTkyLDMxNj
 Q1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1MTM5LC03
 NDQ0OTQ5ODZdfQ==
 -->
