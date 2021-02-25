@@ -191,9 +191,9 @@ JMeter 가 제공하는 Timer 들이다.
 -   Poisson Random Time
 
 ### Assertions
-Assertion 은 Sampler 를 사용해서 생성한 request 의 응답의 유효성을 테스트한다. 
+Assertion 은 Sampler 를 사용해서 생성한 request 의 응답의 유효성을 테스트한다. 어플리케이션이 올바른 data 를 반환하는지 증명한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQwMDYzMzIsNzQ0Mjc3NTAxLC03ND
+eyJoaXN0b3J5IjpbLTE3MjU3MDI4MTIsNzQ0Mjc3NTAxLC03ND
 Q1NTMxMjksMTkzMzIzOTczOCwxOTQ5NzAwOTE3LC0xNjc5MjYz
 OTkyLDE1NTkzMTU4NiwtMTI2NTQ1MjgxNywtMTQ2NzI1OTAxMS
 wtNzAyODI4NTg1LDQ5MjU1ODIxNiwtNjMzMzE4NDY0LDMwNDUz
