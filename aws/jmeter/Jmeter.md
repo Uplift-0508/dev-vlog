@@ -152,13 +152,13 @@ JMeter 가 제공하는 Logic Controller 들이다.
 -   Recording Controller
 
 #### Test Fragments
-Test Fragment 는 특별한 종류의 element 이고, Thread Group element 와 동등한 레벨이다. Test Fragment 는 
+Test Fragment 는 특별한 종류의 element 이고, Thread Group element 와 동등한 레벨이다. Test Fragment 는 Module Controller 또는 Include Controller 가 참조하지 않으면 실행되지 않는 다는 점에서 Thread Group 과 차이가 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU0NTI4MTcsLTE0NjcyNTkwMTEsLT
-cwMjgyODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYz
-MzYsLTEzMjAyODA4MjMsMTE2MjI0MDg5MCwtMTc3OTEwNjIyLC
-0xODExODM2OTM4LC05MDMzMjQ0NTksLTY1OTcwNjE1OCw3MTE2
-NTcxNDQsNTA0NTkzNjI3LDE1MTE3MTEwMzgsLTEzOTM0MDY3Nj
-IsLTE2Mjc5NzkzNTgsLTEyMTQ5NDM0OTEsLTc5ODU1NTI1MSwt
-MTQxNjU1MTcyNV19
+eyJoaXN0b3J5IjpbMTcyMzcyOTczMSwtMTI2NTQ1MjgxNywtMT
+Q2NzI1OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNiwtNjMzMzE4
+NDY0LDMwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYyMjQwODkwLC
+0xNzc5MTA2MjIsLTE4MTE4MzY5MzgsLTkwMzMyNDQ1OSwtNjU5
+NzA2MTU4LDcxMTY1NzE0NCw1MDQ1OTM2MjcsMTUxMTcxMTAzOC
+wtMTM5MzQwNjc2MiwtMTYyNzk3OTM1OCwtMTIxNDk0MzQ5MSwt
+Nzk4NTU1MjUxXX0=
 -->
