@@ -160,13 +160,30 @@ Listener 는 Sampler 들의 결과를 로그 파일에 간단한 text, tree, tab
 Listener 는 test 내에 어디든 추가할 수 있고, test plan 아래에 직접 추가할 수 있다. Listener 는 자신과 동등하거나 하위 레벨의 element 로 부터 데이터를 수집한다. 
 
 JMeter 가 제공하는 Listener 들이다.
+-   Sample Result Save Configuration
+-   Graph Full Results
+-   Graph Results
+-   Spline Visualizer
+-   Assertion Results
+-   View Results Tree
+-   Aggregate Report
+-   View Results in Table
+-   Simple Data Writer
+-   Monitor Results
+-   Distribution Graph (alpha)
+-   Aggregate Graph
+-   Mailer Visualizer
+-   BeanShell Listener
+-   Summary Report
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDUzNjE4OSwxOTMzMjM5NzM4LDE5ND
-k3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMxNTg2LC0xMjY1NDUy
-ODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1ODUsNDkyNTU4MjE2LC
-02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIwMjgwODIzLDExNjIy
-NDA4OTAsLTE3NzkxMDYyMiwtMTgxMTgzNjkzOCwtOTAzMzI0ND
-U5LC02NTk3MDYxNTgsNzExNjU3MTQ0LDUwNDU5MzYyNywxNTEx
-NzExMDM4XX0=
+eyJoaXN0b3J5IjpbLTE3MDgxMjUxMzEsMTkzMzIzOTczOCwxOT
+Q5NzAwOTE3LC0xNjc5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1
+MjgxNywtMTQ2NzI1OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNi
+wtNjMzMzE4NDY0LDMwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYy
+MjQwODkwLC0xNzc5MTA2MjIsLTE4MTE4MzY5MzgsLTkwMzMyND
+Q1OSwtNjU5NzA2MTU4LDcxMTY1NzE0NCw1MDQ1OTM2MjcsMTUx
+MTcxMTAzOF19
 -->
