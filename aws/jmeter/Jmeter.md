@@ -86,12 +86,12 @@ Stop : 즉시 스레드 종료
 Shutdown : 현재 일 종료되면 스레드 종료
 
 ## Test Plan Elements
-JMeter Test Plan 은 Test Element 들로 구성된다. Test Plan 은 최소 1개의 Tread Group 으로 구성된다. 
+JMeter Test Plan 은 Test Element 들로 구성된다. Test Plan 은 최소 1개의 Tread Group 으로 구성된다. 각 Thread Group 안에 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ5NDM0OTEsLTc5ODU1NTI1MSwtMT
-QxNjU1MTcyNSwxNTk3MTY2MDYyLC0xMDA1MTIxODQzLC0xOTcx
-MTY4MjYzLC0xNTUyODU2Njc5LDk5NjUyOTA4MywtMTA4NDgzNj
-MyMywxNzM5MDMyMTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkw
-MzQzNDc5MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl
-19
+eyJoaXN0b3J5IjpbLTkzMTEwMjE3OSwtMTIxNDk0MzQ5MSwtNz
+k4NTU1MjUxLC0xNDE2NTUxNzI1LDE1OTcxNjYwNjIsLTEwMDUx
+MjE4NDMsLTE5NzExNjgyNjMsLTE1NTI4NTY2NzksOTk2NTI5MD
+gzLC0xMDg0ODM2MzIzLDE3MzkwMzIxMjMsMTQwOTY4Njk5Miwz
+MTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcyNTE0NTEzOS
+wtNzQ0NDk0OTg2XX0=
 -->
