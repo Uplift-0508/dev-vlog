@@ -32,10 +32,10 @@ JMeter 가 지원하는 프로토콜은 다음과 같다.
 
 JMeter 특성
 -   오픈소스 소프트웨어라 무료로 이용 가능
--  간단하고 직관저
+-  간단하고 직관적인 GUI
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwOTA4NzEyLDE3MzkwMzIxMjMsMTQwOT
-Y4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcy
-NTE0NTEzOSwtNzQ0NDk0OTg2XX0=
+eyJoaXN0b3J5IjpbLTczMjIwODQwMCwxNzM5MDMyMTIzLDE0MD
+k2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3
+MjUxNDUxMzksLTc0NDQ5NDk4Nl19
 -->
