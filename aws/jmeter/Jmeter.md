@@ -34,9 +34,11 @@ JMeter 특성
 -   오픈소스 소프트웨어라 무료로 이용 가능
 -  간단하고 직관적인 GUI
 -  JMeter 는 다양한 서버 타입 (Web - HTTP, HTTPS, SOAP, Database - JDBC, LCAP, JMS, Mail - POP3 등)
-- 플랫폼에 독립적인 툴이다. Linux/Unix 에서는 JMeter shell script 를
+- 플랫폼에 독립적인 툴이다. Linux/Unix 에서는 JMeter shell script 를 실행하면되고, Windows 에서는 jmeter.bat 파일을 실행시키면 된다.
+- Swing 과 경량의 컴포넌트를 지원한다 (미리 컴파일된 JAR 는 javax.swing.* 패키지들을 사용한다.)
+- JMeter 는 test plans 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzAwMzE4NywxNzM5MDMyMTIzLDE0MD
-k2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3
-MjUxNDUxMzksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbLTE2NDM3NTA0OTIsMTczOTAzMjEyMywxND
+A5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUs
+NzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
