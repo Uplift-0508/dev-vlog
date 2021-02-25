@@ -86,12 +86,13 @@ Stop : 즉시 스레드 종료
 Shutdown : 현재 일 종료되면 스레드 종료
 
 ## Test Plan Elements
-JMeter Test Plan 은 Test Element 들로 구성된다. Test Plan 은 최소 1개의 Tread Group 으로 구성된다. 각 Thread Group 안에 다수의 Element 들을 조합할 수 있다. 
+JMeter Test Plan 은 Test Element 들로 구성된다. Test Plan 은 최소 1개의 Tread Group 으로 구성된다. 각 Thread Group 안에 다수의 Element 들 (Sampler, Logic Controller, Configuration Element, Listener, Timer) 을 조합할 수 있다. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1MzMyMjQsLTEyMTQ5NDM0OTEsLTc5OD
-U1NTI1MSwtMTQxNjU1MTcyNSwxNTk3MTY2MDYyLC0xMDA1MTIx
-ODQzLC0xOTcxMTY4MjYzLC0xNTUyODU2Njc5LDk5NjUyOTA4My
-wtMTA4NDgzNjMyMywxNzM5MDMyMTIzLDE0MDk2ODY5OTIsMzE2
-NDU1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3MjUxNDUxMzksLT
-c0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbMjg3MTgyNjcyLC0xMjE0OTQzNDkxLC03OT
+g1NTUyNTEsLTE0MTY1NTE3MjUsMTU5NzE2NjA2MiwtMTAwNTEy
+MTg0MywtMTk3MTE2ODI2MywtMTU1Mjg1NjY3OSw5OTY1MjkwOD
+MsLTEwODQ4MzYzMjMsMTczOTAzMjEyMywxNDA5Njg2OTkyLDMx
+NjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1MTM5LC
+03NDQ0OTQ5ODZdfQ==
 -->
