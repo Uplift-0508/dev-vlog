@@ -52,9 +52,10 @@ JMeter 는 자바 프레임워크다. JDK 가 1.6 이거나 그 이상이어야 
 Test Plan (테스트 계획) 은 실행 중인 테스트를 위한 컨테이너로 볼 수 있다. Test Plan 은 무엇을 테스트할지와 어떻게 할지 방법을 정의한다. test plan 은 thread group 과 logic controller 와 sample-generating controllers, listeners, timers, assertions, 그리고 configuration 요소들로 구성된다. 
 test plan 은 최소 1개의 thread group 을 반드시 가져야 한다.
 
+**test plan 작성**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MjA3NTI1LC0xOTcxMTY4MjYzLC0xNT
+eyJoaXN0b3J5IjpbNjk3Mzc3MTk0LC0xOTcxMTY4MjYzLC0xNT
 UyODU2Njc5LDk5NjUyOTA4MywtMTA4NDgzNjMyMywxNzM5MDMy
 MTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNj
 Q4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
