@@ -91,12 +91,15 @@ JMeter Test Plan 은 Test Element 들로 구성된다. Test Plan 은 최소 1개
 
 **Thread Group**
 Thread Group Element 는 test plan 의 시작점입니다. 이름 대로 thread group element 들은 JMeter 가 테스트할 때 사용할 스레드 수를 제어한다. 또 thread 수, ramp-up(증가) time, test iteration(반복) 수를 설정할 수 있다. 
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/thread_group_panel.jpg)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDQxMjYzNiwxNTExNzExMDM4LC0xMz
-kzNDA2NzYyLC0xNjI3OTc5MzU4LC0xMjE0OTQzNDkxLC03OTg1
-NTUyNTEsLTE0MTY1NTE3MjUsMTU5NzE2NjA2MiwtMTAwNTEyMT
-g0MywtMTk3MTE2ODI2MywtMTU1Mjg1NjY3OSw5OTY1MjkwODMs
-LTEwODQ4MzYzMjMsMTczOTAzMjEyMywxNDA5Njg2OTkyLDMxNj
-Q1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUsNzI1MTQ1MTM5LC03
-NDQ0OTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbNTA0NTkzNjI3LDE1MTE3MTEwMzgsLTEzOT
+M0MDY3NjIsLTE2Mjc5NzkzNTgsLTEyMTQ5NDM0OTEsLTc5ODU1
+NTI1MSwtMTQxNjU1MTcyNSwxNTk3MTY2MDYyLC0xMDA1MTIxOD
+QzLC0xOTcxMTY4MjYzLC0xNTUyODU2Njc5LDk5NjUyOTA4Mywt
+MTA4NDgzNjMyMywxNzM5MDMyMTIzLDE0MDk2ODY5OTIsMzE2ND
+U1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0
+NDQ5NDk4Nl19
 -->
