@@ -62,8 +62,11 @@ STEP 1 : JMeter 실행 (mac 에서 brew 로 5.4.1 설치함)
 JMeter 를 실행하면 초기에 2개의 노드가 있다.
 Test Plan node : 실제 test plan 이 저장되는 곳
 Workbench node : 실제 사용하지 않을 때 임시로 test 요소들을 저장하는 곳. 복사/붙여넣기 용도임. test plan 을 저장할 때 Workbench item 들은 함께 저장되지 않는다.
+
+STEP 2 : Add/Remove 요소들
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzM1MzQyNSwtMTk3MTE2ODI2MywtMT
+eyJoaXN0b3J5IjpbMTQ2NDM5Njk3NywtMTk3MTE2ODI2MywtMT
 U1Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4MzYzMjMsMTczOTAz
 MjEyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMj
 Y0ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
