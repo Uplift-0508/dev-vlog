@@ -194,12 +194,27 @@ JMeter 가 제공하는 Timer 들이다.
 Assertion 은 Sampler 를 사용해서 생성한 request 의 응답의 유효성을 테스트한다. 어플리케이션이 올바른 data 를 반환하는지 증명한다. assertion 이 fail 되면 강조 표시를 해준다. 
 
 JMeter 가 제공하는 Assertion 들이다.
+-   Beanshell Assertion
+-   BSF Assertion
+-   Compare Assertion
+-   JSR223 Assertion
+-   Response Assertion
+-   Duration Assertion
+-   Size Assertion
+-   XML Assertion
+-   BeanShell Assertion
+-   MD5Hex Assertion
+-   HTML Assertion
+-   XPath Assertion
+-   XML Schema Assertion
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3ODc0MDMzLDc0NDI3NzUwMSwtNzQ0NT
-UzMTI5LDE5MzMyMzk3MzgsMTk0OTcwMDkxNywtMTY3OTI2Mzk5
-MiwxNTU5MzE1ODYsLTEyNjU0NTI4MTcsLTE0NjcyNTkwMTEsLT
-cwMjgyODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYz
-MzYsLTEzMjAyODA4MjMsMTE2MjI0MDg5MCwtMTc3OTEwNjIyLC
-0xODExODM2OTM4LC05MDMzMjQ0NTksLTY1OTcwNjE1OCw3MTE2
-NTcxNDRdfQ==
+eyJoaXN0b3J5IjpbMTg0Nzk4MjI1MCw3NDQyNzc1MDEsLTc0ND
+U1MzEyOSwxOTMzMjM5NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5
+OTIsMTU1OTMxNTg2LC0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC
+03MDI4Mjg1ODUsNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NTM2
+MzM2LC0xMzIwMjgwODIzLDExNjIyNDA4OTAsLTE3NzkxMDYyMi
+wtMTgxMTgzNjkzOCwtOTAzMzI0NDU5LC02NTk3MDYxNTgsNzEx
+NjU3MTQ0XX0=
 -->
