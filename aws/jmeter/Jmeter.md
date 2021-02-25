@@ -46,9 +46,9 @@ JMeter 는 한 user 그룹이 타겟 서버에 request 를 보내도록 시뮬�
 
 ![enter image description here](https://www.tutorialspoint.com/jmeter/images/jmeter_process.jpg)
 
-JMeter 는 자바 프레임워크다. 
+JMeter 는 자바 프레임워크다. JDK 가 1.6 이거나 그 이상이어야 하고, 메모리와 디스크 용량, OS 가 필요하다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTU4MDQxMiwtMTA4NDgzNjMyMywxNz
-M5MDMyMTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5
-MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbOTk2NTI5MDgzLC0xMDg0ODM2MzIzLDE3Mz
+kwMzIxMjMsMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzNDM0Nzkx
+LDI2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
