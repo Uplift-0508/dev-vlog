@@ -30,9 +30,12 @@ JMeter 가 지원하는 프로토콜은 다음과 같다.
 -   Service − POP3, IMAP, SMTP
 -   FTP Service
 
-
+JMeter 특성
+-   오픈소스 소프트웨어라 무료로 이용 가능
+-  간단하고 직관저
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE1MzU3MzUsMTczOTAzMjEyMywxND
-A5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMjY0ODk1ODUs
-NzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
+eyJoaXN0b3J5IjpbNzQwOTA4NzEyLDE3MzkwMzIxMjMsMTQwOT
+Y4Njk5MiwzMTY0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcy
+NTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
