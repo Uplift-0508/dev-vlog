@@ -54,15 +54,15 @@ test plan 은 최소 1개의 thread group 을 반드시 가져야 한다.
 
 **test plan 작성**
 
-STEP 1 : JMeter 실행 (brew 로 5.4.1 설치함)
+STEP 1 : JMeter 실행 (mac 에서 brew 로 5.4.1 설치함)
 ```
 1063  brew install jmeter
 1064  jmeter
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM5MjMyLC0xOTcxMTY4MjYzLC0xNT
-UyODU2Njc5LDk5NjUyOTA4MywtMTA4NDgzNjMyMywxNzM5MDMy
-MTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5MSwyNj
-Q4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbMTI1MzgyMjIxOSwtMTk3MTE2ODI2MywtMT
+U1Mjg1NjY3OSw5OTY1MjkwODMsLTEwODQ4MzYzMjMsMTczOTAz
+MjEyMywxNDA5Njg2OTkyLDMxNjQ1NTU4NSw5MDM0MzQ3OTEsMj
+Y0ODk1ODUsNzI1MTQ1MTM5LC03NDQ0OTQ5ODZdfQ==
 -->
