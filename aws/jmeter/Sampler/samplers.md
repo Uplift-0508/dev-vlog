@@ -1,0 +1,25 @@
+[18.1 Samplers](https://jmeter.apache.org/usermanual/component_reference.html#samplers)
+
+-   [FTP Request](https://jmeter.apache.org/usermanual/component_reference.html#FTP_Request)
+-   [HTTP Request](https://jmeter.apache.org/usermanual/component_reference.html#HTTP_Request)
+-   [JDBC Request](https://jmeter.apache.org/usermanual/component_reference.html#JDBC_Request)
+-   [Java Request](https://jmeter.apache.org/usermanual/component_reference.html#Java_Request)
+-   [LDAP Request](https://jmeter.apache.org/usermanual/component_reference.html#LDAP_Request)
+-   [LDAP Extended Request](https://jmeter.apache.org/usermanual/component_reference.html#LDAP_Extended_Request)
+-   [Access Log Sampler](https://jmeter.apache.org/usermanual/component_reference.html#Access_Log_Sampler)
+-   [BeanShell Sampler](https://jmeter.apache.org/usermanual/component_reference.html#BeanShell_Sampler)
+-   [JSR223 Sampler](https://jmeter.apache.org/usermanual/component_reference.html#JSR223_Sampler)
+-   [TCP Sampler](https://jmeter.apache.org/usermanual/component_reference.html#TCP_Sampler)
+-   [JMS Publisher](https://jmeter.apache.org/usermanual/component_reference.html#JMS_Publisher)
+-   [JMS Subscriber](https://jmeter.apache.org/usermanual/component_reference.html#JMS_Subscriber)
+-   [JMS Point-to-Point](https://jmeter.apache.org/usermanual/component_reference.html#JMS_Point-to-Point)
+-   [JUnit Request](https://jmeter.apache.org/usermanual/component_reference.html#JUnit_Request)
+-   [Mail Reader Sampler](https://jmeter.apache.org/usermanual/component_reference.html#Mail_Reader_Sampler)
+-   [Flow Control Action (was: Test Action )](https://jmeter.apache.org/usermanual/component_reference.html#Flow_Control_Action)
+-   [SMTP Sampler](https://jmeter.apache.org/usermanual/component_reference.html#SMTP_Sampler)
+-   [OS Process Sampler](https://jmeter.apache.org/usermanual/component_reference.html#OS_Process_Sampler)
+-   [MongoDB Script (DEPRECATED)](https://jmeter.apache.org/usermanual/component_reference.html#MongoDB_Script_(DEPRECATED))
+-   [Bolt Request](https://jmeter.apache.org/usermanual/component_reference.html#Bolt_Request)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU4Njc1NzE4N119
+-->
