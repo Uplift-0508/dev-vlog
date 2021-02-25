@@ -155,13 +155,13 @@ JMeter 가 제공하는 Logic Controller 들이다.
 Test Fragment 는 특별한 종류의 element 이고, Thread Group element 와 동등한 레벨이다. Test Fragment 는 Module Controller 또는 Include Controller 가 참조하지 않으면 실행되지 않는 다는 점에서 Thread Group 과 차이가 있다. Test Fragment 는 Test Plan 내에서 온전히 코드 재사용을 위해 사용한다. 
 
 ### Listeners
-Listener 는 Sampler 들의 결과를 로그 파일에 간단한 text, tree, table, graph 형태로 보여준다. 
+Listener 는 Sampler 들의 결과를 로그 파일에 간단한 text, tree, table, graph 형태로 보여준다. JMeter 로 수집한 데이터를 시각적으로 제공한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkyNjM5OTIsMTU1OTMxNTg2LC0xMj
-Y1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1ODUsNDkyNTU4
-MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIwMjgwODIzLD
-ExNjIyNDA4OTAsLTE3NzkxMDYyMiwtMTgxMTgzNjkzOCwtOTAz
-MzI0NDU5LC02NTk3MDYxNTgsNzExNjU3MTQ0LDUwNDU5MzYyNy
-wxNTExNzExMDM4LC0xMzkzNDA2NzYyLC0xNjI3OTc5MzU4LC0x
-MjE0OTQzNDkxXX0=
+eyJoaXN0b3J5IjpbLTYwNTkyOTc1NywtMTY3OTI2Mzk5MiwxNT
+U5MzE1ODYsLTEyNjU0NTI4MTcsLTE0NjcyNTkwMTEsLTcwMjgy
+ODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYzMzYsLT
+EzMjAyODA4MjMsMTE2MjI0MDg5MCwtMTc3OTEwNjIyLC0xODEx
+ODM2OTM4LC05MDMzMjQ0NTksLTY1OTcwNjE1OCw3MTE2NTcxND
+QsNTA0NTkzNjI3LDE1MTE3MTEwMzgsLTEzOTM0MDY3NjIsLTE2
+Mjc5NzkzNThdfQ==
 -->
