@@ -43,8 +43,10 @@ JMeter 는 Swing graphical API 를 사용하는 시각적 인터페이스를 제
 
 **JMeter 동작 원리**
 JMeter 는 한 user 그룹이 타겟 서버에 request 를 보내도록 시뮬레이션 한다. 그리고 테이블이나 그래프 등을 통해서 타겟 서버와 어플리케이션의 성능과 기능을 보여주는 통계자료를 반환한다. 
+
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/jmeter_process.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjQ5Njk2NCwtMTA4NDgzNjMyMywxNz
-M5MDMyMTIzLDE0MDk2ODY5OTIsMzE2NDU1NTg1LDkwMzQzNDc5
-MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbMjg4MjcwMDkzLC0xMDg0ODM2MzIzLDE3Mz
+kwMzIxMjMsMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAzNDM0Nzkx
+LDI2NDg5NTg1LDcyNTE0NTEzOSwtNzQ0NDk0OTg2XX0=
 -->
