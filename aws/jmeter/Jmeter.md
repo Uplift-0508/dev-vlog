@@ -12,9 +12,10 @@ Performance Test
 Load Test
 : 기본적으로 최대치의 부하에서 시스템을 테스트한다.
 
-
+Stress Test
+: 리소스를 압도하여 시스템을 깨는 테스트이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczODY0OTQ4LDE0MDk2ODY5OTIsMzE2ND
-U1NTg1LDkwMzQzNDc5MSwyNjQ4OTU4NSw3MjUxNDUxMzksLTc0
-NDQ5NDk4Nl19
+eyJoaXN0b3J5IjpbLTE4MDg4MTM1ODEsMTQwOTY4Njk5MiwzMT
+Y0NTU1ODUsOTAzNDM0NzkxLDI2NDg5NTg1LDcyNTE0NTEzOSwt
+NzQ0NDk0OTg2XX0=
 -->
