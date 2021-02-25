@@ -157,13 +157,13 @@ Test Fragment 는 특별한 종류의 element 이고, Thread Group element 와 �
 ### Listeners
 Listener 는 Sampler 들의 결과를 로그 파일에 간단한 text, tree, table, graph 형태로 보여준다. JMeter 의 Sampler 구성요소가 실행한 test case 에 대해 수집한 데이터를 시각적으로 제공한다. 
 
-Listener 는 test 내에 어디든 추가할 수 있고, test plan 아래에 직접 추가할 수 있다. 
+Listener 는 test 내에 어디든 추가할 수 있고, test plan 아래에 직접 추가할 수 있다. Listener sms자신과 동등하거나 하위 레벨의 element 로 부터 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzIzOTczOCwxOTQ5NzAwOTE3LC0xNj
-c5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1MjgxNywtMTQ2NzI1
-OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNiwtNjMzMzE4NDY0LD
-MwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYyMjQwODkwLC0xNzc5
-MTA2MjIsLTE4MTE4MzY5MzgsLTkwMzMyNDQ1OSwtNjU5NzA2MT
-U4LDcxMTY1NzE0NCw1MDQ1OTM2MjcsMTUxMTcxMTAzOCwtMTM5
-MzQwNjc2Ml19
+eyJoaXN0b3J5IjpbLTQ3MDA3MjExLDE5MzMyMzk3MzgsMTk0OT
+cwMDkxNywtMTY3OTI2Mzk5MiwxNTU5MzE1ODYsLTEyNjU0NTI4
+MTcsLTE0NjcyNTkwMTEsLTcwMjgyODU4NSw0OTI1NTgyMTYsLT
+YzMzMxODQ2NCwzMDQ1MzYzMzYsLTEzMjAyODA4MjMsMTE2MjI0
+MDg5MCwtMTc3OTEwNjIyLC0xODExODM2OTM4LC05MDMzMjQ0NT
+ksLTY1OTcwNjE1OCw3MTE2NTcxNDQsNTA0NTkzNjI3LDE1MTE3
+MTEwMzhdfQ==
 -->
