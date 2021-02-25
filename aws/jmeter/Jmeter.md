@@ -86,9 +86,9 @@ Stop : 즉시 스레드 종료
 Shutdown : 현재 일 종료되면 스레드 종료
 
 ## Test Plan Elements
-JMeter Test Plan 은 
+JMeter Test Plan 은 Test Element 들로 구성된다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDAwNzEzNiwtNzk4NTU1MjUxLC0xND
+eyJoaXN0b3J5IjpbLTc3NDc5MzkwOSwtNzk4NTU1MjUxLC0xND
 E2NTUxNzI1LDE1OTcxNjYwNjIsLTEwMDUxMjE4NDMsLTE5NzEx
 NjgyNjMsLTE1NTI4NTY2NzksOTk2NTI5MDgzLC0xMDg0ODM2Mz
 IzLDE3MzkwMzIxMjMsMTQwOTY4Njk5MiwzMTY0NTU1ODUsOTAz
