@@ -132,8 +132,9 @@ RPC Request
 
 #### Logic Controllers
 Logic Controller 는 Thread 안에 sampler 들의 처리 순서를 제어한다. Logic controller 는 child element 들로 부터 오는 request 의 순서를 변경할 수 있다. 
+ForEach Controller, While Controller, Loop Controller, IF Controller, Run Time Controller, Interleave Controller, Throughput Controller, Run Once Controller
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NjgxMjUyLDMwNDUzNjMzNiwtMTMyMD
+eyJoaXN0b3J5IjpbODk0ODA1MDU1LDMwNDUzNjMzNiwtMTMyMD
 I4MDgyMywxMTYyMjQwODkwLC0xNzc5MTA2MjIsLTE4MTE4MzY5
 MzgsLTkwMzMyNDQ1OSwtNjU5NzA2MTU4LDcxMTY1NzE0NCw1MD
 Q1OTM2MjcsMTUxMTcxMTAzOCwtMTM5MzQwNjc2MiwtMTYyNzk3
