@@ -131,9 +131,9 @@ SOAP/XML Request
 RPC Request
 
 #### Logic Controllers
-Logic Controller 는 Thread 안에 sampler 들의 처리 순서를 제어한다. Logic controller 는 
+Logic Controller 는 Thread 안에 sampler 들의 처리 순서를 제어한다. Logic controller 는 request 의 순서를 변경할 수 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTI4MjU2LDMwNDUzNjMzNiwtMTMyMD
+eyJoaXN0b3J5IjpbOTY1NDgyMDAwLDMwNDUzNjMzNiwtMTMyMD
 I4MDgyMywxMTYyMjQwODkwLC0xNzc5MTA2MjIsLTE4MTE4MzY5
 MzgsLTkwMzMyNDQ1OSwtNjU5NzA2MTU4LDcxMTY1NzE0NCw1MD
 Q1OTM2MjcsMTUxMTcxMTAzOCwtMTM5MzQwNjc2MiwtMTYyNzk3
