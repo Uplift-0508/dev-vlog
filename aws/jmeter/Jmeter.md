@@ -235,12 +235,25 @@ JMeter 가 제공하는 Configuration Element 들이다.
 
 ### Pre-processor Elements
 Pre-processor element 는 sampler 가 실행되기 바로 전에 실행된다. 일반적으로 sample request 가 실행되기 전에 설정을 수정하는데 사용한다. 또는 response test 에서 추출하지 않을 변수들을 업데이트 하기위해서 사용한다. 
+
+JMeter 가 제공하는 Pre-processor Element 들이다.
+-   HTML Link Parser
+-   HTTP URL Re-writing Modifier
+-   HTTP User Parameter Modifier
+-   User Parameters
+-   JDBC PreProcessor
+-   JSR223 PreProcessor
+-   RegEx User Parameters
+-   BeanShell PreProcessor
+-   BSF PreProcessor
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTgxMDYzMSwtMTc2Mjk0MTYyNiwtNT
-AxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3
-NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOT
-MzMjM5NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMx
-NTg2LC0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1OD
-UsNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIw
-MjgwODIzXX0=
+eyJoaXN0b3J5IjpbNjUzNzU2MTQ2LC0xNzYyOTQxNjI2LC01MD
+E5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05Njk5Nzc2
+OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0NTUzMTI5LDE5Mz
+MyMzk3MzgsMTk0OTcwMDkxNywtMTY3OTI2Mzk5MiwxNTU5MzE1
+ODYsLTEyNjU0NTI4MTcsLTE0NjcyNTkwMTEsLTcwMjgyODU4NS
+w0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYzMzYsLTEzMjAy
+ODA4MjNdfQ==
 -->
