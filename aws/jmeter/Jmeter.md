@@ -234,13 +234,13 @@ JMeter 가 제공하는 Configuration Element 들이다.
 -   Random Variable
 
 ### Pre-processor Elements
-Pre-processor element 는 sampler 가 실행되기 바로 전에 
+Pre-processor element 는 sampler 가 실행되기 바로 전에 실행된다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjczNTUsLTUwMTk4MTc3NiwxNjkzMT
-kyMDAxLC01ODYzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2NDEs
-NzQ0Mjc3NTAxLC03NDQ1NTMxMjksMTkzMzIzOTczOCwxOTQ5Nz
-AwOTE3LC0xNjc5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1Mjgx
-NywtMTQ2NzI1OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNiwtNj
-MzMzE4NDY0LDMwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYyMjQw
-ODkwXX0=
+eyJoaXN0b3J5IjpbLTE3NjI5NDE2MjYsLTUwMTk4MTc3NiwxNj
+kzMTkyMDAxLC01ODYzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2
+NDEsNzQ0Mjc3NTAxLC03NDQ1NTMxMjksMTkzMzIzOTczOCwxOT
+Q5NzAwOTE3LC0xNjc5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1
+MjgxNywtMTQ2NzI1OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNi
+wtNjMzMzE4NDY0LDMwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYy
+MjQwODkwXX0=
 -->
