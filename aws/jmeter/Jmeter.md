@@ -211,6 +211,8 @@ JMeter 가 제공하는 Assertion 들이다.
 ### Configuration Elements
 Configuration Element 는 sampler 들이 사용할 기본값과 변수들을 생성할 수 있다. Sampler 들에 의해 request 들을 추가/수정한다. 
 
+
+
 JMeter 가 제공하는 Configuratino Element 들이다.
 -   Counter
 -   CSV Data Set Config
@@ -232,11 +234,11 @@ JMeter 가 제공하는 Configuratino Element 들이다.
 -   Simple Config Element
 -   Random Variable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjM0NjU5NSwtOTY5OTc3NjkwLDY0Nj
-kyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOTMzMjM5NzM4
-LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMxNTg2LC0xMj
-Y1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1ODUsNDkyNTU4
-MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIwMjgwODIzLD
-ExNjIyNDA4OTAsLTE3NzkxMDYyMiwtMTgxMTgzNjkzOCwtOTAz
-MzI0NDU5XX0=
+eyJoaXN0b3J5IjpbMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05Nj
+k5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0NTUzMTI5
+LDE5MzMyMzk3MzgsMTk0OTcwMDkxNywtMTY3OTI2Mzk5MiwxNT
+U5MzE1ODYsLTEyNjU0NTI4MTcsLTE0NjcyNTkwMTEsLTcwMjgy
+ODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYzMzYsLT
+EzMjAyODA4MjMsMTE2MjI0MDg5MCwtMTc3OTEwNjIyLC0xODEx
+ODM2OTM4XX0=
 -->
