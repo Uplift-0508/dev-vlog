@@ -209,13 +209,13 @@ JMeter 가 제공하는 Assertion 들이다.
 -   XML Schema Assertion
 
 ### Configuration Elements
-Configuratino Element 는 sampler 들이 사용할 기본값과 변수들을 생성할 수 있다. Sampler 들에 의해 request 들을 추가/수정한다. 
+Configuration Element 는 sampler 들이 사용할 기본값과 변수들을 생성할 수 있다. Sampler 들에 의해 request 들을 추가/수정한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0Mj
-c3NTAxLC03NDQ1NTMxMjksMTkzMzIzOTczOCwxOTQ5NzAwOTE3
-LC0xNjc5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1MjgxNywtMT
-Q2NzI1OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNiwtNjMzMzE4
-NDY0LDMwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYyMjQwODkwLC
-0xNzc5MTA2MjIsLTE4MTE4MzY5MzgsLTkwMzMyNDQ1OSwtNjU5
-NzA2MTU4XX0=
+eyJoaXN0b3J5IjpbMTA5NDE2MzI3MiwtOTY5OTc3NjkwLDY0Nj
+kyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOTMzMjM5NzM4
+LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMxNTg2LC0xMj
+Y1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1ODUsNDkyNTU4
+MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIwMjgwODIzLD
+ExNjIyNDA4OTAsLTE3NzkxMDYyMiwtMTgxMTgzNjkzOCwtOTAz
+MzI0NDU5XX0=
 -->
