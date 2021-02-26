@@ -234,13 +234,13 @@ JMeter 가 제공하는 Configuration Element 들이다.
 -   Random Variable
 
 ### Pre-processor Elements
-Pre-processor element 는 sampler 가 실행되기 바로 전에 실행된다. 
+Pre-processor element 는 sampler 가 실행되기 바로 전에 실행된다. 일반적으로 sample requestㄹ 설정을 수정하는데 사용한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI5NDE2MjYsLTUwMTk4MTc3NiwxNj
-kzMTkyMDAxLC01ODYzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2
-NDEsNzQ0Mjc3NTAxLC03NDQ1NTMxMjksMTkzMzIzOTczOCwxOT
-Q5NzAwOTE3LC0xNjc5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1
-MjgxNywtMTQ2NzI1OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNi
-wtNjMzMzE4NDY0LDMwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYy
-MjQwODkwXX0=
+eyJoaXN0b3J5IjpbLTIzMDE4NTIxOCwtMTc2Mjk0MTYyNiwtNT
+AxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3
+NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOT
+MzMjM5NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMx
+NTg2LC0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1OD
+UsNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIw
+MjgwODIzXX0=
 -->
