@@ -210,7 +210,7 @@ JMeter 가 제공하는 Assertion 들이다.
 
 ### Configuration Elements
 Configuration Element 는 sampler 들이 사용할 기본값과 변수들을 생성할 수 있다. Sampler 들에 의해 request 들을 추가/수정한다. 
-
+자신이 속한 scope 의 시작점에서 실행된다.
 
 
 JMeter 가 제공하는 Configuratino Element 들이다.
@@ -234,11 +234,11 @@ JMeter 가 제공하는 Configuratino Element 들이다.
 -   Simple Config Element
 -   Random Variable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05Nj
-k5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0NTUzMTI5
-LDE5MzMyMzk3MzgsMTk0OTcwMDkxNywtMTY3OTI2Mzk5MiwxNT
-U5MzE1ODYsLTEyNjU0NTI4MTcsLTE0NjcyNTkwMTEsLTcwMjgy
-ODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1MzYzMzYsLT
-EzMjAyODA4MjMsMTE2MjI0MDg5MCwtMTc3OTEwNjIyLC0xODEx
-ODM2OTM4XX0=
+eyJoaXN0b3J5IjpbMTE3NzMzODg4MCwxNjkzMTkyMDAxLC01OD
+YzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0Mjc3NTAx
+LC03NDQ1NTMxMjksMTkzMzIzOTczOCwxOTQ5NzAwOTE3LC0xNj
+c5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1MjgxNywtMTQ2NzI1
+OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNiwtNjMzMzE4NDY0LD
+MwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYyMjQwODkwLC0xNzc5
+MTA2MjJdfQ==
 -->
