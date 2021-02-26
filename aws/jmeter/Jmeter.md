@@ -248,13 +248,13 @@ JMeter 가 제공하는 Pre-processor Element 들이다.
 -   BSF PreProcessor
 
 ### Post-processor Elements
-Post-processor 는 sampler 가 실행을 종료한 후에 실행한다. 
+Post-processor 는 sampler 가 실행을 종료한 후에 실행한다. 일반적으로 response data 를 처리하는데 사용한다. 예를 들어 다음 사용의 특정 값들을 회수하는데 사용할 수 있
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Nzk2OTgxMSwtMTc2Mjk0MTYyNiwtNT
-AxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3
-NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOT
-MzMjM5NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMx
-NTg2LC0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1OD
-UsNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIw
-MjgwODIzXX0=
+eyJoaXN0b3J5IjpbLTE4NjQyNDM2MjAsLTE3NjI5NDE2MjYsLT
+UwMTk4MTc3NiwxNjkzMTkyMDAxLC01ODYzNDY1OTUsLTk2OTk3
+NzY5MCw2NDY5MjU2NDEsNzQ0Mjc3NTAxLC03NDQ1NTMxMjksMT
+kzMzIzOTczOCwxOTQ5NzAwOTE3LC0xNjc5MjYzOTkyLDE1NTkz
+MTU4NiwtMTI2NTQ1MjgxNywtMTQ2NzI1OTAxMSwtNzAyODI4NT
+g1LDQ5MjU1ODIxNiwtNjMzMzE4NDY0LDMwNDUzNjMzNiwtMTMy
+MDI4MDgyM119
 -->
