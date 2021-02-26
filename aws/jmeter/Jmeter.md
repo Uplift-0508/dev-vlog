@@ -249,8 +249,20 @@ JMeter 가 제공하는 Pre-processor Element 들이다.
 
 ### Post-processor Elements
 Post-processor 는 sampler 가 실행을 종료한 후에 실행한다. 일반적으로 response data 를 처리하는데 사용한다. 예를 들어 나중에 사용할 특정 값들을 검색하는데 사용할 수 있다. 
+
+JMeter 가 제공하는 Pre-processor Element 들이다.
+-   Regular Expression Extractor
+-   XPath Extractor
+-   Result Status Action Handler
+-   JSR223 PostProcessor
+-   JDBC PostProcessor
+-   BSF PostProcessor
+-   CSS/JQuery Extractor
+-   BeanShell PostProcessor
+-   Debug PostProcessor
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMzYxMzEwLC0xNzYyOTQxNjI2LC01MD
+eyJoaXN0b3J5IjpbMTg3NTEwNjk1LC0xNzYyOTQxNjI2LC01MD
 E5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05Njk5Nzc2
 OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0NTUzMTI5LDE5Mz
 MyMzk3MzgsMTk0OTcwMDkxNywtMTY3OTI2Mzk5MiwxNTU5MzE1
