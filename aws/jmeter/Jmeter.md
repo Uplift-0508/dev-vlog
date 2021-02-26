@@ -262,13 +262,19 @@ JMeter 가 제공하는 Pre-processor Element 들이다.
 -   Debug PostProcessor
 
 ### Test Elements 의 실행 순서
-
+-   Configuration elements
+-   Pre-Processors
+-   Timers
+-   Sampler
+-   Post-Processors (unless SampleResult is null)
+-   Assertions (unless SampleResult is null)
+-   Listeners (unless SampleResult is null)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU3NzcsLTE3NjI5NDE2MjYsLTUwMT
-k4MTc3NiwxNjkzMTkyMDAxLC01ODYzNDY1OTUsLTk2OTk3NzY5
-MCw2NDY5MjU2NDEsNzQ0Mjc3NTAxLC03NDQ1NTMxMjksMTkzMz
-IzOTczOCwxOTQ5NzAwOTE3LC0xNjc5MjYzOTkyLDE1NTkzMTU4
-NiwtMTI2NTQ1MjgxNywtMTQ2NzI1OTAxMSwtNzAyODI4NTg1LD
-Q5MjU1ODIxNiwtNjMzMzE4NDY0LDMwNDUzNjMzNiwtMTMyMDI4
-MDgyM119
+eyJoaXN0b3J5IjpbMTc3MzcwOTY0NSwtMTc2Mjk0MTYyNiwtNT
+AxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3
+NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOT
+MzMjM5NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMx
+NTg2LC0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1OD
+UsNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NTM2MzM2LC0xMzIw
+MjgwODIzXX0=
 -->
