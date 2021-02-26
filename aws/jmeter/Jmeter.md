@@ -271,14 +271,14 @@ JMeter 가 제공하는 Pre-processor Element 들이다.
 -   Listeners (unless SampleResult is null)
 
 ## Web Test Plan
-Thread Group 은 최소 1개 생성해야 한다. Thread Group 은 Sampler, Controller, Listener 
+Thread Group 은 최소 1개 생성해야 한다. Thread Group 은 Sampler, Controller, Listener 등 같은 다른 모든 element 들의 placeholder 이다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTU2OTYxLDQwNjM5Njk1NCwtMTc2Mj
-k0MTYyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5
-NSwtOTY5OTc3NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0ND
-U1MzEyOSwxOTMzMjM5NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5
-OTIsMTU1OTMxNTg2LC0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC
-03MDI4Mjg1ODUsNDkyNTU4MjE2LC02MzMzMTg0NjQsMzA0NTM2
-MzM2XX0=
+eyJoaXN0b3J5IjpbLTEyMTE5NjczNzYsNDA2Mzk2OTU0LC0xNz
+YyOTQxNjI2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2
+NTk1LC05Njk5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNz
+Q0NTUzMTI5LDE5MzMyMzk3MzgsMTk0OTcwMDkxNywtMTY3OTI2
+Mzk5MiwxNTU5MzE1ODYsLTEyNjU0NTI4MTcsLTE0NjcyNTkwMT
+EsLTcwMjgyODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NCwzMDQ1
+MzYzMzZdfQ==
 -->
