@@ -212,8 +212,7 @@ JMeter 가 제공하는 Assertion 들이다.
 Configuration Element 는 sampler 들이 사용할 기본값과 변수들을 생성할 수 있다. Sampler 들에 의해 request 들을 추가/수정한다. 
 같은 scope 내에 위치한 sampler 들 전에 자신이 속한 scope 의 시작점에서 실행된다. 따라서 Configuration Element 는 자신이 위치한 branch 안에서만 접근할 수 있다. 
 
-
-JMeter 가 제공하는 Configuratino Element 들이다.
+JMeter 가 제공하는 Configuration Element 들이다.
 -   Counter
 -   CSV Data Set Config
 -   FTP Request Defaults
@@ -233,12 +232,15 @@ JMeter 가 제공하는 Configuratino Element 들이다.
 -   User Defined Variables
 -   Simple Config Element
 -   Random Variable
+
+### Pre-processor Elements
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI5NzM4ODYsMTY5MzE5MjAwMSwtNT
-g2MzQ2NTk1LC05Njk5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUw
-MSwtNzQ0NTUzMTI5LDE5MzMyMzk3MzgsMTk0OTcwMDkxNywtMT
-Y3OTI2Mzk5MiwxNTU5MzE1ODYsLTEyNjU0NTI4MTcsLTE0Njcy
-NTkwMTEsLTcwMjgyODU4NSw0OTI1NTgyMTYsLTYzMzMxODQ2NC
-wzMDQ1MzYzMzYsLTEzMjAyODA4MjMsMTE2MjI0MDg5MCwtMTc3
-OTEwNjIyXX0=
+eyJoaXN0b3J5IjpbLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC01OD
+YzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0Mjc3NTAx
+LC03NDQ1NTMxMjksMTkzMzIzOTczOCwxOTQ5NzAwOTE3LC0xNj
+c5MjYzOTkyLDE1NTkzMTU4NiwtMTI2NTQ1MjgxNywtMTQ2NzI1
+OTAxMSwtNzAyODI4NTg1LDQ5MjU1ODIxNiwtNjMzMzE4NDY0LD
+MwNDUzNjMzNiwtMTMyMDI4MDgyMywxMTYyMjQwODkwLC0xNzc5
+MTA2MjJdfQ==
 -->
