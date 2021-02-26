@@ -210,8 +210,29 @@ JMeter 가 제공하는 Assertion 들이다.
 
 ### Configuration Elements
 Configuration Element 는 sampler 들이 사용할 기본값과 변수들을 생성할 수 있다. Sampler 들에 의해 request 들을 추가/수정한다. 
+
+JMeter 가 제공하는 Configuratino Element 들이다.
+-   Counter
+-   CSV Data Set Config
+-   FTP Request Defaults
+-   HTTP Authorization Manager
+-   HTTP Cache Manager
+-   HTTP Cookie Manager
+-   HTTP Proxy Server
+-   HTTP Request Defaults
+-   HTTP Header Manager
+-   Java Request Defaults
+-   Keystore Configuration
+-   JDBC Connection Configuration
+-   Login Config Element
+-   LDAP Request Defaults
+-   LDAP Extended Request Defaults
+-   TCP Sampler Config
+-   User Defined Variables
+-   Simple Config Element
+-   Random Variable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDE2MzI3MiwtOTY5OTc3NjkwLDY0Nj
+eyJoaXN0b3J5IjpbLTU4NjM0NjU5NSwtOTY5OTc3NjkwLDY0Nj
 kyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOTMzMjM5NzM4
 LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMxNTg2LC0xMj
 Y1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1ODUsNDkyNTU4
