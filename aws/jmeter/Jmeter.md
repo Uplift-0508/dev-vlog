@@ -278,8 +278,9 @@ JMeter 에서는 모든 node element 들이 context menu 를 사용해 추가된
 ## Database Test Plan
 
 데이터베이스 서버를 테스트하기 위해서 간단한 test plan 을 생성해 본다. 
+테스트를 위해 어떤 데이터베이스도 사용할 수 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODA5NzYzNiwtMTUxNzY4ODc2NywtOD
+eyJoaXN0b3J5IjpbLTk2NzE2NjMyNSwtMTUxNzY4ODc2NywtOD
 QxOTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYyOTQx
 NjI2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC
 05Njk5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0NTUz
