@@ -274,12 +274,15 @@ JMeter 가 제공하는 Pre-processor Element 들이다.
 Thread Group 은 최소 1개 생성해야 한다. Thread Group 은 Sampler, Controller, Listener 등 같은 다른 모든 element 들의 placeholder 이다. Thread Group 을 하나 만들고 시뮬레이트할 사용자 수를 설정할 수 있다.
 
 JMeter 에서는 모든 node element 들이 context menu 를 사용해 추가된다. 
+
+## Database Test Plan
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc2ODg3NjcsLTg0MTk1OTgzNCwtMT
-MxNzE1ODI3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwtNTAxOTgx
-Nzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3NjkwLD
-Y0NjkyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOTMzMjM5
-NzM4LDE5NDk3MDA5MTcsLTE2NzkyNjM5OTIsMTU1OTMxNTg2LC
-0xMjY1NDUyODE3LC0xNDY3MjU5MDExLC03MDI4Mjg1ODUsNDky
-NTU4MjE2XX0=
+eyJoaXN0b3J5IjpbOTA3MDk5MDI3LC0xNTE3Njg4NzY3LC04ND
+E5NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3NjI5NDE2
+MjYsLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC01ODYzNDY1OTUsLT
+k2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0Mjc3NTAxLC03NDQ1NTMx
+MjksMTkzMzIzOTczOCwxOTQ5NzAwOTE3LC0xNjc5MjYzOTkyLD
+E1NTkzMTU4NiwtMTI2NTQ1MjgxNywtMTQ2NzI1OTAxMSwtNzAy
+ODI4NTg1XX0=
 -->
