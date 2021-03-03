@@ -337,6 +337,7 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 Listener 의 GUI 데이터를 png 파일로 저장할 수 있다. 
 
 ## Functions
+JMeter Functions 과 User Variables
 
 
 
@@ -346,7 +347,7 @@ Listener 의 GUI 데이터를 png 파일로 저장할 수 있다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMzNzk5MTAsNjg4NzU2ODQ3LC03OT
+eyJoaXN0b3J5IjpbLTE2NzMyNTQ4MTYsNjg4NzU2ODQ3LC03OT
 Y0MzYzMDksMTIzNTcxNjgwMSwtMjEyNTU0NTk1OCwtMTI2MDI2
 NDY3MiwxNjI2ODM3NjI1LC0zODM2NDkzMTQsLTk2NzE2NjMyNS
 wtMTUxNzY4ODc2NywtODQxOTU5ODM0LC0xMzE3MTU4MjcsNDA2
