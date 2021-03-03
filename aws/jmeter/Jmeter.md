@@ -355,7 +355,10 @@ ${___time(EEE\, d MMM yyyy)}
 ${VARIABLE}
 ```
 
-
+함수 목록
+|Function Type                |Name        |Comment    |
+|----------------|---------------|-----------------------------|
+|Information|in milliseconds since 1/1/1970|1354223881017|
 
 
 
@@ -364,7 +367,7 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MDM5NDczLDYxOTU5OTUxMSwtMTY3Mz
+eyJoaXN0b3J5IjpbODkyNDE4ODcyLDYxOTU5OTUxMSwtMTY3Mz
 I1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAx
 LC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLT
 M4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5
