@@ -416,7 +416,7 @@ ${VARIABLE}
 -   property functions
 -   log functions
 
-Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter thread 변수들은 함수들이 처리될 때는 온전히 셋팅되지 않는다. 그래서 파라미터로 넘겨지는 변할 수 있는 이름들은 셋업되비 않는다. 변할 수 있는 참조값도 동작하지 않는다. 
+Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter thread 변수들은 함수들이 처리될 때는 온전히 셋팅되지 않는다. 그래서 파라미터로 넘겨지는 변할 수 있는 이름들은 셋업되비 않는다. 변할 수 있는 참조값도 동작하지 않는다. 따라서 split() 와 regex() 와 변할 수 있는 평가 함수들은 동작하지 않는다. threadNum() 함수는 동작하지 않는다. 이것은 test plan 수준에서 적합하지 않다. 
 
 
 
@@ -424,7 +424,7 @@ Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter threa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI5NTIzODksMTMxMzAwMjgwOSwtMT
+eyJoaXN0b3J5IjpbLTE5NzQ4NTk0NjQsMTMxMzAwMjgwOSwtMT
 Y0MTA0MDY0MSwtNTQ1MTA3Mjc4LC0zNzAyMjE5MDcsNjE5NTk5
 NTExLC0xNjczMjU0ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5LD
 EyMzU3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYy
