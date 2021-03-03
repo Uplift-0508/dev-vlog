@@ -333,7 +333,8 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
  response data 는 필요시에 XML log 파일에 저장될 수 있다. 그러나 큰 파일들이나 이미지들은 저장할 수 있다. 이런 경우에는 Post-Processor Save_Responses_to_a_file 을 사용한다. 이는 각 샘플에 대한 새로운 파일들을 생성한다. 그리고 샘플과 파일 이름을 저장한다. 파일명은 sample log 결과에 포함된다. data 는 샘플 log 파일이 리로드될 때 필요시에 그 파일로 부터 검색된다. 
 
 
-
+이미 저장된 파일이 있다면 Browse... 버튼을 눌러서 불러올 수 있다.
+Listener 의 GUI 데이터를 png 파일로 저장할 수 있다. 
 
 
 
@@ -342,11 +343,11 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4NzU2ODQ3LC03OTY0MzYzMDksMTIzNT
-cxNjgwMSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3
-NjI1LC0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2Ny
-wtODQxOTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYy
-OTQxNjI2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NT
-k1LC05Njk5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0
-NTUzMTI5XX0=
+eyJoaXN0b3J5IjpbMTc4NzUyODkwNyw2ODg3NTY4NDcsLTc5Nj
+QzNjMwOSwxMjM1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0
+NjcyLDE2MjY4Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC
+0xNTE3Njg4NzY3LC04NDE5NTk4MzQsLTEzMTcxNTgyNyw0MDYz
+OTY5NTQsLTE3NjI5NDE2MjYsLTUwMTk4MTc3NiwxNjkzMTkyMD
+AxLC01ODYzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0
+Mjc3NTAxXX0=
 -->
