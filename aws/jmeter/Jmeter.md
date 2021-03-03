@@ -293,13 +293,13 @@ Listener 는 JMeter 가 실행되는 동안 테스트 케이스에 대해서 JMe
 
 두번째는 Config 팝업에서 수정하는 방법이 있다. 
 
-JMeter 는 JMeter Text Logs(JTL) 를 테스트 실행 결과로 생성한다. 이는 일반적으로 JTL 파일로 부른다. 
+JMeter 는 JMeter Text Logs(JTL) 를 테스트 실행 결과로 생성한다. 이는 일반적으로 JTL 파일로 부른다. 기본 확장자가 jtl 이지만 다른 확장자들도 사용 가능하다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMT
-YyNjgzNzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2
-ODg3NjcsLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NC
-wtMTc2Mjk0MTYyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4
-NjM0NjU5NSwtOTY5OTc3NjkwLDY0NjkyNTY0MSw3NDQyNzc1MD
-EsLTc0NDU1MzEyOSwxOTMzMjM5NzM4LDE5NDk3MDA5MTcsLTE2
-NzkyNjM5OTJdfQ==
+eyJoaXN0b3J5IjpbLTEyODA1OTMwNjIsLTIxMjU1NDU5NTgsLT
+EyNjAyNjQ2NzIsMTYyNjgzNzYyNSwtMzgzNjQ5MzE0LC05Njcx
+NjYzMjUsLTE1MTc2ODg3NjcsLTg0MTk1OTgzNCwtMTMxNzE1OD
+I3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwtNTAxOTgxNzc2LDE2
+OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3NjkwLDY0NjkyNT
+Y0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOTMzMjM5NzM4LDE5
+NDk3MDA5MTddfQ==
 -->
