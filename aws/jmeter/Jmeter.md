@@ -285,9 +285,9 @@ JMeter 에서는 모든 node element 들이 context menu 를 사용해 추가된
 ## JMS Test Plan
 
 ## Listener
-Listener 는 JMeter 가 수집한 정보들에 접근하도록 해준다. 
+Listener 는 JMeter 가 실행되는 동안 테스트 케이스에 대해서 JMeter 가 수집한 정보들에 접근하도록 해준다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODQ1MzU0MywtMzgzNjQ5MzE0LC05Nj
+eyJoaXN0b3J5IjpbLTY2OTg1MjA4NCwtMzgzNjQ5MzE0LC05Nj
 cxNjYzMjUsLTE1MTc2ODg3NjcsLTg0MTk1OTgzNCwtMTMxNzE1
 ODI3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwtNTAxOTgxNzc2LD
 E2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3NjkwLDY0Njky
