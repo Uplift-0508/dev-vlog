@@ -386,7 +386,11 @@ ${VARIABLE}
 |Variables|eval|Evaluate a variable expression.|
 |Variables|evalVar|Evaluate an expression stored in a variable.|
 |String|regexFunction|Parse previous response using a regular expression.|
-|String|
+|String|escapeOroRegexpChars|Quote meta chars used by ORO regular expression.|
+|String|char|Generate Unicode char values from a list of numbers.|
+|String|unescape|Process strings containing Java escapes (e.g. \n & \t).|
+|String|unescapeHtml|Decode HTML-encoded strings.|
+|String|escapeHtml|
 
 
 
@@ -395,11 +399,11 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjcyMzQzNyw2MTk1OTk1MTEsLTE2Nz
-MyNTQ4MTYsNjg4NzU2ODQ3LC03OTY0MzYzMDksMTIzNTcxNjgw
-MSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3NjI1LC
-0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2NywtODQx
-OTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYyOTQxNj
-I2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05
-Njk5Nzc2OTBdfQ==
+eyJoaXN0b3J5IjpbLTEwMDk4ODcwNzksNjE5NTk5NTExLC0xNj
+czMjU0ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5LDEyMzU3MTY4
+MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNzYyNS
+wtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3NjcsLTg0
+MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2Mjk0MT
+YyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwt
+OTY5OTc3NjkwXX0=
 -->
