@@ -307,14 +307,16 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 |Field                |Description                          |Value Example                         |
 |----------------|-------------------------------|-----------------------------|
-|timeStamp|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|timeStamp|in milliseconds since 1/1/1970          |1354223881017            |
 |Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjM0NjUwOCwtNzk2NDM2MzA5LDEyMz
+eyJoaXN0b3J5IjpbLTEyMTEwNDE2NSwtNzk2NDM2MzA5LDEyMz
 U3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgz
 NzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3Nj
 csLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2
