@@ -419,7 +419,8 @@ ${VARIABLE}
 Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter thread 변수들은 함수들이 처리될 때는 온전히 셋팅되지 않는다. 그래서 파라미터로 넘겨지는 변할 수 있는 이름들은 셋업되비 않는다. 변할 수 있는 참조값도 동작하지 않는다. 따라서 split() 와 regex() 와 변할 수 있는 평가 함수들은 동작하지 않는다. threadNum() 함수는 동작하지 않는다. 이것은 test plan 수준에서 적합하지 않다. 
 
 참조 변수들과 함수들
-
+test element 내에 변수들을 참조하는 것은 '${' 와 '}' 으로 변수 이름을 감싼다.
+함수들은 동일한 
 
 
 
@@ -427,11 +428,11 @@ Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter threa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzk0NTg5OCwxMzEzMDAyODA5LC0xNj
-QxMDQwNjQxLC01NDUxMDcyNzgsLTM3MDIyMTkwNyw2MTk1OTk1
-MTEsLTE2NzMyNTQ4MTYsNjg4NzU2ODQ3LC03OTY0MzYzMDksMT
-IzNTcxNjgwMSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2
-ODM3NjI1LC0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4OD
-c2NywtODQxOTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0x
-NzYyOTQxNjI2XX0=
+eyJoaXN0b3J5IjpbMjQzMTI2MzE2LDEzMTMwMDI4MDksLTE2ND
+EwNDA2NDEsLTU0NTEwNzI3OCwtMzcwMjIxOTA3LDYxOTU5OTUx
+MSwtMTY3MzI1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMwOSwxMj
+M1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4
+Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4Nz
+Y3LC04NDE5NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3
+NjI5NDE2MjZdfQ==
 -->
