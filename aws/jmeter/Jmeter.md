@@ -293,9 +293,9 @@ Listener 는 JMeter 가 실행되는 동안 테스트 케이스에 대해서 JMe
 
 두번째는 Config 팝업에서 수정하는 방법이 있다. 
 
-JMeter 는 JMeter Text Logs(JTL) 를 테스트 실행 결과로 생성한다. 
+JMeter 는 JMeter Text Logs(JTL) 를 테스트 실행 결과로 생성한다. 이는 일반적으로 JTL 파일로 부른다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM1NjY0MjEsLTEyNjAyNjQ2NzIsMT
+eyJoaXN0b3J5IjpbLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMT
 YyNjgzNzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2
 ODg3NjcsLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NC
 wtMTc2Mjk0MTYyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4
