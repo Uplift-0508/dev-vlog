@@ -310,6 +310,9 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 |timeStamp|in milliseconds since 1/1/1970|1354223881017|
 |elapsed          |in milliseconds           |1858            |
 |label          |sampler label|HTTP Request|
+| responseCode | e.g. 200, 404 | 200 |
+| responseMessage | e.g. OK | OK |
+threadName | 
 
 
 
@@ -321,11 +324,11 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODk4NTI4OTAsLTc5NjQzNjMwOSwxMj
-M1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4
-Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4Nz
-Y3LC04NDE5NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3
-NjI5NDE2MjYsLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC01ODYzND
-Y1OTUsLTk2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0Mjc3NTAxLC03
-NDQ1NTMxMjldfQ==
+eyJoaXN0b3J5IjpbMzE5ODA0OTg1LC03OTY0MzYzMDksMTIzNT
+cxNjgwMSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3
+NjI1LC0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2Ny
+wtODQxOTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYy
+OTQxNjI2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NT
+k1LC05Njk5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0
+NTUzMTI5XX0=
 -->
