@@ -296,8 +296,9 @@ Listener 는 JMeter 가 실행되는 동안 테스트 케이스에 대해서 JMe
 JMeter 는 JMeter Text Logs(JTL) 를 테스트 실행 결과로 생성한다. 이는 일반적으로 JTL 파일로 부른다. 기본 확장자가 jtl 이지만 다른 확장자들도 사용 가능하다. 
 
 다수의 테스트들이 동일한 output 파일 이름을 사용하며 실행된다면, JMeter 는 자동적으로 새로운 데이터를 파일 끝에 붙인다. 
+listener 는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTMwNzgwNywtMjEyNTU0NTk1OCwtMT
+eyJoaXN0b3J5IjpbLTg1MTYzNDg5NywtMjEyNTU0NTk1OCwtMT
 I2MDI2NDY3MiwxNjI2ODM3NjI1LC0zODM2NDkzMTQsLTk2NzE2
 NjMyNSwtMTUxNzY4ODc2NywtODQxOTU5ODM0LC0xMzE3MTU4Mj
 csNDA2Mzk2OTU0LC0xNzYyOTQxNjI2LC01MDE5ODE3NzYsMTY5
