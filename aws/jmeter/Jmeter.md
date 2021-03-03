@@ -397,8 +397,8 @@ ${VARIABLE}
 - 사용자 정의 static values (또는 variables)
 - 빌트인된 함수들
 
-사용자 정의 static values 들은, static 값들로 교체하기 위해서 사용자가 변수를 정의하도록 한다. 
-
+- 사용자 정의 정적 값을 사용하면 테스트 트리를 컴파일하여 실행할 때 정적 값으로 대체할 변수를 정의할 수 있습니다.
+- 변수들은 중첩될 수 없다. 예를 들어
 
 
 
@@ -406,7 +406,7 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Nzk2MzYwMiwtMzcwMjIxOTA3LDYxOT
+eyJoaXN0b3J5IjpbMTY5NjczNTQ2NSwtMzcwMjIxOTA3LDYxOT
 U5OTUxMSwtMTY3MzI1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMw
 OSwxMjM1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLD
 E2MjY4Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3
