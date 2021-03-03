@@ -305,9 +305,9 @@ sample 들이 많다면, listener 들이 메모리를 많이 사용할 수 있�
 ### CSV Log format
 CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는지에 따라 결정된다. 특정 데이터 아이템들만 이 파일에 기록된다. 아래 표의 순서는 변하지 않는다.
 
-|Field                |Description                          |Value Example                         |
-|----------------|-------------------------------|-----------------------------|
-|timeStamp|in milliseconds since 1/1/1970          |1354223881017            |
+|Field                |Description        |Value Example    |
+|----------------|---------------|-----------------------------|
+|timeStamp|in milliseconds since 1/1/1970|1354223881017|
 |elapsed          |in milliseconds           |1858            |
 |label          |sampler label|HTTP Request|
 
@@ -319,8 +319,9 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQxOTQ5ODIsLTc5NjQzNjMwOSwxMj
+eyJoaXN0b3J5IjpbLTE1ODk4NTI4OTAsLTc5NjQzNjMwOSwxMj
 M1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4
 Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4Nz
 Y3LC04NDE5NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3
