@@ -420,7 +420,8 @@ Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter threa
 
 참조 변수들과 함수들
 test element 내에 변수들을 참조하는 것은 '${' 와 '}' 으로 변수 이름을 감싼다.
-함수들은 동일한 
+함수들은 동일한 수단으로 참조된다. 하지만 함수 이름들은 사용자 값 이름들과 충돌을 피하기 위해서 ___ 으로 시작한다. 
+몇몇 함수들은 그들을 설정하기 위해 
 
 
 
@@ -428,7 +429,7 @@ test element 내에 변수들을 참조하는 것은 '${' 와 '}' 으로 변수 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMTI2MzE2LDEzMTMwMDI4MDksLTE2ND
+eyJoaXN0b3J5IjpbNzAyNDQ1MDEzLDEzMTMwMDI4MDksLTE2ND
 EwNDA2NDEsLTU0NTEwNzI3OCwtMzcwMjIxOTA3LDYxOTU5OTUx
 MSwtMTY3MzI1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMwOSwxMj
 M1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4
