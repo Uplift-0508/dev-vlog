@@ -397,7 +397,7 @@ ${VARIABLE}
 - 사용자 정의 static values (또는 variables)
 - 빌트인된 함수들
 
-사용자 정의 static values 들은 사용자가 변수를 정의하도록 한다. 
+사용자 정의 static values 들은, static 값들로 교체하기 위해서 사용자가 변수를 정의하도록 한다. 
 
 
 
@@ -406,7 +406,7 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjU0NTIyNCwtMzcwMjIxOTA3LDYxOT
+eyJoaXN0b3J5IjpbLTc1Nzk2MzYwMiwtMzcwMjIxOTA3LDYxOT
 U5OTUxMSwtMTY3MzI1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMw
 OSwxMjM1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLD
 E2MjY4Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3
