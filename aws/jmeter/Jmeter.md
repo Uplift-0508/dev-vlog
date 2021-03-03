@@ -359,7 +359,12 @@ ${VARIABLE}
 |Function Type |Name        |Comment    |
 |----------------|---------------|-----------------------------|
 |Information|threadNum|Get thread number.|
-
+|Information|samplerName|Get the sampler name (label).|
+|Information|machineIP|Get the local machine IP address.|
+|Information|machineName|Get the local machine name.|
+|Information|time|Return current time in various formats.|
+|Information|log|Log (or display) a message (and return the value).|
+|
 
 
 
@@ -368,7 +373,7 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ0NTExODQsNjE5NTk5NTExLC0xNj
+eyJoaXN0b3J5IjpbLTExODY0MzU2ODUsNjE5NTk5NTExLC0xNj
 czMjU0ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5LDEyMzU3MTY4
 MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNzYyNS
 wtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3NjcsLTg0
