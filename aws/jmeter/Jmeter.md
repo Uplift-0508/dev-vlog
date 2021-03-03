@@ -305,12 +305,17 @@ sample 들이 많다면, listener 들이 메모리를 많이 사용할 수 있�
 ### CSV Log format
 CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는지에 따라 결정된다. 특정 데이터 아이템들만 이 파일에 기록된다. 아래 표의 순서는 변하지 않는다.
 
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODE2OTA0LDEyMzU3MTY4MDEsLTIxMj
-U1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNzYyNSwtMzgzNjQ5
-MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3NjcsLTg0MTk1OTgzNC
-wtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwtNTAx
-OTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3Nj
-kwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOTMz
-MjM5NzM4XX0=
+eyJoaXN0b3J5IjpbLTczODE1ODg0NCwxMjM1NzE2ODAxLC0yMT
+I1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLTM4MzY0
+OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5NTk4Mz
+QsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3NjI5NDE2MjYsLTUw
+MTk4MTc3NiwxNjkzMTkyMDAxLC01ODYzNDY1OTUsLTk2OTk3Nz
+Y5MCw2NDY5MjU2NDEsNzQ0Mjc3NTAxLC03NDQ1NTMxMjksMTkz
+MzIzOTczOF19
 -->
