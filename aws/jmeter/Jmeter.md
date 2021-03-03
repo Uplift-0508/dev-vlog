@@ -356,7 +356,7 @@ ${VARIABLE}
 ```
 
 함수 목록
-|Function Type                |Name        |Comment    |
+|Function Type |Name        |Comment    |
 |----------------|---------------|-----------------------------|
 |Information|threadNum|Get thread number.|
 
@@ -368,7 +368,7 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ3Nzg2MTAsNjE5NTk5NTExLC0xNj
+eyJoaXN0b3J5IjpbLTE5NjQ0NTExODQsNjE5NTk5NTExLC0xNj
 czMjU0ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5LDEyMzU3MTY4
 MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNzYyNS
 wtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3NjcsLTg0
