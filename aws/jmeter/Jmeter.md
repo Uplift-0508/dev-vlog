@@ -300,13 +300,15 @@ listener 는 테스트 결과를 파일에 기록할 수 있는 반면, UI 에 �
 
 GUI mode 에서 테스트가 실행될 때, Simple Data Writer 라는 listener 를 사용한다. non-GUI mode 에서 테스트가 실행될 때는, -ㅣ 플래그를 데이터 파일을 생성하는데 사용한다. 
 
-sample 들이 많다면, listener 들이 메모리를 많이 사용할 수 있다.  
+sample 들이 많다면, listener 들이 메모리를 많이 사용할 수 있다.  필요한 메모리 양을 최소화하기 위해서는 Simple Data Write with CSV format 을 사용한다. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU1ODc2MjMsLTIxMjU1NDU5NTgsLT
-EyNjAyNjQ2NzIsMTYyNjgzNzYyNSwtMzgzNjQ5MzE0LC05Njcx
-NjYzMjUsLTE1MTc2ODg3NjcsLTg0MTk1OTgzNCwtMTMxNzE1OD
-I3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwtNTAxOTgxNzc2LDE2
-OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3NjkwLDY0NjkyNT
-Y0MSw3NDQyNzc1MDEsLTc0NDU1MzEyOSwxOTMzMjM5NzM4LDE5
-NDk3MDA5MTddfQ==
+eyJoaXN0b3J5IjpbMTIzNTcxNjgwMSwtMjEyNTU0NTk1OCwtMT
+I2MDI2NDY3MiwxNjI2ODM3NjI1LC0zODM2NDkzMTQsLTk2NzE2
+NjMyNSwtMTUxNzY4ODc2NywtODQxOTU5ODM0LC0xMzE3MTU4Mj
+csNDA2Mzk2OTU0LC0xNzYyOTQxNjI2LC01MDE5ODE3NzYsMTY5
+MzE5MjAwMSwtNTg2MzQ2NTk1LC05Njk5Nzc2OTAsNjQ2OTI1Nj
+QxLDc0NDI3NzUwMSwtNzQ0NTUzMTI5LDE5MzMyMzk3MzgsMTk0
+OTcwMDkxN119
 -->
