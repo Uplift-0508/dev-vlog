@@ -282,10 +282,11 @@ JMeter 에서는 모든 node element 들이 context menu 를 사용해 추가된
 
 ## Webservice Test Plan
 
+## JMS Test Plan
 
 데
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjE2ODUxNywtOTY3MTY2MzI1LC0xNT
+eyJoaXN0b3J5IjpbLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNT
 E3Njg4NzY3LC04NDE5NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5
 NTQsLTE3NjI5NDE2MjYsLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC
 01ODYzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0Mjc3
