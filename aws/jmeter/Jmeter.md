@@ -403,6 +403,8 @@ ${VARIABLE}
 - 이 변환 타입은 함수 없이 사용 가능하다. 하지만 덜 편리하고 덜 직관적이다. 
 
 함수와 변수를 어디에서 사용는가
+함수와 변수는 테스트 컴포넌트의 어떤 필드에도 작성할 수 있다.
+다음 함수들은 test plan 안에서 잘 작동한다.
 
 
 
@@ -411,7 +413,7 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODcyNTg4MSwtNTQ1MTA3Mjc4LC0zNz
+eyJoaXN0b3J5IjpbLTE1MDIwODMxMiwtNTQ1MTA3Mjc4LC0zNz
 AyMjE5MDcsNjE5NTk5NTExLC0xNjczMjU0ODE2LDY4ODc1Njg0
 NywtNzk2NDM2MzA5LDEyMzU3MTY4MDEsLTIxMjU1NDU5NTgsLT
 EyNjAyNjQ2NzIsMTYyNjgzNzYyNSwtMzgzNjQ5MzE0LC05Njcx
