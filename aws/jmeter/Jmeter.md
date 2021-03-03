@@ -405,6 +405,17 @@ ${VARIABLE}
 함수와 변수를 어디에서 사용는가
 함수와 변수는 테스트 컴포넌트의 어떤 필드에도 작성할 수 있다.
 다음 함수들은 test plan 안에서 잘 작동한다.
+-   intSum
+-   longSum
+-   machineName
+-   BeanShell
+-   javaScript
+-   jexl
+-   random
+-   time
+-   property functions
+-   log functions
+
 
 
 
@@ -413,11 +424,11 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDIwODMxMiwtNTQ1MTA3Mjc4LC0zNz
-AyMjE5MDcsNjE5NTk5NTExLC0xNjczMjU0ODE2LDY4ODc1Njg0
-NywtNzk2NDM2MzA5LDEyMzU3MTY4MDEsLTIxMjU1NDU5NTgsLT
-EyNjAyNjQ2NzIsMTYyNjgzNzYyNSwtMzgzNjQ5MzE0LC05Njcx
-NjYzMjUsLTE1MTc2ODg3NjcsLTg0MTk1OTgzNCwtMTMxNzE1OD
-I3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwtNTAxOTgxNzc2LDE2
-OTMxOTIwMDFdfQ==
+eyJoaXN0b3J5IjpbMTg2OTQ4MTY4LC01NDUxMDcyNzgsLTM3MD
+IyMTkwNyw2MTk1OTk1MTEsLTE2NzMyNTQ4MTYsNjg4NzU2ODQ3
+LC03OTY0MzYzMDksMTIzNTcxNjgwMSwtMjEyNTU0NTk1OCwtMT
+I2MDI2NDY3MiwxNjI2ODM3NjI1LC0zODM2NDkzMTQsLTk2NzE2
+NjMyNSwtMTUxNzY4ODc2NywtODQxOTU5ODM0LC0xMzE3MTU4Mj
+csNDA2Mzk2OTU0LC0xNzYyOTQxNjI2LC01MDE5ODE3NzYsMTY5
+MzE5MjAwMV19
 -->
