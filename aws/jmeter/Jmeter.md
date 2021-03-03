@@ -423,6 +423,7 @@ test element 내에 변수들을 참조하는 것은 '${' 와 '}' 으로 변수 
 함수들은 동일한 수단으로 참조된다. 하지만 함수 이름들은 사용자 값 이름들과 충돌을 피하기 위해서 ___ 으로 시작한다. 
 몇몇 함수들은 그들을 설정하기 위해 인자를 취한다. 
 
+![enter image description here](https://www.tutorialspoint.com/jmeter/images/reg_expr_extractor.jpg)
 
 
 
@@ -431,11 +432,11 @@ test element 내에 변수들을 참조하는 것은 '${' 와 '}' 으로 변수 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzczNTM5ODcsMTYwMTYxMjQ0OSwxMz
-EzMDAyODA5LC0xNjQxMDQwNjQxLC01NDUxMDcyNzgsLTM3MDIy
-MTkwNyw2MTk1OTk1MTEsLTE2NzMyNTQ4MTYsNjg4NzU2ODQ3LC
-03OTY0MzYzMDksMTIzNTcxNjgwMSwtMjEyNTU0NTk1OCwtMTI2
-MDI2NDY3MiwxNjI2ODM3NjI1LC0zODM2NDkzMTQsLTk2NzE2Nj
-MyNSwtMTUxNzY4ODc2NywtODQxOTU5ODM0LC0xMzE3MTU4Mjcs
-NDA2Mzk2OTU0XX0=
+eyJoaXN0b3J5IjpbLTExMjk4MjY2NiwtMTc3NzM1Mzk4NywxNj
+AxNjEyNDQ5LDEzMTMwMDI4MDksLTE2NDEwNDA2NDEsLTU0NTEw
+NzI3OCwtMzcwMjIxOTA3LDYxOTU5OTUxMSwtMTY3MzI1NDgxNi
+w2ODg3NTY4NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAxLC0yMTI1
+NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLTM4MzY0OT
+MxNCwtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5NTk4MzQs
+LTEzMTcxNTgyN119
 -->
