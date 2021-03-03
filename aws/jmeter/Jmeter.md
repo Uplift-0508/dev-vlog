@@ -340,12 +340,11 @@ Listener 의 GUI 데이터를 png 파일로 저장할 수 있다.
 JMeter Functions 과 User Variables
 JMeter 함수들은 테스트 트리 내에 sampler 나 다른 element 의 필드를 생성할 수 있는 특별한 값이다. 
 
-- 함수 호출은 다음과 같이 생겼다.
+함수 호출은 다음과 같이 생겼다.
 ``` 
 ${___functionName(var1, var2, var3)}
 ```
 _functionName 은 function 이름과 매치된다. 예를 들어 ${___threadNum}.
-
 
 함수 파라미터가 컴마를 포함하면 아래 처럼 "\" 를 붙여 컴마를 escape 한다. 
 ``` 
@@ -360,11 +359,11 @@ qu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1ODAzMzI5LDYxOTU5OTUxMSwtMTY3Mz
-I1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAx
-LC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLT
-M4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5
-NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3NjI5NDE2Mj
-YsLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC01ODYzNDY1OTUsLTk2
-OTk3NzY5MF19
+eyJoaXN0b3J5IjpbLTIyNzk0NDYxMiw2MTk1OTk1MTEsLTE2Nz
+MyNTQ4MTYsNjg4NzU2ODQ3LC03OTY0MzYzMDksMTIzNTcxNjgw
+MSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3NjI1LC
+0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2NywtODQx
+OTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYyOTQxNj
+I2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05
+Njk5Nzc2OTBdfQ==
 -->
