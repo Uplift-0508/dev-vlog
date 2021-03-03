@@ -371,6 +371,13 @@ ${VARIABLE}
 |Input|XPath|Use an XPath expression to read from a file.|
 |Calculation|counter|Generate an incrementing number.|
 |Calculation|intSum|Add int numbers.|
+|Calculation|longSum|Add long numbers.|
+|Calculation|Random|Generate a random number.|
+|Calculation|RandomString|Generate a random string.|
+|Calculation|UUID|Generate a random type 4 UUID.|
+|Scripting|BeanShell|Run a BeanShell script.|
+|Scripting|javaScript|Process JavaScript (Mozilla Rhino).|
+|Scripting|jexl, jexl2|Evaluate a Commons Jexl expression.|
 
 
 
@@ -380,11 +387,11 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDY0NTg4LDYxOTU5OTUxMSwtMTY3Mz
-I1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAx
-LC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLT
-M4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5
-NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3NjI5NDE2Mj
-YsLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC01ODYzNDY1OTUsLTk2
-OTk3NzY5MF19
+eyJoaXN0b3J5IjpbMTM5MTg1MDQyMSw2MTk1OTk1MTEsLTE2Nz
+MyNTQ4MTYsNjg4NzU2ODQ3LC03OTY0MzYzMDksMTIzNTcxNjgw
+MSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3NjI1LC
+0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2NywtODQx
+OTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYyOTQxNj
+I2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05
+Njk5Nzc2OTBdfQ==
 -->
