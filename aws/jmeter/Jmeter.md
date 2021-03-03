@@ -329,7 +329,8 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 | Idle Time | number of miliseconds of 'Idle' time (normally 0) | | 
 |Variables | if specified | |
 
- 
+ ### Response Data 저장
+ response data 는 필요시에 XML log 파일에 저장될 수 있다. 
 
 
 
@@ -341,11 +342,11 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTg1NzM5MCwtNzk2NDM2MzA5LDEyMz
-U3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgz
-NzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3Nj
-csLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2
-Mjk0MTYyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0Nj
-U5NSwtOTY5OTc3NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0
-NDU1MzEyOV19
+eyJoaXN0b3J5IjpbOTA0MTAwODEwLC03OTY0MzYzMDksMTIzNT
+cxNjgwMSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3
+NjI1LC0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2Ny
+wtODQxOTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYy
+OTQxNjI2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NT
+k1LC05Njk5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0
+NTUzMTI5XX0=
 -->
