@@ -382,7 +382,11 @@ ${VARIABLE}
 |Properties|P|Read a property (shorthand method).|
 |Properties|setProperty|Set a JMeter property.|
 |Variables|split|Split a string into variables.|
-|Variables|
+|Variables|V|Evaluate a variable name.|
+|Variables|eval|Evaluate a variable expression.|
+|Variables|evalVar|Evaluate an expression stored in a variable.|
+|String|regexFunction|Parse previous response using a regular expression.|
+|String|
 
 
 
@@ -391,7 +395,7 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTM0MjM1MSw2MTk1OTk1MTEsLTE2Nz
+eyJoaXN0b3J5IjpbLTkzNjcyMzQzNyw2MTk1OTk1MTEsLTE2Nz
 MyNTQ4MTYsNjg4NzU2ODQ3LC03OTY0MzYzMDksMTIzNTcxNjgw
 MSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3NjI1LC
 0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2NywtODQx
