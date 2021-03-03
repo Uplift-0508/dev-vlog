@@ -416,7 +416,7 @@ ${VARIABLE}
 -   property functions
 -   log functions
 
-Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter thread 변수들은 
+Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter thread 변수들은 함수들이 처리될때 완전히 셋업되지 않는다. 
 
 
 
@@ -424,11 +424,11 @@ Test Plan 에서 사용되는 함수들은 몇몇 제한이 있다. JMeter threa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDEwNDA2NDEsLTU0NTEwNzI3OCwtMz
-cwMjIxOTA3LDYxOTU5OTUxMSwtMTY3MzI1NDgxNiw2ODg3NTY4
-NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAxLC0yMTI1NTQ1OTU4LC
-0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLTM4MzY0OTMxNCwtOTY3
-MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5NTk4MzQsLTEzMTcxNT
-gyNyw0MDYzOTY5NTQsLTE3NjI5NDE2MjYsLTUwMTk4MTc3Niwx
-NjkzMTkyMDAxXX0=
+eyJoaXN0b3J5IjpbMTMxMzAwMjgwOSwtMTY0MTA0MDY0MSwtNT
+Q1MTA3Mjc4LC0zNzAyMjE5MDcsNjE5NTk5NTExLC0xNjczMjU0
+ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5LDEyMzU3MTY4MDEsLT
+IxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNzYyNSwtMzgz
+NjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3NjcsLTg0MTk1OT
+gzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwt
+NTAxOTgxNzc2XX0=
 -->
