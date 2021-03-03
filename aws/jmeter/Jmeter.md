@@ -426,18 +426,52 @@ test element 내에 변수들을 참조하는 것은 '${' 와 '}' 으로 변수 
 아래와 같이 정규표현식도 사용 가능하다.
 ![enter image description here](https://www.tutorialspoint.com/jmeter/images/reg_expr_extractor.jpg)
 
+### Best Practice
 
+JMeter는 특히 분산 환경에서 실행될 때 몇 가지 제한이 있습니다. 이 지침을 따르면 실제적이고 연속적인 부하를 생성하는 데 도움이 됩니다.  
+  
+JMeter의 여러 인스턴스를 사용하면 스레드 수가 더 많습니다.  
+  
+범위 지정 규칙과 그에 따라 설계를 선택합니다.  
+  
+모든 요소에 항상 명명 규칙을 사용합니다.  
+  
+스크립트를 실행하기 전에 기본 브라우저 연결 설정을 확인하십시오.  
+  
+수신기를 적절하게 추가합니다.  
+  
+다음은 리소스 요구 사항을 줄이기 위한 몇 가지 제안입니다.  
+  
+비 GUI 모드: jmeter -n -t test.jmx -l test.jtl을 사용합니다.  
+  
+가능한 한 적은 수의 수신기를 사용합니다. 위와 같이 -l 플래그를 사용하면 모두 삭제하거나 비활성화할 수 있습니다.  
+  
+"View Result Tree" 수신기는 메모리를 많이 소모하고 콘솔이 정지되거나 JMeter 메모리가 부족해질 수 있습니다. 그러나 "오류"만 선택한 상태에서 "결과 트리 보기" 수신기를 사용하는 것이 안전합니다.  
+  
+유사한 검체를 로트하지 않고 루프에 동일한 검체를 사용하고 변수(CSV 데이터 세트)를 사용하여 검체를 변화시킵니다. 또는 액세스 로그 샘플러를 사용할 수도 있습니다.  
+  
+기능 모드를 사용하지 마십시오.  
+  
+XML 대신 CSV 출력을 사용합니다.  
+  
+필요한 데이터만 저장합니다.  
+  
+가능한 한 적게 주장을 사용합니다.  
+  
+모든 JMeter 그래프는 많은 메모리를 소모하므로 사용하지 않도록 설정합니다. 웹 인터페이스의 JTL 탭을 사용하여 모든 실시간 그래프를 볼 수 있습니다.  
+  
+사용되는 경우 CSV Data Set Config에서 로컬 경로를 지우는 것을 잊지 마십시오.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzU3NTk4NSwtMTc3NzM1Mzk4NywxNj
-AxNjEyNDQ5LDEzMTMwMDI4MDksLTE2NDEwNDA2NDEsLTU0NTEw
-NzI3OCwtMzcwMjIxOTA3LDYxOTU5OTUxMSwtMTY3MzI1NDgxNi
-w2ODg3NTY4NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAxLC0yMTI1
-NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLTM4MzY0OT
-MxNCwtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5NTk4MzQs
-LTEzMTcxNTgyN119
+eyJoaXN0b3J5IjpbMTEwOTA0NDMzNCwxNTIzNTc1OTg1LC0xNz
+c3MzUzOTg3LDE2MDE2MTI0NDksMTMxMzAwMjgwOSwtMTY0MTA0
+MDY0MSwtNTQ1MTA3Mjc4LC0zNzAyMjE5MDcsNjE5NTk5NTExLC
+0xNjczMjU0ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5LDEyMzU3
+MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNz
+YyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3Njcs
+LTg0MTk1OTgzNF19
 -->
