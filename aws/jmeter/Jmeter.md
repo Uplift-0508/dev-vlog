@@ -400,7 +400,9 @@ ${VARIABLE}
 - 사용자 정의 정적 값을 사용하면 테스트 트리를 컴파일하여 실행할 때 정적 값으로 대체할 변수를 정의할 수 있습니다.
 - 변수들은 중첩될 수 없다. 예를 들어 ${Var${N}} 은 동작하지 않는다.
 - ___V (변수) 함수 (2.2 이상 버전들) 는 ${___V(Var${N})} 이렇게 사용하는데 쓴다.
-- 
+- 이 변환 타입은 함수 없이 사용 가능하다. 하지만 덜 편리하고 덜 직관적이다. 
+
+
 
 
 
@@ -408,11 +410,11 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExNDEyNTk3LC0zNzAyMjE5MDcsNjE5NT
-k5NTExLC0xNjczMjU0ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5
-LDEyMzU3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMT
-YyNjgzNzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2
-ODg3NjcsLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NC
-wtMTc2Mjk0MTYyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4
-NjM0NjU5NV19
+eyJoaXN0b3J5IjpbLTU0NTEwNzI3OCwtMzcwMjIxOTA3LDYxOT
+U5OTUxMSwtMTY3MzI1NDgxNiw2ODg3NTY4NDcsLTc5NjQzNjMw
+OSwxMjM1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLD
+E2MjY4Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3
+Njg4NzY3LC04NDE5NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NT
+QsLTE3NjI5NDE2MjYsLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC01
+ODYzNDY1OTVdfQ==
 -->
