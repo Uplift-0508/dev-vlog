@@ -364,6 +364,10 @@ ${VARIABLE}
 |Information|machineName|Get the local machine name.|
 |Information|time|Return current time in various formats.|
 |Information|log|Log (or display) a message (and return the value).|
+|Information|logn|Log (or display) a message (empty return value).|
+|Input|StringFromFile|Read a line from a file.|
+|Input|FileToString|Read an entire file.|
+|Input|CSVRead|Read from CSV delimited file.|
 |
 
 
@@ -373,11 +377,11 @@ ${VARIABLE}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY0MzU2ODUsNjE5NTk5NTExLC0xNj
-czMjU0ODE2LDY4ODc1Njg0NywtNzk2NDM2MzA5LDEyMzU3MTY4
-MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNzYyNS
-wtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3NjcsLTg0
-MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2Mjk0MT
-YyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwt
-OTY5OTc3NjkwXX0=
+eyJoaXN0b3J5IjpbMjEyMTAxNjE2Niw2MTk1OTk1MTEsLTE2Nz
+MyNTQ4MTYsNjg4NzU2ODQ3LC03OTY0MzYzMDksMTIzNTcxNjgw
+MSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3NjI1LC
+0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2NywtODQx
+OTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYyOTQxNj
+I2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05
+Njk5Nzc2OTBdfQ==
 -->
