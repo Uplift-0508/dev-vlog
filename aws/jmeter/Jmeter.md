@@ -340,6 +340,13 @@ Listener 의 GUI 데이터를 png 파일로 저장할 수 있다.
 JMeter Functions 과 User Variables
 JMeter 함수들은 테스트 트리 내에 sampler 나 다른 element 의 필드를 생성할 수 있는 특별한 값이다. 
 
+함수 호출은 다음과 같이 생겼다.
+``` 
+${___functionName(var1, var2, var3)}
+```
+_functionName 은 function 이름과 매치된다. 예를 들어 ${___threadNum}.
+함수 파라미터가 컴마를 포함하면 
+
 
 
 
@@ -347,7 +354,7 @@ JMeter 함수들은 테스트 트리 내에 sampler 나 다른 element 의 필�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzY3MjA5NCwtMTY3MzI1NDgxNiw2OD
+eyJoaXN0b3J5IjpbMTY4NzY5NzIwMywtMTY3MzI1NDgxNiw2OD
 g3NTY4NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAxLC0yMTI1NTQ1
 OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLTM4MzY0OTMxNC
 wtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5NTk4MzQsLTEz
