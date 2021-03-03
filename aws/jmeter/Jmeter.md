@@ -330,7 +330,7 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 |Variables | if specified | |
 
  ### Response Data 저장
- response data 는 필요시에 XML log 파일에 저장될 수 있다. 그러나 큰 파일들이나 이미지들은 저장할 수 있다. 이런 경우에는 Post-Processor Save_Responses_to_a_file 을 사용한다. 이는 각 샘플에 대한 새로운 파일들을 생성한다. 
+ response data 는 필요시에 XML log 파일에 저장될 수 있다. 그러나 큰 파일들이나 이미지들은 저장할 수 있다. 이런 경우에는 Post-Processor Save_Responses_to_a_file 을 사용한다. 이는 각 샘플에 대한 새로운 파일들을 생성한다. 그리고 샘플과 파일 이름을 저장한다. 파일명은 sample log 결과에 포함된다. data 느
 
 
 
@@ -342,7 +342,7 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjU1NjMzMCwtNzk2NDM2MzA5LDEyMz
+eyJoaXN0b3J5IjpbLTkzODA0MDA4NiwtNzk2NDM2MzA5LDEyMz
 U3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgz
 NzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3Nj
 csLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2
