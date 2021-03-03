@@ -324,7 +324,12 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 | latency | time to first response | 132 |
 | encoding |  | utf-8 |
 | SampleCount | number of samples (1, unless multiple samples are aggregated) | 1 |
-| ErrorCount | number of errors (0 or 1, unless multiple samples are aggre 
+| ErrorCount | number of errors (0 or 1, unless multiple samples are aggregated) | 0 |
+| Hostname | where the sample was generated | LaptopManisha |
+| Idle Time | number of miliseconds of 'Idle' time (normally 0) | | 
+|Variables | if specified | |
+
+ 
 
 
 
@@ -336,7 +341,7 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjA4Mjc1OCwtNzk2NDM2MzA5LDEyMz
+eyJoaXN0b3J5IjpbMTQ1MTg1NzM5MCwtNzk2NDM2MzA5LDEyMz
 U3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgz
 NzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3Nj
 csLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2
