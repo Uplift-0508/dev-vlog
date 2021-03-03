@@ -338,7 +338,7 @@ Listener 의 GUI 데이터를 png 파일로 저장할 수 있다.
 
 ## Functions
 JMeter Functions 과 User Variables
-JMeter 함수들은 sampler 나 다른 element 의 필드를 생성할 수 있는 특별한 값이다. 
+JMeter 함수들은 테스트 트리 내에 sampler 나 다른 element 의 필드를 생성할 수 있는 특별한 값이다. 
 
 
 
@@ -347,11 +347,11 @@ JMeter 함수들은 sampler 나 다른 element 의 필드를 생성할 수 있�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzE0NjM0LC0xNjczMjU0ODE2LDY4OD
-c1Njg0NywtNzk2NDM2MzA5LDEyMzU3MTY4MDEsLTIxMjU1NDU5
-NTgsLTEyNjAyNjQ2NzIsMTYyNjgzNzYyNSwtMzgzNjQ5MzE0LC
-05NjcxNjYzMjUsLTE1MTc2ODg3NjcsLTg0MTk1OTgzNCwtMTMx
-NzE1ODI3LDQwNjM5Njk1NCwtMTc2Mjk0MTYyNiwtNTAxOTgxNz
-c2LDE2OTMxOTIwMDEsLTU4NjM0NjU5NSwtOTY5OTc3NjkwLDY0
-NjkyNTY0MV19
+eyJoaXN0b3J5IjpbLTI1NzY3MjA5NCwtMTY3MzI1NDgxNiw2OD
+g3NTY4NDcsLTc5NjQzNjMwOSwxMjM1NzE2ODAxLC0yMTI1NTQ1
+OTU4LC0xMjYwMjY0NjcyLDE2MjY4Mzc2MjUsLTM4MzY0OTMxNC
+wtOTY3MTY2MzI1LC0xNTE3Njg4NzY3LC04NDE5NTk4MzQsLTEz
+MTcxNTgyNyw0MDYzOTY5NTQsLTE3NjI5NDE2MjYsLTUwMTk4MT
+c3NiwxNjkzMTkyMDAxLC01ODYzNDY1OTUsLTk2OTk3NzY5MCw2
+NDY5MjU2NDFdfQ==
 -->
