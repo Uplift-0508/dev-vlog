@@ -288,12 +288,13 @@ JMeter 에서는 모든 node element 들이 context menu 를 사용해 추가된
 Listener 는 JMeter 가 실행되는 동안 테스트 케이스에 대해서 JMeter 가 수집한 정보들에 접근하도록 해준다. listener 는 수집한 결과나 정보들을 **tree, tables, graphs, log file** 의 형태로 보여준다. 
 모든 listener 들은 동일한 raw data 를 output file 에 작성한다. 
 
-저장할 기본 설정값들은 다음 두 가지 방법으로 정의될 수 있다. 첫번째, JMeter 폴더에 /bin 안에 jmeter.properties (user.properties) 파일이 있다. 파일에서 아래 라인을 변ㄱ
+저장할 기본 설정값들은 다음 두 가지 방법으로 정의될 수 있다. 첫번째, JMeter 폴더에 /bin 안에 jmeter.properties (user.properties) 파일이 있다. 파일에서 아래 라인을 수정하는 방법이 있다.
 ``` jmeter.save.saveservice.output_format=```
 
+두번째는 Config 팝업에서 수정하는 방법이 있다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDQwMTE5NCwxNjI2ODM3NjI1LC0zOD
+eyJoaXN0b3J5IjpbMTU3NzI0NzQxMSwxNjI2ODM3NjI1LC0zOD
 M2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2NywtODQxOTU5
 ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYyOTQxNjI2LC
 01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NTk1LC05Njk5
