@@ -296,13 +296,13 @@ Listener 는 JMeter 가 실행되는 동안 테스트 케이스에 대해서 JMe
 JMeter 는 JMeter Text Logs(JTL) 를 테스트 실행 결과로 생성한다. 이는 일반적으로 JTL 파일로 부른다. 기본 확장자가 jtl 이지만 다른 확장자들도 사용 가능하다. 
 
 다수의 테스트들이 동일한 output 파일 이름을 사용하며 실행된다면, JMeter 는 자동적으로 새로운 데이터를 파일 끝에 붙인다. 
-listener 는 
+listener 는 테스트 결과를 파일에 기록할 수 있는 반면, UI 에 기록하지 않는다. 이것은 GUI 오버헤드를 제거함으로써 데이터를 기록하는 효율적인 수단을 제공한다는 것을 의미한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTYzNDg5NywtMjEyNTU0NTk1OCwtMT
-I2MDI2NDY3MiwxNjI2ODM3NjI1LC0zODM2NDkzMTQsLTk2NzE2
-NjMyNSwtMTUxNzY4ODc2NywtODQxOTU5ODM0LC0xMzE3MTU4Mj
-csNDA2Mzk2OTU0LC0xNzYyOTQxNjI2LC01MDE5ODE3NzYsMTY5
-MzE5MjAwMSwtNTg2MzQ2NTk1LC05Njk5Nzc2OTAsNjQ2OTI1Nj
-QxLDc0NDI3NzUwMSwtNzQ0NTUzMTI5LDE5MzMyMzk3MzgsMTk0
-OTcwMDkxN119
+eyJoaXN0b3J5IjpbLTc1ODU3OTExLC0yMTI1NTQ1OTU4LC0xMj
+YwMjY0NjcyLDE2MjY4Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2
+MzI1LC0xNTE3Njg4NzY3LC04NDE5NTk4MzQsLTEzMTcxNTgyNy
+w0MDYzOTY5NTQsLTE3NjI5NDE2MjYsLTUwMTk4MTc3NiwxNjkz
+MTkyMDAxLC01ODYzNDY1OTUsLTk2OTk3NzY5MCw2NDY5MjU2ND
+EsNzQ0Mjc3NTAxLC03NDQ1NTMxMjksMTkzMzIzOTczOCwxOTQ5
+NzAwOTE3XX0=
 -->
