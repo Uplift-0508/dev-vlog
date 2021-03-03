@@ -317,7 +317,10 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 | success | true or false | true |
 |failureMessage | if any | |
 | bytes | number of bytes in the sample | 34908 |
-| grpThreads | number of active th 
+| grpThreads | number of active threads in this thread group| 1 |
+| allThreads | total number of active threads in all groups | 1 |
+| URL |  | http://tutorialspoint.com |
+ |Filename | if Save Response to File was used 
 
 
 
@@ -329,11 +332,11 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDg1MTQ0MCwtNzk2NDM2MzA5LDEyMz
-U3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgz
-NzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3Nj
-csLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2
-Mjk0MTYyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0Nj
-U5NSwtOTY5OTc3NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0
-NDU1MzEyOV19
+eyJoaXN0b3J5IjpbOTI2MjAzNzA2LC03OTY0MzYzMDksMTIzNT
+cxNjgwMSwtMjEyNTU0NTk1OCwtMTI2MDI2NDY3MiwxNjI2ODM3
+NjI1LC0zODM2NDkzMTQsLTk2NzE2NjMyNSwtMTUxNzY4ODc2Ny
+wtODQxOTU5ODM0LC0xMzE3MTU4MjcsNDA2Mzk2OTU0LC0xNzYy
+OTQxNjI2LC01MDE5ODE3NzYsMTY5MzE5MjAwMSwtNTg2MzQ2NT
+k1LC05Njk5Nzc2OTAsNjQ2OTI1NjQxLDc0NDI3NzUwMSwtNzQ0
+NTUzMTI5XX0=
 -->
