@@ -307,9 +307,10 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 |Field                |Description                          |Value Example                         |
 |----------------|-------------------------------|-----------------------------|
-|timeStamp|in milliseconds since 1/1/1970          |1354223881017            |elapsed
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|timeStamp|in milliseconds since 1/1/1970          |1354223881017            |
+|elapsed          |in milliseconds           |1858            |
+|label          |sampler label|HTTP Request|
+
 
 
 
@@ -319,11 +320,11 @@ CSV log format 은 설정에서 어떤 데이터 아이템들이 선택되었는
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzY1MzY3MSwtNzk2NDM2MzA5LDEyMz
-U3MTY4MDEsLTIxMjU1NDU5NTgsLTEyNjAyNjQ2NzIsMTYyNjgz
-NzYyNSwtMzgzNjQ5MzE0LC05NjcxNjYzMjUsLTE1MTc2ODg3Nj
-csLTg0MTk1OTgzNCwtMTMxNzE1ODI3LDQwNjM5Njk1NCwtMTc2
-Mjk0MTYyNiwtNTAxOTgxNzc2LDE2OTMxOTIwMDEsLTU4NjM0Nj
-U5NSwtOTY5OTc3NjkwLDY0NjkyNTY0MSw3NDQyNzc1MDEsLTc0
-NDU1MzEyOV19
+eyJoaXN0b3J5IjpbLTE5MzQxOTQ5ODIsLTc5NjQzNjMwOSwxMj
+M1NzE2ODAxLC0yMTI1NTQ1OTU4LC0xMjYwMjY0NjcyLDE2MjY4
+Mzc2MjUsLTM4MzY0OTMxNCwtOTY3MTY2MzI1LC0xNTE3Njg4Nz
+Y3LC04NDE5NTk4MzQsLTEzMTcxNTgyNyw0MDYzOTY5NTQsLTE3
+NjI5NDE2MjYsLTUwMTk4MTc3NiwxNjkzMTkyMDAxLC01ODYzND
+Y1OTUsLTk2OTk3NzY5MCw2NDY5MjU2NDEsNzQ0Mjc3NTAxLC03
+NDQ1NTMxMjldfQ==
 -->
