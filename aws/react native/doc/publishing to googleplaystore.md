@@ -43,13 +43,13 @@ MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
 MYAPP_UPLOAD_STORE_PASSWORD=*****
 MYAPP_UPLOAD_KEY_PASSWORD=*****
 
-이것은 global gradle variable 이 될 것이
+이것은 global gradle variable 이다. 앱을 서명할 때 gradle config 로 사용할 것이다. 
 
-These are going to be global Gradle variables, which we can later use in our Gradle config to sign our app.
+보안 주의: 
 
 _Note about security: If you are not keen on storing your passwords in plaintext, and you are running OSX, you can also  [store your credentials in the Keychain Access app](https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/). Then you can skip the two last rows in  `~/.gradle/gradle.properties`._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ1MTg0MzMsLTIwMTYzNTU0MjcsMz
-IzMDE0MTM3LC0zMTk2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTc3NjcxMzI0NCwtMjAxNjM1NTQyNywzMj
+MwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgx
+MTZdfQ==
 -->
