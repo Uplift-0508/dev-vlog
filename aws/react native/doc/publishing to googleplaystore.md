@@ -101,10 +101,8 @@ $ npx react-native run-android --variant=release
  `--variant=release` 은 위에 설명된 방법으로 서명을 셋팅했을 때만 사용 가능한다. 
 
 모든 프레임워크와 자바스크립트 코드가 APK 의 asset 으로 번들되었기 때문에, 실행중인 번들러 인스턴스들을 종료할 수 있다. 
-
-You can terminate any running bundler instances, since all your framework and JavaScript code is bundled in the APK's assets.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDMzNzI0MCwtMTY5NzAxMzI4OSwxND
-AzMjM0NDQxLC0yMDE2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1
-MzkwLC0xMjM1MDkzNTc4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTMyMjg4ODA5LC0xNjk3MDEzMjg5LDE0MD
+MyMzQ0NDEsLTIwMTYzNTU0MjcsMzIzMDE0MTM3LC0zMTk2NzUz
+OTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
 -->
