@@ -101,8 +101,35 @@ $ npx react-native run-android --variant=release
  `--variant=release` 은 위에 설명된 방법으로 서명을 셋팅했을 때만 사용 가능한다. 
 
 모든 프레임워크와 자바스크립트 코드가 APK 의 asset 으로 번들되었기 때문에, 실행중인 번들러 인스턴스들을 종료할 수 있다. 
+
+### Publishing to other stores[#](https://reactnative.dev/docs/getting-started#publishing-to-other-stores "Direct link to heading")
+
+
+By default, the generated APK has the native code for both x86 and ARMv7a CPU architectures. This makes it easier to share APKs that run on almost all Android devices. However, this has the downside that there will be some unused native code on any device, leading to unnecessarily bigger APKs.
+
+You can create an APK for each CPU by changing the following line in android/app/build.gradle:
+
+- ndk {
+
+- abiFilters "armeabi-v7a", "x86"
+
+- }
+
+- def enableSeparateBuildPerCPUArchitecture = false
+
++ def enableSeparateBuildPerCPUArchitecture = true
+
+Copy
+
+Upload both these files to markets which support device targeting, such as  [Google Play](https://developer.android.com/google/play/publishing/multiple-apks.html)  and  [Amazon AppStore](https://developer.amazon.com/docs/app-submission/device-filtering-and-compatibility.html), and the users will automatically get the appropriate APK. If you want to upload to other markets, such as  [APKFiles](https://www.apkfiles.com/), which do not support multiple APKs for a single app, change the following line as well to create the default universal APK with binaries for both CPUs.
+
+- universalApk false // If true, also generate a universal APK
+
++ universalApk true // If true, also generate a universal APK
+
+Copy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjg4ODA5LC0xNjk3MDEzMjg5LDE0MD
-MyMzQ0NDEsLTIwMTYzNTU0MjcsMzIzMDE0MTM3LC0zMTk2NzUz
-OTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTY2NTM4MzY4OCwtMTY5NzAxMzI4OSwxND
+AzMjM0NDQxLC0yMDE2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1
+MzkwLC0xMjM1MDkzNTc4LDczMDk5ODExNl19
 -->
