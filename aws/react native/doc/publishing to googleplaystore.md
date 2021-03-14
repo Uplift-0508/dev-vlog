@@ -86,13 +86,13 @@ $ ./gradlew bundleRelease
 ```
 그레들의 `bundleRelease`는 app 을 실행시키기 위해서 필요한 모든 JavaScript 를 AAB ([Android App Bundle](https://developer.android.com/guide/app-bundle))에 bundle 한다. JavaScript bundle 과/또는 리소스들을 번들하는 방법을 바꿔야한다면, (예를들어 default file/folder 이름 또는 프로젝트 구조를 변경한 경우), 이 변경사항을 반영하기 위해 `android/app/build.gradle` 을 어떻게 수정해야할지 살펴본다.
 
-> Note: Make sure gradle.properties does not include  _org.gradle.configureondemand=true_  as that will make the release build skip bundling JS and assets into the app binary.
+gradle.properties 는 _org.gradle.configureondemand=true (release build 가 JS 와 assets 를 앱 바이너리에 번들링하는 것을 스킵한다는 것을 의미) 를 포함하지 않는다. 
 
 The generated AAB can be found under  `android/app/build/outputs/bundle/release/app.aab`, and is ready to be uploaded to Google Play.
 
 _Note: In order for Google Play to accept AAB format the App Signing by Google Play needs to be configured for your application on the Google Play Console. If you are updating an existing app that doesn't use App Signing by Google Play, please check our  [migration section](https://reactnative.dev/docs/getting-started#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play)  to learn how to perform that configuration change._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU4NDc5ODMsMTQwMzIzNDQ0MSwtMj
-AxNjM1NTQyNywzMjMwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5
-MzU3OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTM5MzE4MjYyNywxNDAzMjM0NDQxLC0yMD
+E2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkz
+NTc4LDczMDk5ODExNl19
 -->
