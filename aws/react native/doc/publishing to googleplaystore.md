@@ -5,7 +5,8 @@
 
 ### Generating an upload key[#](https://reactnative.dev/docs/getting-started#generating-an-upload-key "Direct link to heading")
 
-You can generate a private signing key using  `keytool`. On Windows  `keytool`  must be run from  `C:\Program Files\Java\jdkx.x.x_x\bin`.
+keytool 을 사용해서 private signing key 를 생성할 수 있다. 윈도우에서는 keytool 이 `C:\Program Files\Java\jdkx.x.x_x\bin` 에서 실행되
+You can generate a private signing key using  `keytool`. On Windows  `keytool`  must be run from  
 
 $ keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA  -keysize 2048  -validity 10000
 
@@ -35,6 +36,6 @@ Copy
 
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTY3NTM5MCwtMTIzNTA5MzU3OCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM3NjQ0ODEzMSwtMzE5Njc1MzkwLC0xMj
+M1MDkzNTc4LDczMDk5ODExNl19
 -->
