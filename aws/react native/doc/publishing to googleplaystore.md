@@ -50,8 +50,7 @@ MYAPP_UPLOAD_KEY_PASSWORD=*****
 ### Adding signing config to your app's Gradle config[#](https://reactnative.dev/docs/getting-started#adding-signing-config-to-your-apps-gradle-config "Direct link to heading")
 
 마지막 설정 단계는, upload key 를 사용해서 서명하기 위한 release build 를 세팅하는 것이다.
-프로젝트 폴더 내에 `android/app/build.gradle` 파일을 수정하고 서명 config 를 ㅊ
- Edit the file   in your project folder, and add the signing config,
+프로젝트 폴더 내에 `android/app/build.gradle` 파일을 수정하고 서명 config 를 추가한다.
 
 ```
 ...
@@ -77,8 +76,27 @@ android {
 }
 ...
 ```
+
+### Generating the release APK[#](https://reactnative.dev/docs/getting-started#generating-the-release-apk "Direct link to heading")
+
+터미널에서 아래를 실행한다.
+```
+$ cd android
+$ ./gradlew bundleRelease
+```
+
+
+
+
+Gradle's  `bundleRelease`  will bundle all the JavaScript needed to run your app into the AAB ([Android App Bundle](https://developer.android.com/guide/app-bundle)). If you need to change the way the JavaScript bundle and/or drawable resources are bundled (e.g. if you changed the default file/folder names or the general structure of the project), have a look at  `android/app/build.gradle`  to see how you can update it to reflect these changes.
+
+> Note: Make sure gradle.properties does not include  _org.gradle.configureondemand=true_  as that will make the release build skip bundling JS and assets into the app binary.
+
+The generated AAB can be found under  `android/app/build/outputs/bundle/release/app.aab`, and is ready to be uploaded to Google Play.
+
+_Note: In order for Google Play to accept AAB format the App Signing by Google Play needs to be configured for your application on the Google Play Console. If you are updating an existing app that doesn't use App Signing by Google Play, please check our  [migration section](https://reactnative.dev/docs/getting-started#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play)  to learn how to perform that configuration change._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0ODUxMzE0LDE0MDMyMzQ0NDEsLTIwMT
-YzNTU0MjcsMzIzMDE0MTM3LC0zMTk2NzUzOTAsLTEyMzUwOTM1
-NzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTMwMjgzODYwMCwxNDAzMjM0NDQxLC0yMD
+E2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkz
+NTc4LDczMDk5ODExNl19
 -->
