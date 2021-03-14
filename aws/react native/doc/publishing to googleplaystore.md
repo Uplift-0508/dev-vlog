@@ -104,7 +104,7 @@ $ npx react-native run-android --variant=release
 
 ### Publishing to other stores[#](https://reactnative.dev/docs/getting-started#publishing-to-other-stores "Direct link to heading")
 
-
+기본적으로 생성된 APK 는 x86 과  ARMv7a CPU 아키텍처를 위한 네이티브 코드를 둘다 가지고 있다. 이는 아
 By default, the generated APK has the native code for both x86 and ARMv7a CPU architectures. This makes it easier to share APKs that run on almost all Android devices. However, this has the downside that there will be some unused native code on any device, leading to unnecessarily bigger APKs.
 
 You can create an APK for each CPU by changing the following line in android/app/build.gradle:
@@ -129,7 +129,7 @@ Upload both these files to markets which support device targeting, such as  [Goo
 
 Copy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTM4MzY4OCwtMTY5NzAxMzI4OSwxND
-AzMjM0NDQxLC0yMDE2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1
-MzkwLC0xMjM1MDkzNTc4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTQ2NjkxOTg0LC0xNjk3MDEzMjg5LDE0MD
+MyMzQ0NDEsLTIwMTYzNTU0MjcsMzIzMDE0MTM3LC0zMTk2NzUz
+OTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
 -->
