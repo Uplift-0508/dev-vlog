@@ -84,8 +84,7 @@ android {
 $ cd android
 $ ./gradlew bundleRelease
 ```
-그레들의 `bundleRelease`는 app 을 실행시키기 위해서 필요한 모든 JavaScript 를 AAB ([Android App Bundle](https://developer.android.com/guide/app-bundle))에 bundle 한다. JavaScript bundle 과/또는 리소스들을 번들하는 방법을 바꿔야한다면, (예를들어 default file/folder 이름 또는 프로젝트 구조를 변경
-If you need to change the way the JavaScript bundle and/or drawable resources are bundled (e.g. if you changed the default file/folder names or the general structure of the project), have a look at  `android/app/build.gradle`  to see how you can update it to reflect these changes.
+그레들의 `bundleRelease`는 app 을 실행시키기 위해서 필요한 모든 JavaScript 를 AAB ([Android App Bundle](https://developer.android.com/guide/app-bundle))에 bundle 한다. JavaScript bundle 과/또는 리소스들을 번들하는 방법을 바꿔야한다면, (예를들어 default file/folder 이름 또는 프로젝트 구조를 변경한 경우), 이 변경사항을 반영하기 위해 `android/app/build.gradle` 을 어떻게 수정해야할지 살펴본다.
 
 > Note: Make sure gradle.properties does not include  _org.gradle.configureondemand=true_  as that will make the release build skip bundling JS and assets into the app binary.
 
@@ -93,7 +92,7 @@ The generated AAB can be found under  `android/app/build/outputs/bundle/release/
 
 _Note: In order for Google Play to accept AAB format the App Signing by Google Play needs to be configured for your application on the Google Play Console. If you are updating an existing app that doesn't use App Signing by Google Play, please check our  [migration section](https://reactnative.dev/docs/getting-started#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play)  to learn how to perform that configuration change._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc0MDY1MDksMTQwMzIzNDQ0MSwtMj
+eyJoaXN0b3J5IjpbLTE1MDU4NDc5ODMsMTQwMzIzNDQ0MSwtMj
 AxNjM1NTQyNywzMjMwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5
 MzU3OCw3MzA5OTgxMTZdfQ==
 -->
