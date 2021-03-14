@@ -45,11 +45,11 @@ MYAPP_UPLOAD_KEY_PASSWORD=*****
 
 이것은 global gradle variable 이다. 앱을 서명할 때 gradle config 로 사용할 것이다. 
 
-보안 주의: 
+보안 주의: password 를 plaintext 로 저장하지 않으면, OSX 를 실행할 수 있다.  [store your credentials in the Keychain Access app](https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/)를 참고하자. 
 
-_Note about security: If you are not keen on storing your passwords in plaintext, and you are running OSX, you can also  [store your credentials in the Keychain Access app](https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/). Then you can skip the two last rows in  `~/.gradle/gradle.properties`._
+_Note about security: If you are not keen on storing your passwords in plaintext, and you are running OSX, you can also . Then you can skip the two last rows in  `~/.gradle/gradle.properties`._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjcxMzI0NCwtMjAxNjM1NTQyNywzMj
-MwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbNjU1OTE3NTYyLC0yMDE2MzU1NDI3LDMyMz
+AxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkzNTc4LDczMDk5ODEx
+Nl19
 -->
