@@ -30,11 +30,10 @@ $ /usr/libexec/java_home
 ```
 $ sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA  -keysize 2048  -validity 10000
 ```
-
-
-_Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
+keystore file 은 private 으로 유지한다. upload key 를 분실한다면 아래 가이드를 참고한다.
+[follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODAyMDkyMywtMjAxNjM1NTQyNywzMj
-MwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMjMxMzExNjU0LC0yMDE2MzU1NDI3LDMyMz
+AxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkzNTc4LDczMDk5ODEx
+Nl19
 -->
