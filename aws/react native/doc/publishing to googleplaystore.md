@@ -32,11 +32,9 @@ $ sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -
 ```
 
 
-Copy
-
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjg0MDYyLC0yMDE2MzU1NDI3LDMyMz
-AxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkzNTc4LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbMTkyODAyMDkyMywtMjAxNjM1NTQyNywzMj
+MwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgx
+MTZdfQ==
 -->
