@@ -46,8 +46,38 @@ MYAPP_UPLOAD_KEY_PASSWORD=*****
 이것은 global gradle variable 이다. 앱을 서명할 때 gradle config 로 사용할 것이다. 
 
 보안 주의: password 를 plaintext 로 저장하지 않으면, OSX 를 실행할 수 있다.  [store your credentials in the Keychain Access app](https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/)를 참고하자. 그러면 `~/.gradle/gradle.properties` 설정에서 마지막 두 줄을 skip 할 수 있다. 
+
+### Adding signing config to your app's Gradle config[#](https://reactnative.dev/docs/getting-started#adding-signing-config-to-your-apps-gradle-config "Direct link to heading")
+
+
+The last configuration step that needs to be done is to setup release builds to be signed using upload key. Edit the file  `android/app/build.gradle`  in your project folder, and add the signing config,
+
+```
+...
+android {
+    ...
+    defaultConfig { ... }
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            ...
+            signingConfig signingConfigs.release
+        }
+    }
+}
+...
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzIzNDQ0MSwtMjAxNjM1NTQyNywzMj
-MwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbNjY3NjQyMzE5LDE0MDMyMzQ0NDEsLTIwMT
+YzNTU0MjcsMzIzMDE0MTM3LC0zMTk2NzUzOTAsLTEyMzUwOTM1
+NzgsNzMwOTk4MTE2XX0=
 -->
