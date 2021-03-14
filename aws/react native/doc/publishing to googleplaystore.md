@@ -36,8 +36,9 @@ keystore file 은 private 으로 유지한다. upload key 를 분실한다면 �
 
 ### Setting up Gradle variables[#](https://reactnative.dev/docs/getting-started#setting-up-gradle-variables "Direct link to heading")
 
-1.  Place the  `my-upload-key.keystore`  file under the  `android/app`  directory in your project folder.
-2.  Edit the file  `~/.gradle/gradle.properties`  or  `android/gradle.properties`, and add the following (replace  `*****`  with the correct keystore password, alias and key password),
+1. `my-upload-key.keystore` 파일을 프로젝트 폴더에서 `android/app` 디렉토리 아래에 옮겨둔다.
+2. `~/.gradle/gradle.properties` 파일 혹은 
+2.  Edit the file    or  `android/gradle.properties`, and add the following (replace  `*****`  with the correct keystore password, alias and key password),
 
 MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
 
@@ -53,7 +54,7 @@ These are going to be global Gradle variables, which we can later use in our Gra
 
 _Note about security: If you are not keen on storing your passwords in plaintext, and you are running OSX, you can also  [store your credentials in the Keychain Access app](https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/). Then you can skip the two last rows in  `~/.gradle/gradle.properties`._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3ODExOTIsLTIwMTYzNTU0MjcsMzIzMD
-E0MTM3LC0zMTk2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbLTgyNTMyMzM0MiwtMjAxNjM1NTQyNywzMj
+MwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgx
+MTZdfQ==
 -->
