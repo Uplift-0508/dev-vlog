@@ -88,11 +88,13 @@ $ ./gradlew bundleRelease
 
 gradle.properties 는 _org.gradle.configureondemand=true (release build 가 JS 와 assets 를 앱 바이너리에 번들링하는 것을 스킵한다는 것을 의미) 를 포함하지 않는다. 
 
-The generated AAB can be found under  `android/app/build/outputs/bundle/release/app.aab`, and is ready to be uploaded to Google Play.
+생성된 AAB 은 `android/app/build/outputs/bundle/release/app.aab` 아래에 있다. 이제 구글 플레이에 업로드할 준비가 되었다.
+
+
 
 _Note: In order for Google Play to accept AAB format the App Signing by Google Play needs to be configured for your application on the Google Play Console. If you are updating an existing app that doesn't use App Signing by Google Play, please check our  [migration section](https://reactnative.dev/docs/getting-started#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play)  to learn how to perform that configuration change._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzE4MjYyNywxNDAzMjM0NDQxLC0yMD
-E2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkz
-NTc4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2OTcwMTMyODksMTQwMzIzNDQ0MSwtMj
+AxNjM1NTQyNywzMjMwMTQxMzcsLTMxOTY3NTM5MCwtMTIzNTA5
+MzU3OCw3MzA5OTgxMTZdfQ==
 -->
