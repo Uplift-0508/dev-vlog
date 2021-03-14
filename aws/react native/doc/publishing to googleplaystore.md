@@ -94,10 +94,11 @@ gradle.properties 는 _org.gradle.configureondemand=true (release build 가 JS �
 
 ### Testing the release build of your app[#](https://reactnative.dev/docs/getting-started#testing-the-release-build-of-your-app "Direct link to heading")
 
-플레이 스토어에 release build 를 업로드하기 전에 테스트를 철저히 해야한다. 
-Before uploading the release build to the Play Store, make sure you test it thoroughly. First uninstall any previous version of the app you already have installed. Install it on the device using the following command in the project root:
-
+플레이 스토어에 release build 를 업로드하기 전에 테스트를 철저히 해야한다. 이전에 설치했던 앱의 이전 버전들을 제거해야한다. 프로젝트 루트 위치에서 아래 명령어로 디바이스에 앱을 설치한다.
+```
 $ npx react-native run-android --variant=release
+```
+
 
 Copy
 
@@ -105,7 +106,7 @@ Note that  `--variant=release`  is only available if you've set up signing as de
 
 You can terminate any running bundler instances, since all your framework and JavaScript code is bundled in the APK's assets.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUxNTI2NDIsLTE2OTcwMTMyODksMT
-QwMzIzNDQ0MSwtMjAxNjM1NTQyNywzMjMwMTQxMzcsLTMxOTY3
-NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTY3NDIwMTIyMSwtMTY5NzAxMzI4OSwxND
+AzMjM0NDQxLC0yMDE2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1
+MzkwLC0xMjM1MDkzNTc4LDczMDk5ODExNl19
 -->
