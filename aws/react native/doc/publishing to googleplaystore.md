@@ -91,8 +91,21 @@ gradle.properties 는 _org.gradle.configureondemand=true (release build 가 JS �
 생성된 AAB 은 `android/app/build/outputs/bundle/release/app.aab` 아래에 있다. 이제 구글 플레이에 업로드할 준비가 되었다.
 
 구글 플레이에서 AAB 포맷을 사용하기 위해서 구글 플레이에서 앱 서명은 구글 플레이 콘솔에서 어플리케이션을 위한 설정을 해야한다. 만약 구글 플레이에 의해 앱 서명을 사용하지 않은 이미 존재하는 앱을 업데이트 하려면,  [migration section](https://reactnative.dev/docs/getting-started#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play)  을 참고한다. 어떻게 설정을 변경해야할지 알 수 있다. 
+
+### Testing the release build of your app[#](https://reactnative.dev/docs/getting-started#testing-the-release-build-of-your-app "Direct link to heading")
+
+플레이 스토어에 release build 를 업로드하기 전에 테스트를 철저히 해야한다. 
+Before uploading the release build to the Play Store, make sure you test it thoroughly. First uninstall any previous version of the app you already have installed. Install it on the device using the following command in the project root:
+
+$ npx react-native run-android --variant=release
+
+Copy
+
+Note that  `--variant=release`  is only available if you've set up signing as described above.
+
+You can terminate any running bundler instances, since all your framework and JavaScript code is bundled in the APK's assets.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM0MjA3NDUsLTE2OTcwMTMyODksMT
+eyJoaXN0b3J5IjpbLTE4MzUxNTI2NDIsLTE2OTcwMTMyODksMT
 QwMzIzNDQ0MSwtMjAxNjM1NTQyNywzMjMwMTQxMzcsLTMxOTY3
 NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgxMTZdfQ==
 -->
