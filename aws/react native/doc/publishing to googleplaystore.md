@@ -49,8 +49,9 @@ MYAPP_UPLOAD_KEY_PASSWORD=*****
 
 ### Adding signing config to your app's Gradle config[#](https://reactnative.dev/docs/getting-started#adding-signing-config-to-your-apps-gradle-config "Direct link to heading")
 
-마지막 설정 단계는 upload key 를 사용해서 
-The last configuration step that needs to be done is to setup release builds to be signed using upload key. Edit the file  `android/app/build.gradle`  in your project folder, and add the signing config,
+마지막 설정 단계는, upload key 를 사용해서 서명하기 위한 release build 를 세팅하는 것이다.
+프로젝트 폴더 내에 `android/app/build.gradle` 파일을 수정하고 서명 config 를 ㅊ
+ Edit the file   in your project folder, and add the signing config,
 
 ```
 ...
@@ -77,7 +78,7 @@ android {
 ...
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzgxOTc5OCwxNDAzMjM0NDQxLC0yMD
-E2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkz
-NTc4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNDM0ODUxMzE0LDE0MDMyMzQ0NDEsLTIwMT
+YzNTU0MjcsMzIzMDE0MTM3LC0zMTk2NzUzOTAsLTEyMzUwOTM1
+NzgsNzMwOTk4MTE2XX0=
 -->
