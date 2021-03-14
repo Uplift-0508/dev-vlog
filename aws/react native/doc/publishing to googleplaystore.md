@@ -90,11 +90,9 @@ gradle.properties 는 _org.gradle.configureondemand=true (release build 가 JS �
 
 생성된 AAB 은 `android/app/build/outputs/bundle/release/app.aab` 아래에 있다. 이제 구글 플레이에 업로드할 준비가 되었다.
 
-구글 플레이에서 AAB 포맷을 사용하기 위해서 구글 플레이에서 앱 서명은 
-
-_Note: In order for Google Play to accept AAB format the App Signing by Google Play needs to be configured for your application on the Google Play Console. If you are updating an existing app that doesn't use App Signing by Google Play, please check our  [migration section](https://reactnative.dev/docs/getting-started#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play)  to learn how to perform that configuration change._
+구글 플레이에서 AAB 포맷을 사용하기 위해서 구글 플레이에서 앱 서명은 구글 플레이 콘솔에서 어플리케이션을 위한 설정을 해야한다. 만약 구글 플레이에 의해 앱 서명을 사용하지 않은 이미 존재하는 앱을 업데이트 하려면,  [migration section](https://reactnative.dev/docs/getting-started#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play)  을 참고한다. 어떻게 설정을 변경해야할지 알 수 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMzIzNSwtMTY5NzAxMzI4OSwxNDAzMj
-M0NDQxLC0yMDE2MzU1NDI3LDMyMzAxNDEzNywtMzE5Njc1Mzkw
-LC0xMjM1MDkzNTc4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4OTM0MjA3NDUsLTE2OTcwMTMyODksMT
+QwMzIzNDQ0MSwtMjAxNjM1NTQyNywzMjMwMTQxMzcsLTMxOTY3
+NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgxMTZdfQ==
 -->
