@@ -10,9 +10,9 @@ keytool 을 사용해서 private signing key 를 생성할 수 있다. 윈도우
 ```
 $ keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA  -keysize 2048  -validity 10000
 ```
-이 명령어는 keystore 의 passwords 와 key 의 구분가능한 이름을  
+이 명령은 키 저장소, 키의 암호, 키의 고유 이름 필드에 대한 암호를 묻는 메시지를 표시한다. 그리고 해당 keystore 을   `my-upload-key.keystore` 란 파일로 생성한다.
 
-This command prompts you for passwords for the keystore and key and for the Distinguished Name fields for your key. It then generates the keystore as a file called  `my-upload-key.keystore`.
+keyw
 
 The keystore contains a single key, valid for 10000 days. The alias is a name that you will use later when signing your app, so remember to take note of the alias.
 
@@ -36,6 +36,6 @@ Copy
 
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMDE0MTM3LC0zMTk2NzUzOTAsLTEyMz
-UwOTM1NzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4Mjc2MDUyMDMsMzIzMDE0MTM3LC0zMT
+k2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
 -->
