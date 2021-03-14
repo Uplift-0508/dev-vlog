@@ -16,9 +16,12 @@ keystore 은 단일 키를 포함한다. 이는 10000 일 동안 유효하다. a
 
 맥에서는 JDK bin 폴더가 어디있는지 확신할 수 없다면, 다음 명령어를 수행한다.
 
-On Mac, if you're not sure where your JDK bin folder is, then perform the following command to find it:
-
+```
 $ /usr/libexec/java_home
+```
+
+
+
 
 Copy
 
@@ -36,6 +39,6 @@ Copy
 
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjk4OTg3MiwzMjMwMTQxMzcsLTMxOT
-Y3NTM5MCwtMTIzNTA5MzU3OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NDY1NTI3OTIsMzIzMDE0MTM3LC0zMT
+k2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
 -->
