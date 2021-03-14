@@ -21,12 +21,10 @@ $ /usr/libexec/java_home
 ```
 아래처럼 JDK 디렉토리를 출력할 것이다. 
 
-
-It will output the directory of the JDK, which will look something like this:
-
+```
 /Library/Java/JavaVirtualMachines/jdkX.X.X_XXX.jdk/Contents/Home
+```
 
-Copy
 
 Navigate to that directory by using the command  `$ cd /your/jdk/path`  and use the keytool command with sudo permission as shown below.
 
@@ -36,6 +34,7 @@ Copy
 
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYzNTU0MjcsMzIzMDE0MTM3LC0zMT
-k2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NzQxNjc0MTQsLTIwMTYzNTU0MjcsMz
+IzMDE0MTM3LC0zMTk2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4
+MTE2XX0=
 -->
