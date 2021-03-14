@@ -19,11 +19,8 @@ keystore 은 단일 키를 포함한다. 이는 10000 일 동안 유효하다. a
 ```
 $ /usr/libexec/java_home
 ```
+아래처럼 JDK 디렉토리를 출력할 것이다. 
 
-
-
-
-Copy
 
 It will output the directory of the JDK, which will look something like this:
 
@@ -39,6 +36,6 @@ Copy
 
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY1NTI3OTIsMzIzMDE0MTM3LC0zMT
+eyJoaXN0b3J5IjpbLTIwMTYzNTU0MjcsMzIzMDE0MTM3LC0zMT
 k2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
 -->
