@@ -25,8 +25,8 @@ $ /usr/libexec/java_home
 /Library/Java/JavaVirtualMachines/jdkX.X.X_XXX.jdk/Contents/Home
 ```
 
-
-Navigate to that directory by using the command  `$ cd /your/jdk/path`  and use the keytool command with sudo permission as shown below.
+위 디렉토리로 이동해서 
+Navigate to that directory by using the command    and use the keytool command with sudo permission as shown below.
 
 $ sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA  -keysize 2048  -validity 10000
 
@@ -34,7 +34,7 @@ Copy
 
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQxNjc0MTQsLTIwMTYzNTU0MjcsMz
-IzMDE0MTM3LC0zMTk2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbODgzMzM5NDQzLC0yMDE2MzU1NDI3LDMyMz
+AxNDEzNywtMzE5Njc1MzkwLC0xMjM1MDkzNTc4LDczMDk5ODEx
+Nl19
 -->
