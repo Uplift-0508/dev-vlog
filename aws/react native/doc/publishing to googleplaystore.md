@@ -12,7 +12,8 @@ $ keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -k
 ```
 이 명령은 키 저장소, 키의 암호, 키의 고유 이름 필드에 대한 암호를 묻는 메시지를 표시한다. 그리고 해당 keystore 을   `my-upload-key.keystore` 란 파일로 생성한다.
 
-keystore 은 단일 키를 포함한다. 이는 10000 일 동안 유효하다. 앱을 
+keystore 은 단일 키를 포함한다. 이는 10000 일 동안 유효하다. alias 는 앱을 서명할 때 사용할 이름이다. 그래서 따로 기록해두고 기억해야한다.
+
 
 The keystore contains a single key, valid for 10000 days. The alias is a name that you will use later when signing your app, so remember to take note of the alias.
 
@@ -36,6 +37,6 @@ Copy
 
 _Note: Remember to keep the keystore file private. In case you've lost upload key or it's been compromised you should  [follow these instructions](https://support.google.com/googleplay/android-developer/answer/7384423#reset)._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI1NDIyNTgsMzIzMDE0MTM3LC0zMT
-k2NzUzOTAsLTEyMzUwOTM1NzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTQ5NjI3MDg4LDMyMzAxNDEzNywtMzE5Nj
+c1MzkwLC0xMjM1MDkzNTc4LDczMDk5ODExNl19
 -->
