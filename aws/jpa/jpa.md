@@ -11,8 +11,7 @@ Java Persistence API 는, 데이터베이스에 엄청난 양의 데이터를 �
 Granularity : 객체 모델은 관계형 모델 보다 더 세부적이다.
 Subtype : Subtype 은 일부 관계형 데이터베이스에서 지원되지 않는다.  
 Identity : 객체 모델과 달리, 동일하게 작성할 때 관계형 모델은 identity 를 나타내지 않는다. 
-Associations : 관계형 모델들은  
+Associations : 관계형 모델들은 다수의 관계를 결정할 수 없다.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM1NDg2NzksLTE5NTI4NTYzMDhdfQ
-==
+eyJoaXN0b3J5IjpbLTExNjU5Nzg2MiwtMTk1Mjg1NjMwOF19
 -->
