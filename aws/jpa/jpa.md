@@ -16,7 +16,7 @@ Associations (연결) : 관계형 모델들은, 객체 도메인 모델을 살�
 Data navigation (데이터 탐색) : 객체 네트워크 내의 객체들 사이의 데이터 탐색은 두 모델이 다르다.
 
 JPA 가 무엇인가
-Java Persistence API 는 
+Java Persistence API 는, 오라클 기업에서 제공하는 데이터베이스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NzM1NjE1LC0xOTUyODU2MzA4XX0=
+eyJoaXN0b3J5IjpbNjUxOTUxNDksLTE5NTI4NTYzMDhdfQ==
 -->
