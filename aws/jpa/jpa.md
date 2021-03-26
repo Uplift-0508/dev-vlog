@@ -1,4 +1,5 @@
 # JPA
+
 Java Persistence API 는, 데이터베이스에 엄청난 양의 데이터를 영속적으로 저장하기 위한, 클래스와 메소드들의 모음이다. Persistence (임시 메모리에 데이터베이스 객체의 복사본을 저장) 에 대해 기본적으로 이해하고, JAVA Persistence API (JPA) 를 이해한다.
 
 기업 어플리케이션은, 엄청난 양의 데이터를 저장하고 검색하면서 데이터 연산들을 수행한다. 모든 가능한 저장소 관리 기술들에도 불구하고, 어플리케이션 개발자들은 일반적으로 데이터베이스 연산들을 효율적으로 수행하는데 애쓴다. 
@@ -14,7 +15,8 @@ Identity : 객체 모델과 달리, 동일하게 작성할 때 관계형 모델�
 Associations (연결) : 관계형 모델들은, 객체 도메인 모델을 살펴보는 동안 다수의 관계를 결정할 수 없다.  
 Data navigation (데이터 탐색) : 객체 네트워크 내의 객체들 사이의 데이터 탐색은 두 모델이 다르다.
 
-
+JPA 가 무엇인가
+Java Persistence API 는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTgzMzczNiwtMTk1Mjg1NjMwOF19
+eyJoaXN0b3J5IjpbNDc1NzM1NjE1LC0xOTUyODU2MzA4XX0=
 -->
