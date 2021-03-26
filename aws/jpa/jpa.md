@@ -8,11 +8,13 @@ Java Persistence API 는, 데이터베이스에 엄청난 양의 데이터를 �
 관계형 모델과 객체 모델 간의 mismatch
 관계형 객체들은 테이블 형식으로 표현된다. 반면 객체 모델들은 객체 형식의 상호 연결된 그래프로 표현된다. 관계형 데이터베이스에서 객체 모델을 저장하고 검색할 때는 아래 이유들 때문에 일부 mismatch 가 발생한다. 
 
-Granularity : 객체 모델은 관계형 모델 보다 더 세부적이다.
+Granularity (세분성) : 객체 모델은 관계형 모델 보다 더 세부적이다.
 Subtype : Subtype 은 일부 관계형 데이터베이스에서 지원되지 않는다.  
 Identity : 객체 모델과 달리, 동일하게 작성할 때 관계형 모델은 identity 를 나타내지 않는다. 
-Associations : 관계형 모델들은, 객체 도메인 모델을 살펴보는 동안 다수의 관계를 결정할 수 없다.  
-Data navigation : 객체 네트워크 내의 객체들 사이의 데이터 탐색은 
+Associations (연결) : 관계형 모델들은, 객체 도메인 모델을 살펴보는 동안 다수의 관계를 결정할 수 없다.  
+Data navigation (데이터 탐색) : 객체 네트워크 내의 객체들 사이의 데이터 탐색은 두 모델이 다르다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzODQ3NDQ1LC0xOTUyODU2MzA4XX0=
+eyJoaXN0b3J5IjpbMjA1MTgzMzczNiwtMTk1Mjg1NjMwOF19
 -->
