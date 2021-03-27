@@ -200,12 +200,21 @@ public  class  Employee  {
    http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"  version="1.0"> 
     		<description> XML Mapping file</description>  
     		<entity  class="Employee">  <table  name="EMPLOYEETABLE"/>  
-    		<attributes>  
-	    		<id  name="eid">  
-	    		<generated-value  strategy="TABLE"/>  </id>  <basic  name="ename">  <column  name="EMP_NAME"  length="100"/>  </basic>  <basic  name="salary">  </basic>  <basic  name="deg">  </basic>  </attributes>  </entity>  </entity-mappings>
+	    		<attributes>  
+		    		<id  name="eid">  
+			    		<generated-value  strategy="TABLE"/>  
+		    		</id>  
+		    		<basic  name="ename">  
+			    		<column  name="EMP_NAME"  length="100"/>  
+			    	</basic>  
+			    	<basic  name="salary">  </basic>  
+			    	<basic  name="deg">  </basic>  
+			   </attributes>  
+		   </entity>  
+	</entity-mappings>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTU5MTQ5MiwxNzA5MDI1NjMxLDE5Nj
+eyJoaXN0b3J5IjpbMTE0NDk4MzI4MiwxNzA5MDI1NjMxLDE5Nj
 I3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUz
 ODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNz
 Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
