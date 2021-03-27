@@ -143,14 +143,14 @@ mapping.xml 파일은 JPA 회사에 엔터티 클래스를 데이터베이스 �
 ```java
 public  class  Employee  {  
     private  int employeeId;  
-    private  String ename;  
+    private  String employeeName;  
     private  double salary;  
     private  String deg;  
     
-    public  Employee(int employeeId,  String ename,  double salary,  String deg)  { 	    	
+    public  Employee(int employeeId,  String employeeName,  double salary,  String deg)  { 	    	
         super();  
         this.employeeId = employeeId;  
-        this.ename = ename;  
+        this.employeeName = employeeName;  
         this.salary = salary;  
         this.deg = deg;  
     }  
@@ -163,16 +163,16 @@ public  class  Employee  {
         return employeeId;  
     }  
     
-    public  void setEemployeeId(int eid)  {  
-        this.eid = eid;  
+    public  void setEmployeeId(int employeeId)  {  
+        this.employeeId = employeeId;  
     }  
     
-    public  String getEname()  {  
-        return ename;  
+    public  String getEmployeeName()  {  
+        return employeeName;  
     }  
     
-    public  void setEname(String ename)  {  
-        this.ename = ename;  
+    public  void setEmployeeName(String employeeName)  {  
+        this.employeeName = employeeName;  
     }  
     
     public  double getSalary()  {  
@@ -192,12 +192,13 @@ public  class  Employee  {
     }  
 }
 ```
-
+위 코드는 E
+The above code is the Employee entity POJO class. It contain four attributes eid, ename, salary, and deg. Consider these attributes are the table fields in the database and eid is the primary key of this table. Now we have to design hibernate mapping file for it. The mapping file named **mapping.xml** is as follows:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTg0MTM3MSwxNzA5MDI1NjMxLDE5Nj
-I3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUz
-ODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNz
-Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
-OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mj
-g1NjMwOF19
+eyJoaXN0b3J5IjpbODI3ODY5MTcyLDE3MDkwMjU2MzEsMTk2Mj
+cwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIyNywtMjAyOTIxNTM4
+Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3Nj
+Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
+LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
+U2MzA4XX0=
 -->
