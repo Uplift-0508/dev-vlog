@@ -62,7 +62,7 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
 
 ## JPA Class Relationships
 
-In the above architecture, the relations between the classes and interfaces belong to the javax.persistence package. The following diagram shows the relationship between them.
+위 아키텍처에서 볼 수 있듯이, 클래스들과 인터페이스들 사이의 관계들이 javax.persistence 패키지에 포함되어 있다. 다음 다이어그램은 그들간에 관계를 보여준다.
 
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/jpa_class_relationships.png)
 
@@ -74,7 +74,7 @@ In the above architecture, the relations between the classes and interfaces belo
     
 -   The relationship between EntityManager and Entity is  **one-to-many**. One EntityManager instance can manage multiple Entities.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTM5MzU0NywxNzc1NDE4NTk4LC0yMD
+eyJoaXN0b3J5IjpbMTYxMTMxNDU1NiwxNzc1NDE4NTk4LC0yMD
 k1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcy
 NiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOT
 UxNDksLTE5NTI4NTYzMDhdfQ==
