@@ -225,9 +225,9 @@ public  class  Employee  {
 
 - <attributes> : 테이블 안의 필드들의 속성들을 정의하는 태그.
     
-- <id> : 테이블의 primary key 를 정의하는 태그. <generated-value> 태그는 automatic 하게 할지 manual 하게 할지,    
--   **<id>**  : tag defines the primary key of the table. The  **<generated-value>**  tag defines how to assign the primary key value such as Automatic, Manual, or taken from Sequence.
-    
+- <id> : 테이블의 primary key 를 정의하는 태그. <generated-value> 태그는 automatic 하게 할지 manual 하게 할지, squence 에서 가져올지 등 어떻게 primary key 값을 할당할지 정의한다.   
+
+- <basic> :     
 -   **<basic>**  : tag is used for defining remaining attributes for table.
     
 -   **<column-name>**  : tag is used to define user defined table field name.
@@ -241,11 +241,11 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjczMTgxOSwxMTc5OTQ0MDYzLDE0NT
-QzNzc3MDksMTU3MTg0OTUxNywxNzA5MDI1NjMxLDE5NjI3MDI5
-MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUzODIsND
-A3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNzY0NjE5
-MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5OSwxOD
-AxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mjg1NjMw
-OF19
+eyJoaXN0b3J5IjpbMTUxODE4Nzk4MywtNTk2NzMxODE5LDExNz
+k5NDQwNjMsMTQ1NDM3NzcwOSwxNTcxODQ5NTE3LDE3MDkwMjU2
+MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIyNywtMj
+AyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2
+NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMz
+Y2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5
+XX0=
 -->
