@@ -213,9 +213,35 @@ public  class  Employee  {
 		   </entity>  
 	</entity-mappings>
 ```
+위 스크립트는 데이터베이스 테이블과 엔티티 클래스를 매핑한다.
 
+- <entity-mappings> : 
+-   **<entity-mappings>**  : tag defines the schema definition to allow entity tags into xml file.
+    
+-   **<description>**  : tag defines description about application.
+    
+-   **<entity>**  : tag defines the entity class which you want to convert into table in a database. Attribute class defines the POJO entity class name.
+    
+-   **<table>**  : tag defines the table name. If you want to keep class name as table name then this tag is not necessary.
+    
+-   **<attributes>**  : tag defines the attributes (fields in a table).
+    
+-   **<id>**  : tag defines the primary key of the table. The  **<generated-value>**  tag defines how to assign the primary key value such as Automatic, Manual, or taken from Sequence.
+    
+-   **<basic>**  : tag is used for defining remaining attributes for table.
+    
+-   **<column-name>**  : tag is used to define user defined table field name.
+    
+
+## Annotations
+
+Generally Xml files are used to configure specific component, or mapping two different specifications of components. In our case, we have to maintain xml separately in a framework. That means while writing a mapping xml file we need to compare the POJO class attributes with entity tags in mapping.xml file.
+
+Here is the solution: In the class definition, we can write the configuration part using annotations. The annotations are used for classes, properties, and methods. Annotations starts with ‘@’ symbol. Annotations are declared before the class, property or method is declared. All annotations of JPA are defined in javax.persistence package.
+
+Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQwNzUzNjAsMTcwOTAyNTYzMSwxOT
+eyJoaXN0b3J5IjpbLTEzNDQ4MDg2MTIsMTcwOTAyNTYzMSwxOT
 YyNzAyOTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3LC0yMDI5MjE1
 MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LD
 c2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODEx
