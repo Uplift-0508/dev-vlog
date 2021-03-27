@@ -103,8 +103,7 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/object_relational_mapping.png)
 
-위 아키텍처는 3
-The above architecture explains how object data is stored into relational database in three phases.
+위 아키텍처는 3 단계로 관계형 데이터베이스에 어떻게 객체형 데이터가 저장되는지 설명한다.
 
 ### Phase1
 
@@ -137,9 +136,9 @@ The third phase is the Relational data phase. It contains the relational data wh
 The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE2NzM5MjgsLTU4MzA0MTIyNywtMj
-AyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2
-NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMz
-Y2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5
-LC0xOTUyODU2MzA4XX0=
+eyJoaXN0b3J5IjpbMTg0Njk4MDc4NiwtNTgzMDQxMjI3LC0yMD
+I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
+NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
+Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
+LTE5NTI4NTYzMDhdfQ==
 -->
