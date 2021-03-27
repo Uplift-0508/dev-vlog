@@ -48,13 +48,13 @@ The following image shows the class level architecture of JPA. It shows the core
 
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/jpa_class_level_architecture.png)
 
-The following table describes each of the units shown in the above architecture.
+다음 테이블은 위 아키텍처에서 보여준 각각의 단위들을 설명한다.
 
 |                |ASCII                          |HTML                         |
 |----------------|-------------------------------|-----------------------------|
 |Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTI5Nzc5MCwzNTkxOTUxMjIsMTQzMT
+eyJoaXN0b3J5IjpbLTUyNjk0MDA3MywzNTkxOTUxMjIsMTQzMT
 UzMjcyNiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcs
 NjUxOTUxNDksLTE5NTI4NTYzMDhdfQ==
 -->
