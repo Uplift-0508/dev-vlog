@@ -134,10 +134,21 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 세번째 단계는 relational 데이터 단계이다. 비즈니스 컴포넌트와 논리적으로 연결된 relational 데이터를 포함한다. 위에 언급했듯이, 비즈니스 컴포넌트가 데이터를 commit 할 때만, 물리적으로 데이터베이스에 저장한다. 그 때까지 수정된 데이터는 grid 포맷으로 캐시 메모리에 저장된다. 데이터를 조회하는 과정도 동일하다. 
 
 프로그램적으로 위 세 단계의 상호작용 메커니즘은 object relational mapping 으로 부른다.
+
+## Mapping.xml
+
+The mapping.xml file is to instruct the JPA vendor for mapping the Entity classes with database tables.
+
+Let us take an example of Employee entity which contains four attributes. The POJO class of Employee entity named  **Employee.java**  is as follows:
+
+
+```
+public  class  Employee  {  private  int eid;  private  String ename;  private  double salary;  private  String deg;  public  Employee(int eid,  String ename,  double salary,  String deg)  {  super(  );  this.eid = eid;  this.ename = ename;  this.salary = salary;  this.deg = deg;  }  public  Employee(  )  {  super();  }  public  int getEid(  )  {  return eid;  }  public  void setEid(int eid)  {  this.eid = eid;  }  public  String getEname(  )  {  return ename;  }  public  void setEname(String ename)  {  this.ename = ename;  }  public  double getSalary(  )  {  return salary;  }  public  void setSalary(double salary)  {  this.salary = salary;  }  public  String getDeg(  )  {  return deg;  }  public  void setDeg(String deg)  {  this.deg = deg;  }  }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYwNzM2NCwyMTA3OTM2MjgyLC01OD
-MwNDEyMjcsLTIwMjkyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1
-OTgsLTIwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxND
-MxNTMyNzI2LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1
-Nyw2NTE5NTE0OSwtMTk1Mjg1NjMwOF19
+eyJoaXN0b3J5IjpbNTc5NzA5ODk0LDIxMDc5MzYyODIsLTU4Mz
+A0MTIyNywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5
+OCwtMjA5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0Mz
+E1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3
+LDY1MTk1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
