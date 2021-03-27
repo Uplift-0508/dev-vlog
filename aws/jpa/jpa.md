@@ -57,20 +57,10 @@ The following image shows the class level architecture of JPA. It shows the core
 | **Entity** | 엔티티들은 영속성 객체들이다. 데이터베이스의 레코드로 저장된다.   |
 | **EntityTransaction** | EntityManager 와 1:1 관계를 가진다. 각 EntityManager에 대해, 연산들을 EntityTransaction 클래스가 관리한다.  |
 | **Persistence** | 이 클래스는 EntityManagerFactory 인스턴스를 획득하기 위한 static 메소드를 포함한다. |
-| **Persistence** | 이 클래스는 EntityManagerFactory 인스턴스를 획득하기 위한 static 메소드를 포함한다. |
-
-
-
-**Persistence**
-
-This class contain static methods to obtain EntityManagerFactory instance.
-
-**Query**
-
-This interface is implemented by each JPA vendor to obtain relational objects that meet the criteria.
+| **Query** | 이 인터페이스는, 기준에 맞게 관계형 객체들을 획득하기 위해서, 각 JPA 회사들이 구현한다. |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Nzg2NjQ1NiwtMjA5NTU2NzU3Nyw3Nj
-Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
-LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
-U2MzA4XX0=
+eyJoaXN0b3J5IjpbMjY2NzkyMzE4LC0yMDk1NTY3NTc3LDc2ND
+YxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODExOTks
+MTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NTI4NT
+YzMDhdfQ==
 -->
