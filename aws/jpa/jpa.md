@@ -55,7 +55,7 @@ The following image shows the class level architecture of JPA. It shows the core
 | **EntityManagerFactory** | EntityManager 의 팩토리 클래스이다. 다수의 EntityManager 인스턴스를 생성하고 관리한다. |
 | **EntityManager** | 인터페이스이다. 객체들의 영속성 연산들을 관리한다. 마치 쿼리 인스턴스를 위한 팩토리 처럼 동작한다. |
 | **Entity** | 엔티티들은 영속성 객체들이다. 데이터베이스의 레코드로 저장된다.   |
-| **EntityTransaction** | EntityManager 와 1:1 관계를 가진다. 각 EntityManager   |
+| **EntityTransaction** | EntityManager 와 1:1 관계를 가진다. 각 EntityManager를 위해, 연산들을 EntityTransaction 클래스가 관리한다.  |
 
 **EntityTransaction**
 
@@ -69,7 +69,7 @@ This class contain static methods to obtain EntityManagerFactory instance.
 
 This interface is implemented by each JPA vendor to obtain relational objects that meet the criteria.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY3NzI2MDIsLTIwOTU1Njc1NzcsNz
+eyJoaXN0b3J5IjpbLTIxMjYzNTQ1MzEsLTIwOTU1Njc1NzcsNz
 Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
 OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mj
 g1NjMwOF19
