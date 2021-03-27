@@ -124,8 +124,9 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
     
 - **Mapping file** : mapping file (ORM.xml) 은, POJO 클래스 안의 데이터와 relational 데이터베이스 안의 데이터 사이의 mapping configuration 을 포함한다.     
     
-- **JPA Loader** : JPA loader 는 캐시 메모리 처럼 기능한다. relational grid data 를 로드할 수 있다. POJO 데이터 (POJO 클래스의 속성들) 를 위한 서비스 클래스들과     
--   **JPA Loader**  : The JPA loader works like cache memory, which can load the relational grid data. It works like a copy of database to interact with service classes for POJO data (Attributes of POJO class).
+- **JPA Loader** : JPA loader 는 캐시 메모리 처럼 기능한다. relational grid data 를 로드할 수 있다. POJO 데이터 (POJO 클래스의 속성들) 를 위한 서비스 클래스들과 상호작용하는 데이터베이스 복사본 처럼 기능한다.     
+
+- **Object Grid** : Object grid 는 relational 데이터 복사본을 저장할 수 있는 임시적인 location 이다. 예를 들어 캐시 메모리 같은
     
 -   **Object Grid**  : The Object grid is a temporary location which can store the copy of relational data, i.e. like a cache memory. All queries against the database is first effected on the data in the object grid. Only after it is committed, it effects the main database.
     
@@ -137,9 +138,9 @@ The third phase is the Relational data phase. It contains the relational data wh
 The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzkzNjg0NCwtNTgzMDQxMjI3LC0yMD
-I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
-NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
-Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
-LTE5NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbLTE3MTAyOTk2MzEsLTU4MzA0MTIyNywtMj
+AyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2
+NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMz
+Y2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5
+LC0xOTUyODU2MzA4XX0=
 -->
