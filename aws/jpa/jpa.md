@@ -107,7 +107,7 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ### Phase1
 
-첫 단계는 **Object data 단계** 라고 부른다. 이는 POJO 클래스들, 서비스 인터페이스와 클래스을 포함한다. 이는, 비즈니스 로직 연산과 속성을 가진, 메인 비즈니스 컴포넌트 계층이다. 
+첫 단계는 **Object data 단계** 라고 부른다. 이 단계는 POJO 클래스들, 서비스 인터페이스와 클래스을 포함한다. 이는, 비즈니스 로직 연산과 속성을 가진, 메인 비즈니스 컴포넌트 계층이다. 
 
 예를 들어 스키마로 employee 데이터베이스를 들어본다.
 
@@ -118,7 +118,7 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ### Phase 2
 
-두 번째 단계는 **map
+두 번째 단계는 **Mapping/Persistence** 단계로 부른다. 이 단계는 
 The second phase named as  **mapping**  or  **persistence**  phase which contains JPA provider, mapping file (ORM.xml), JPA Loader, and Object Grid.
 
 -   **JPA Provider**  : The vendor product which contains JPA flavor (javax.persistence). For example Eclipselink, Toplink, Hibernate, etc.
@@ -137,7 +137,7 @@ The third phase is the Relational data phase. It contains the relational data wh
 The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjYxMTc0NCwtNTgzMDQxMjI3LC0yMD
+eyJoaXN0b3J5IjpbLTU3OTYwNzkwMiwtNTgzMDQxMjI3LC0yMD
 I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
 NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
 Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
