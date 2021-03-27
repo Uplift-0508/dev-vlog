@@ -223,10 +223,9 @@ public  class  Employee  {
     
 - <table> : 테이블 이름을 정의하는 태그. 클래스이름을 테이블 이름으로 유지하고 싶다면 이 태그는 필요 없다.     
 
-- <attributes
+- <attributes> : 테이블 안의 필드들의 속성들을 정의하는 태그.
     
--   **<attributes>**  : tag defines the attributes (fields in a table).
-    
+- <id> : 테이블의 primary key 를 정의하는 태그. <generated-value> 태그는     
 -   **<id>**  : tag defines the primary key of the table. The  **<generated-value>**  tag defines how to assign the primary key value such as Automatic, Manual, or taken from Sequence.
     
 -   **<basic>**  : tag is used for defining remaining attributes for table.
@@ -242,7 +241,7 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTI3MTcxNiwxMTc5OTQ0MDYzLDE0NT
+eyJoaXN0b3J5IjpbMTM3MTM2NjMzNCwxMTc5OTQ0MDYzLDE0NT
 QzNzc3MDksMTU3MTg0OTUxNywxNzA5MDI1NjMxLDE5NjI3MDI5
 MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUzODIsND
 A3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNzY0NjE5
