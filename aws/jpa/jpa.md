@@ -50,11 +50,11 @@ The following image shows the class level architecture of JPA. It shows the core
 
 다음 테이블은 위 아키텍처에서 보여준 각각의 단위들을 설명한다.
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|      Units     | Description                         |
+|----------------|-------------------------------------|
+|EntityManagerFactory|This is a factory class of EntityManager. It creates and manages multiple EntityManager instances.           |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjk0MDA3MywzNTkxOTUxMjIsMTQzMT
+eyJoaXN0b3J5IjpbLTYyMDEyMzI3NSwzNTkxOTUxMjIsMTQzMT
 UzMjcyNiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcs
 NjUxOTUxNDksLTE5NTI4NTYzMDhdfQ==
 -->
