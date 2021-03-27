@@ -138,20 +138,18 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 ## Mapping.xml
 
 mapping.xml 파일은 JPA 회사에 엔터티 클래스를 데이터베이스 테이블로 매핑하도록 지시하는 것이다.
-네개 속성을 갖는 Employee 엔티티의 예를 살펴본다. Employee 엔티티의 POJO 클래스
-Let us take an example of Employee entity which contains four attributes. The POJO class of Employee entity named  **Employee.java**  is as follows:
-
+네개 속성을 갖는 Employee 엔티티의 예를 살펴본다. 다음은 Employee.java 로 명명되는 Employee 엔티티의 POJO 클래스이다.
 
 ```java
 public  class  Employee  {  
-    private  int eid;  
+    private  int employeeId;  
     private  String ename;  
     private  double salary;  
     private  String deg;  
     
-    public  Employee(int eid,  String ename,  double salary,  String deg)  { 	    	
+    public  Employee(int employeeId,  String ename,  double salary,  String deg)  { 	    	
         super();  
-        this.eid = eid;  
+        this.employeeId = employeeId;  
         this.ename = ename;  
         this.salary = salary;  
         this.deg = deg;  
@@ -161,11 +159,11 @@ public  class  Employee  {
         super();  
     }  
     
-    public  int getEid()  {  
-        return eid;  
+    public  int getEmployeeId()  {  
+        return employeeId;  
     }  
     
-    public  void setEid(int eid)  {  
+    public  void setEemployeeId(int eid)  {  
         this.eid = eid;  
     }  
     
@@ -196,10 +194,10 @@ public  class  Employee  {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTMyMTI4NTMsMTcwOTAyNTYzMSwxOT
-YyNzAyOTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3LC0yMDI5MjE1
-MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LD
-c2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODEx
-OTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NT
-I4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbLTM3MTg0MTM3MSwxNzA5MDI1NjMxLDE5Nj
+I3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUz
+ODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNz
+Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
+OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mj
+g1NjMwOF19
 -->
