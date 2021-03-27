@@ -90,6 +90,7 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ## Advanced Features
 
+- **자연스러운 영속성** : 
 -   **Idiomatic persistence**  : It enables you to write the persistence classes using object oriented classes.
     
 -   **High Performance**  : It has many fetching techniques and hopeful locking techniques.
@@ -105,9 +106,9 @@ Here follow the ORM architecture.
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDczMTA4NywtMjAyOTIxNTM4Miw0MD
-c5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTky
-NjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MD
-EzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyODU2MzA4
-XX0=
+eyJoaXN0b3J5IjpbNzQ0ODI3MzM5LC0yMDI5MjE1MzgyLDQwNz
+k0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LDc2NDYxOTI2
+MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODExOTksMTgwMT
+MzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NTI4NTYzMDhd
+fQ==
 -->
