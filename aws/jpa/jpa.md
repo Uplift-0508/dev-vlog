@@ -142,11 +142,12 @@ The mapping.xml file is to instruct the JPA vendor for mapping the Entity classe
 Let us take an example of Employee entity which contains four attributes. The POJO class of Employee entity named  **Employee.java**  is as follows:
 
 
+```java
+
 ```
-public  class  Employee  {  private  int eid;  private  String ename;  private  double salary;  private  String deg;  public  Employee(int eid,  String ename,  double salary,  String deg)  {  super(  );  this.eid = eid;  this.ename = ename;  this.salary = salary;  this.deg = deg;  }  public  Employee(  )  {  super();  }  public  int getEid(  )  {  return eid;  }  public  void setEid(int eid)  {  this.eid = eid;  }  public  String getEname(  )  {  return ename;  }  public  void setEname(String ename)  {  this.ename = ename;  }  public  double getSalary(  )  {  return salary;  }  public  void setSalary(double salary)  {  this.salary = salary;  }  public  String getDeg(  )  {  return deg;  }  public  void setDeg(String deg)  {  this.deg = deg;  }  }
-```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5NzA5ODk0LDIxMDc5MzYyODIsLTU4Mz
+eyJoaXN0b3J5IjpbMTk2MjcwMjkzLDIxMDc5MzYyODIsLTU4Mz
 A0MTIyNywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5
 OCwtMjA5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0Mz
 E1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3
