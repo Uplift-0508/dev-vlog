@@ -78,10 +78,33 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
     
   # ORM Components
   
+  Most contemporary applications use relational database to store data. Recently, many vendors switched to object database to reduce their burden on data maintenance. It means object database or object relational technologies are taking care of storing, retrieving, updating, and maintenance. The core part of this object relational technologies are mapping orm.xml file. As xml does not require compilation, we can easily make changes to multiple data sources with less administration.
+
+## Object Relational Mapping
+
+Object Relational Mapping (ORM) briefly tells you about what is ORM and how it works. ORM is a programming ability to covert data from object type to relational type and vice versa.
+
+The main feature of ORM is mapping or binding an object to its data in the database. While mapping we have to consider the data, type of data and its relations with its self-entity or entity in any other table.
+
+## Advanced Features
+
+-   **Idiomatic persistence**  : It enables you to write the persistence classes using object oriented classes.
+    
+-   **High Performance**  : It has many fetching techniques and hopeful locking techniques.
+    
+-   **Reliable**  : It is highly stable and eminent. Used by many industrial programmers.
+    
+
+## ORM Architecture
+
+Here follow the ORM architecture.
+![enter image description here](https://www.tutorialspoint.com/jpa/images/object_relational_mapping.png)
+
+
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1MjU5MTU1LDE3NzU0MTg1OTgsLTIwOT
-U1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2
-LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NT
-E0OSwtMTk1Mjg1NjMwOF19
+eyJoaXN0b3J5IjpbLTE5MTY0NTg5NTMsMTc3NTQxODU5OCwtMj
+A5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3
+MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MT
+k1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
