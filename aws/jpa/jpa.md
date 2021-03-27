@@ -215,21 +215,21 @@ public  class  Employee  {
 ```
 위 스크립트는 데이터베이스 테이블과 엔티티 클래스를 매핑한다.
 
-<entity-mappings> : 엔티티 태그를 xml 파일로 허용하는 스키마 정의를 정의하는 태그.
+- ``<entity-mappings>`` : 엔티티 태그를 xml 파일로 허용하는 스키마 정의를 정의하는 태그.
 
-- <description> : 어플리케이션에 대한 설명을 정의한 태그.
+- ``<description>`` : 어플리케이션에 대한 설명을 정의한 태그.
 
-- <entity> : 데이터베이스의 테이블에 변환하여 저장하려고 하는 엔티티 클래스를 정의하는 태그. 속성 클래스는 POJO 엔티티 클래스 이름을 정의한다.
+- ``<entity>`` : 데이터베이스의 테이블에 변환하여 저장하려고 하는 엔티티 클래스를 정의하는 태그. 속성 클래스는 POJO 엔티티 클래스 이름을 정의한다.
     
-- <table> : 테이블 이름을 정의하는 태그. 클래스이름을 테이블 이름으로 유지하고 싶다면 이 태그는 필요 없다.     
+- ``<table>`` : 테이블 이름을 정의하는 태그. 클래스이름을 테이블 이름으로 유지하고 싶다면 이 태그는 필요 없다.     
 
-- <attributes> : 테이블 안의 필드들의 속성들을 정의하는 태그.
+- ``<attributes>`` : 테이블 안의 필드들의 속성들을 정의하는 태그.
     
-- <id> : 테이블의 primary key 를 정의하는 태그. <generated-value> 태그는 automatic 하게 할지 manual 하게 할지, squence 에서 가져올지 등 어떻게 primary key 값을 할당할지 정의한다.   
+- ``<id>`` : 테이블의 primary key 를 정의하는 태그. <generated-value> 태그는 automatic 하게 할지 manual 하게 할지, squence 에서 가져올지 등 어떻게 primary key 값을 할당할지 정의한다.   
 
-- <basic> : 테이블의 탐은 속성들을 정의하는데 사용하는 태그.    
+- ``<basic>`` : 테이블의 탐은 속성들을 정의하는데 사용하는 태그.    
     
-- <column-name> : 사용자가 정의한 테이블 필드 이름을 정의하는데 사용하는 태그.    
+- ``<column-name>`` : 사용자가 정의한 테이블 필드 이름을 정의하는데 사용하는 태그.    
     
 
 ## Annotations
@@ -240,11 +240,11 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTQ4NjkxOSwxNTE4MTg3OTgzLC01OT
-Y3MzE4MTksMTE3OTk0NDA2MywxNDU0Mzc3NzA5LDE1NzE4NDk1
-MTcsMTcwOTAyNTYzMSwxOTYyNzAyOTMsMjEwNzkzNjI4MiwtNT
-gzMDQxMjI3LC0yMDI5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4
-NTk4LC0yMDk1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMT
-QzMTUzMjcyNiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTEx
-NTddfQ==
+eyJoaXN0b3J5IjpbODE2NjAxMjIyLDE1MTgxODc5ODMsLTU5Nj
+czMTgxOSwxMTc5OTQ0MDYzLDE0NTQzNzc3MDksMTU3MTg0OTUx
+NywxNzA5MDI1NjMxLDE5NjI3MDI5MywyMTA3OTM2MjgyLC01OD
+MwNDEyMjcsLTIwMjkyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1
+OTgsLTIwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxND
+MxNTMyNzI2LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1
+N119
 -->
