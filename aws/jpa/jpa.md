@@ -76,11 +76,12 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
 
 - EntityManger 와 Entity 는 1:다 관계를 가진다. 하나의 EntityManager 인스턴스는 다수의 Entity 를 관리할 수 있다. 
     
-  # ORM Component
+  # ORM Components
+  
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI0MjE4NCwxNzc1NDE4NTk4LC0yMD
-k1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcy
-NiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOT
-UxNDksLTE5NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbNjg1MjU5MTU1LDE3NzU0MTg1OTgsLTIwOT
+U1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2
+LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NT
+E0OSwtMTk1Mjg1NjMwOF19
 -->
