@@ -22,8 +22,12 @@ Java Persistence API 는 오라클 기업에서 제공하는 데이터베이스�
 ## Where to use JPA?
 
 관계형 객체 관리를 위해 코드를 작성하는 부담을 줄이기 위해서, 프로그래머들은 'JPA Provider' 프레임워크를 따랐다. 이는 데이터베이스 인스턴스와 쉽게 상호작용하도록 도와주었다. 이후 프레임워크는 JPA 에 잠식되었다.  
+
+![enter image description here](https://www.tutorialspoint.com/jpa/images/jpa_provider.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODI2MjIyOSwzNjY5ODExOTksMTgwMT
+eyJoaXN0b3J5IjpbMjA1NTIzODU0OCwzNjY5ODExOTksMTgwMT
 MzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NTI4NTYzMDhd
 fQ==
 -->
