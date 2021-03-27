@@ -58,7 +58,7 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
 | **Persistence** | 이 클래스는 EntityManagerFactory 인스턴스를 획득하기 위한 static 메소드를 포함한다. |
 | **Query** | 이 인터페이스는, 기준에 맞게 관계형 객체들을 획득하기 위해서, 각 JPA 회사들이 구현한다. |
 
-
+위 클래스들과 인터페이스들은 데이터베이스에 레코드로 엔티티들을 저장하는데 사용한다. 이는 데이터베이스에 데이터를 저장하기 위해 코드를 작성하는 부담을 줄여서 프로그래머들을 돕는다. 이로써 드
 The above classes and interfaces are used for storing entities into a database as a record. They help programmers by reducing their efforts to write codes for storing data into a database so that they can concentrate on more important activities such as writing codes for mapping the classes with database tables.
 
 ## JPA Class Relationships
@@ -75,8 +75,8 @@ In the above architecture, the relations between the classes and interfaces belo
     
 -   The relationship between EntityManager and Entity is  **one-to-many**. One EntityManager instance can manage multiple Entities.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3Nj
-Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
-LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
-U2MzA4XX0=
+eyJoaXN0b3J5IjpbLTE3MTQ5NzkzNjYsMTc3NTQxODU5OCwtMj
+A5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3
+MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MT
+k1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
