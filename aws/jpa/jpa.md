@@ -17,7 +17,7 @@ Data navigation (데이터 탐색) : 객체 네트워크 내의 객체들 사이
 
 ## What is JPA?
 
-Java Persistence API 는 데이터베이스에 방대한 양의 데이터를 영속적으로 저장하기 위한 클래스들과 메소드들의 모음이다. 오라클 기업에서 제공한다.
+Java Persistence API 는 데이터베이스에 방대한 양의 데이터를 영속적으로 저장하기 위한 클래스들과 메소드들의 모음이다. 오라클 기업에서 제공한다. 
 
 ## Where to use JPA?
 
@@ -25,6 +25,6 @@ To reduce the burden of writing codes for relational object management, a progra
 JPA 가 무엇인가
 Java Persistence API 는, 오라클 기업에서 제공하는 데이터베이스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3NDE0NTQ3LDY1MTk1MTQ5LC0xOTUyOD
-U2MzA4XX0=
+eyJoaXN0b3J5IjpbLTM4MTkxNTk0Nyw2NTE5NTE0OSwtMTk1Mj
+g1NjMwOF19
 -->
