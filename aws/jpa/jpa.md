@@ -78,7 +78,7 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
     
   # ORM Components
   
-  대부분의 당대 어플리케이션들은 데이터를 저장하기 위해서 관계형 데이터베이스를 사용한다. 
+  대부분의 당대 어플리케이션들은 데이터를 저장하기 위해서 관계형 데이터베이스를 사용한다. 최근에는 많은 회사들이, 데이터  객체 데이터베이스로 바꾸고 있다. 
   Most contemporary applications use relational database to store data. Recently, many vendors switched to object database to reduce their burden on data maintenance. It means object database or object relational technologies are taking care of storing, retrieving, updating, and maintenance. The core part of this object relational technologies are mapping orm.xml file. As xml does not require compilation, we can easily make changes to multiple data sources with less administration.
 
 ## Object Relational Mapping
@@ -104,8 +104,8 @@ Here follow the ORM architecture.
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOT
-U1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2
-LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NT
-E0OSwtMTk1Mjg1NjMwOF19
+eyJoaXN0b3J5IjpbMTM1OTgwNjc2Miw0MDc5NDY1MTksMTc3NT
+QxODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIy
+LDE0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MD
+ExMTU3LDY1MTk1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
