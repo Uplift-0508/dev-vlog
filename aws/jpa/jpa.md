@@ -215,7 +215,7 @@ public  class  Employee  {
 ```
 위 스크립트는 데이터베이스 테이블과 엔티티 클래스를 매핑한다.
 
-- <entity-mappings> : 엔티티 태그를 xml 파일로 허용하는 스키마 정의를 정의하는 태그.
+<entity-mappings> : 엔티티 태그를 xml 파일로 허용하는 스키마 정의를 정의하는 태그.
 
 - <description> : 어플리케이션에 대한 설명을 정의한 태그.
 
@@ -230,7 +230,6 @@ public  class  Employee  {
 - <basic> : 테이블의 탐은 속성들을 정의하는데 사용하는 태그.    
     
 - <column-name> : 사용자가 정의한 테이블 필드 이름을 정의하는데 사용하는 태그.    
--   **<column-name>**  : tag is used to define user defined table field name.
     
 
 ## Annotations
@@ -241,11 +240,11 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDEzMjEzNTMsMTUxODE4Nzk4MywtNT
-k2NzMxODE5LDExNzk5NDQwNjMsMTQ1NDM3NzcwOSwxNTcxODQ5
-NTE3LDE3MDkwMjU2MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLT
-U4MzA0MTIyNywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQx
-ODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLD
-E0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDEx
-MTU3XX0=
+eyJoaXN0b3J5IjpbLTczNTQ4NjkxOSwxNTE4MTg3OTgzLC01OT
+Y3MzE4MTksMTE3OTk0NDA2MywxNDU0Mzc3NzA5LDE1NzE4NDk1
+MTcsMTcwOTAyNTYzMSwxOTYyNzAyOTMsMjEwNzkzNjI4MiwtNT
+gzMDQxMjI3LC0yMDI5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4
+NTk4LC0yMDk1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMT
+QzMTUzMjcyNiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTEx
+NTddfQ==
 -->
