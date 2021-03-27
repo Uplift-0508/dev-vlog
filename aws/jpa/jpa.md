@@ -111,9 +111,9 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 예를 들어 스키마로 employee 데이터베이스를 들어본다.
 
-- Employee POJO 클래스는 ID, 이름, 연봉, 직함을 포함한다. 그리고 이 소
--   Employee POJO class contain attributes such as ID, name, salary, and designation. And methods like setter and getter methods of those attributes.
+- Employee POJO 클래스는 ID, 이름, 연봉, 직함과 같은 속성들과 이 속성들에 대한 setter 와 getter 메소드 같은 메소드들을 포함한다.
     
+- Employee DAO/Service 클래스들은 create employee, find employe    
 -   Employee DAO/Service classes contains service methods such as create employee, find employee, and delete employee.
     
 
@@ -137,9 +137,9 @@ The third phase is the Relational data phase. It contains the relational data wh
 The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMTM5Mzc0LC01ODMwNDEyMjcsLTIwMj
-kyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1
-NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Nj
-k4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwt
-MTk1Mjg1NjMwOF19
+eyJoaXN0b3J5IjpbMTc3OTg4Mzc5MiwtNTgzMDQxMjI3LC0yMD
+I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
+NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
+Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
+LTE5NTI4NTYzMDhdfQ==
 -->
