@@ -137,6 +137,7 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ## Mapping.xml
 
+mapping.xml 파일은 데이터베이스 테이블
 The mapping.xml file is to instruct the JPA vendor for mapping the Entity classes with database tables.
 
 Let us take an example of Employee entity which contains four attributes. The POJO class of Employee entity named  **Employee.java**  is as follows:
@@ -195,7 +196,7 @@ public  class  Employee  {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjAyNjM5NCwxOTYyNzAyOTMsMjEwNz
+eyJoaXN0b3J5IjpbMTcwOTAyNTYzMSwxOTYyNzAyOTMsMjEwNz
 kzNjI4MiwtNTgzMDQxMjI3LC0yMDI5MjE1MzgyLDQwNzk0NjUx
 OSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LDc2NDYxOTI2MiwzNT
 kxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODExOTksMTgwMTMzNTA2
