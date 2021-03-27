@@ -215,7 +215,7 @@ public  class  Employee  {
 ```
 위 스크립트는 데이터베이스 테이블과 엔티티 클래스를 매핑한다.
 
-- <entity-mappings> : 
+- <entity-mappings> : 스키마를 정의하는 태그
 -   **<entity-mappings>**  : tag defines the schema definition to allow entity tags into xml file.
     
 -   **<description>**  : tag defines description about application.
@@ -241,10 +241,10 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ4MDg2MTIsMTcwOTAyNTYzMSwxOT
-YyNzAyOTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3LC0yMDI5MjE1
-MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LD
-c2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODEx
-OTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NT
-I4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbMTU3MTg0OTUxNywxNzA5MDI1NjMxLDE5Nj
+I3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUz
+ODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNz
+Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
+OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mj
+g1NjMwOF19
 -->
