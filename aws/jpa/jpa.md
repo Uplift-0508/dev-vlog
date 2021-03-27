@@ -39,12 +39,12 @@ Java Persistence API 는 오라클 기업에서 제공하는 데이터베이스�
 
 JPA 는 오픈소스 API 이다. 따라서 Oracle, Redhat, Eclipse 등의 다양한 기업의 회사들이 새로운 제품에 JPA 영속성을 추가해서 제공한다. 이런 제품들에는 Hibernate, Eclipselink, Toplink, Spring Data JPA 등이 있다. 
 
-Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장하는 source 다. JPA 는 한 엔티티로 PLAIN OLD JAVA OBJECT (POJO) 를 어떻게 정의할지, 그리고 
-Java Persistence API is a source to store business entities as relational entities. It shows how to define a PLAIN OLD JAVA OBJECT (POJO) as an entity and how to manage entities with relations.
+Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장하는 source 다. JPA 는 한 엔티티로 PLAIN OLD JAVA OBJECT (POJO) 를 어떻게 정의할지, 그리고 엔티티 간의 관계들을 어떻게 관리할지 보여준다.
 
 ## Class Level Architecture
 
 The following image shows the class level architecture of JPA. It shows the core classes and interfaces of JPA.
+
 
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/jpa_class_level_architecture.png)
 
@@ -54,7 +54,7 @@ The following table describes each of the units shown in the above architecture.
 |----------------|-------------------------------|-----------------------------|
 |Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA1Mjk2MzcsMzU5MTk1MTIyLDE0Mz
+eyJoaXN0b3J5IjpbLTE1Nzk5NjMwMzQsMzU5MTk1MTIyLDE0Mz
 E1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3
 LDY1MTk1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
