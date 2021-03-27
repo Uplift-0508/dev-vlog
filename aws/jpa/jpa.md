@@ -44,7 +44,7 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
 ## Class Level Architecture
 
 The following image shows the class level architecture of JPA. It shows the core classes and interfaces of JPA.
-
+다음 이미지는 JPA 의 클래스 레벨 아키텍처이다. JPA 의 핵심 클래스와 인터페이스를 보여준다.
 
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/jpa_class_level_architecture.png)
 
@@ -54,7 +54,7 @@ The following table describes each of the units shown in the above architecture.
 |----------------|-------------------------------|-----------------------------|
 |Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk5NjMwMzQsMzU5MTk1MTIyLDE0Mz
-E1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3
-LDY1MTk1MTQ5LC0xOTUyODU2MzA4XX0=
+eyJoaXN0b3J5IjpbLTYxNTI5Nzc5MCwzNTkxOTUxMjIsMTQzMT
+UzMjcyNiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcs
+NjUxOTUxNDksLTE5NTI4NTYzMDhdfQ==
 -->
