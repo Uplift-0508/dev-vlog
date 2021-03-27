@@ -215,9 +215,9 @@ public  class  Employee  {
 ```
 위 스크립트는 데이터베이스 테이블과 엔티티 클래스를 매핑한다.
 
-- <entity-mappings> : 스키마를 정의하는 태그
--   **<entity-mappings>**  : tag defines the schema definition to allow entity tags into xml file.
-    
+- <entity-mappings> : 엔티티 태그를 xml 파일로 허용하는 스키마 정의를 정의하는 태그.
+
+- <description> : 어플리케이션에 대해 설며
 -   **<description>**  : tag defines description about application.
     
 -   **<entity>**  : tag defines the entity class which you want to convert into table in a database. Attribute class defines the POJO entity class name.
@@ -241,10 +241,10 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTg0OTUxNywxNzA5MDI1NjMxLDE5Nj
-I3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUz
-ODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNz
-Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
-OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mj
-g1NjMwOF19
+eyJoaXN0b3J5IjpbLTQwMjU3MzUwMywxNTcxODQ5NTE3LDE3MD
+kwMjU2MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIy
+NywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMj
+A5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3
+MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MT
+k1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
