@@ -235,14 +235,14 @@ public  class  Employee  {
 
 ## Annotations
 
-일반적으로 xml 파일들은 특정 컴포넌트를 설정하거나 두 개의 다른 컴포넌트 스펙을 매핑하기 위해 사용한다. 지금은 프래임워크에서 별도로 xml 파일을 유지해야한다. 이것은 매핑 xml 파일을 작성하는 동안 mapping.xml 파일 안에 entity 태그와 POJO 클래스 속성들을 비교해야한다는 것을 의미합니다.
- In our case, we have to maintain xml separately in a framework. That means while writing a mapping xml file we need to compare the POJO class attributes with entity tags in mapping.xml file.
+일반적으로 xml 파일들은 특정 컴포넌트를 설정하거나 두 개의 다른 컴포넌트 스펙을 매핑하기 위해 사용한다. 지금은 프래임워크에서 별도로 xml 파일을 유지해야한다. 이것은 매핑 xml 파일을 작성할 때, mapping.xml 파일 안에 entity 태그와 POJO 클래스 속성들을 비교해야한다는 것을 의미한다. 
+
 
 Here is the solution: In the class definition, we can write the configuration part using annotations. The annotations are used for classes, properties, and methods. Annotations starts with ‘@’ symbol. Annotations are declared before the class, property or method is declared. All annotations of JPA are defined in javax.persistence package.
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDM2NjUxMiwtNTA4MDIwNzQ5LDE3ND
+eyJoaXN0b3J5IjpbMTc2NTM3NjQ2MCwtNTA4MDIwNzQ5LDE3ND
 A4OTA0LDEwMTM4MDc1MjQsMTUxODE4Nzk4MywtNTk2NzMxODE5
 LDExNzk5NDQwNjMsMTQ1NDM3NzcwOSwxNTcxODQ5NTE3LDE3MD
 kwMjU2MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIy
