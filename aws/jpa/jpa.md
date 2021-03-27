@@ -31,10 +31,9 @@ Java Persistence API 는 오라클 기업에서 제공하는 데이터베이스�
 
 - EJB 3.0 이 소개되는 동안, 영속 계층은 분리되었고, JPA1.0 (Java Persistence API) 로 구체화되었다. 이 API 스펙은 JSR 220 을 사용해서, 2006년 5월 11일 JAVA EE5 스펙과 함께 출시되었다. 
 
-- 
-    
--   JPA 2.0 was released with the specifications of JAVA EE6 on December 10, 2009 as a part of Java Community Process JSR 317.
-    
+- JPA 2.0 은 2009년 10월 10일 JAVA EE6 스펙과 함께, Java Community Precess JSR 317 의 한 부분으로, 출시되었다. 
+
+- JPA 2.1 은 2013년 4월 22일 JAVA E
 -   JPA 2.1 was released with the specification of JAVA EE7 on April 22, 2013 using JSR 338.
     
 
@@ -44,7 +43,7 @@ JPA is an open source API, therefore various enterprise vendors such as Oracle, 
 
 **Hibernate, Eclipselink, Toplink, Spring Data JPA, etc.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU3MzA5ODIsMTQzMTUzMjcyNiwzNj
-Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
-LTE5NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbLTI5ODYwMzQ1MCwxNDMxNTMyNzI2LDM2Nj
+k4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwt
+MTk1Mjg1NjMwOF19
 -->
