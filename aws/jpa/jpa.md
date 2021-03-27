@@ -131,14 +131,16 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ### Phase 3
 
-The third phase is the Relational data phase. It contains the relational data which is logically connected to the business component. As discussed above, only when the business component commit the data, it is stored into the database physically. Until then the modified data is stored in a cache memory as a grid format. Same is the process for obtaining data.
+세번째 단계는 relational 데이터 단계이다. 비즈니스 컴포넌트와 지엽적으로 연결된 relational 데이터를 포함한다. 위에 언급했듯이, 비즈니스 컴포넌트가 데이터를 commit 할 때만, 물리적으로 데이터베이스에 저장한다. 
+
+. Until then the modified data is stored in a cache memory as a grid format. Same is the process for obtaining data.
 
 The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzkzNjI4MiwtNTgzMDQxMjI3LC0yMD
-I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
-NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
-Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
-LTE5NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbLTE5MTM3NzI1NjIsMjEwNzkzNjI4MiwtNT
+gzMDQxMjI3LC0yMDI5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4
+NTk4LC0yMDk1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMT
+QzMTUzMjcyNiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTEx
+NTcsNjUxOTUxNDksLTE5NTI4NTYzMDhdfQ==
 -->
