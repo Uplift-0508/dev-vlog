@@ -53,13 +53,13 @@ The following image shows the class level architecture of JPA. It shows the core
 |      Units     | Description                         |
 |----------------|-------------------------------------|
 | **EntityManagerFactory** | EntityManager 의 팩토리 클래스이다. 다수의 EntityManager 인스턴스를 생성하고 관리한다. |
-| **EntityManager** | 인터페이스이다. 객체들 |
+| **EntityManager** | 인터페이스이다. 객체들의 영속성 연산들을 관리한다. 마치 쿼리 인스턴스를 위한 팩토 |
 
 **EntityManager**
 
 It is an Interface, it manages the persistence operations on objects. It works like factory for Query instance.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ4OTU1OSwtMjA5NTU2NzU3Nyw3Nj
+eyJoaXN0b3J5IjpbLTcwOTkwOTg3NSwtMjA5NTU2NzU3Nyw3Nj
 Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
 LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
 U2MzA4XX0=
