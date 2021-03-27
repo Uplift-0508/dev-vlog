@@ -37,12 +37,9 @@ Java Persistence API 는 오라클 기업에서 제공하는 데이터베이스�
 
 ## JPA Providers
 
-JPA 는 오픈소스 API 이다. 따라서 Oracle, Redhat, Eclipse 등의 다양한 기업의 회사들이 새로운 제품에 JPA 영속성을 추가해서 제공한다. 
-JPA is an open source API, therefore various enterprise vendors such as Oracle, Redhat, Eclipse, etc. provide new products by adding the JPA persistence flavor in them. Some of these products include:
-
-**Hibernate, Eclipselink, Toplink, Spring Data JPA, etc.**
+JPA 는 오픈소스 API 이다. 따라서 Oracle, Redhat, Eclipse 등의 다양한 기업의 회사들이 새로운 제품에 JPA 영속성을 추가해서 제공한다. 이런 제품들에는 Hibernate, Eclipselink, Toplink, Spring Data JPA 등이 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MTA2ODIsMTQzMTUzMjcyNiwzNjY5OD
-ExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5
-NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbLTIwNDA3NDc2NzYsMTQzMTUzMjcyNiwzNj
+Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
+LTE5NTI4NTYzMDhdfQ==
 -->
