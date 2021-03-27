@@ -15,8 +15,16 @@ Identity : 객체 모델과 달리, 동일하게 작성할 때 관계형 모델�
 Associations (연결) : 관계형 모델들은, 객체 도메인 모델을 살펴보는 동안 다수의 관계를 결정할 수 없다.  
 Data navigation (데이터 탐색) : 객체 네트워크 내의 객체들 사이의 데이터 탐색은 두 모델이 다르다.
 
+## What is JPA?
+
+Java Persistence API 는 데이터베이스에 방대한 양의 데이터를 영속적으로 저장하기 위한 클래스들과 메소드들의 모음이다. 오라클 기업에서 젝Java Persistence API is a collection of classes and methods to persistently store the vast amounts of data into a database which is provided by the Oracle Corporation.
+
+## Where to use JPA?
+
+To reduce the burden of writing codes for relational object management, a programmer follows the ‘JPA Provider’ framework, which allows easy interaction with database instance. Here the required framework is taken over by JPA.
 JPA 가 무엇인가
 Java Persistence API 는, 오라클 기업에서 제공하는 데이터베이스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxOTUxNDksLTE5NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbNDc3NDQ4MTQwLDY1MTk1MTQ5LC0xOTUyOD
+U2MzA4XX0=
 -->
