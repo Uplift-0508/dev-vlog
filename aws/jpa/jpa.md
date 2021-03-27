@@ -22,9 +22,8 @@ Java Persistence API 는 오라클 기업에서 제공하는 데이터베이스�
 ## Where to use JPA?
 
 To reduce the burden of writing codes for relational object management, a programmer follows the ‘JPA Provider’ framework, which allows easy interaction with database instance. Here the required framework is taken over by JPA.
-JPA 가 무엇인가
-Java Persistence API 는, 오라클 기업에서 제공하는 데이터베이스
+관계형 객체 관리를 위해 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
-U2MzA4XX0=
+eyJoaXN0b3J5IjpbLTE2ODA5NjA5MzYsNzI4MDExMTU3LDY1MT
+k1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
