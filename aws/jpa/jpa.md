@@ -12,7 +12,7 @@ Java Persistence API 는, 데이터베이스에 엄청난 양의 데이터를 �
 Granularity (세분성) : 객체 모델은 관계형 모델 보다 더 세부적이다.
 Subtype : Subtype 은 일부 관계형 데이터베이스에서 지원되지 않는다.  
 Identity : 객체 모델과 달리, 동일하게 작성할 때 관계형 모델은 identity 를 나타내지 않는다. 
-Associations (연결) : 관계형 모델들은, 객체 도메인 모델을 살펴보는 동안 다수의 관계를 결정할 수 없다.  
+Associations (연결) : 관계형 모델들은, 하나의 객체 도메인 모델을 볼 때, 다수의 관계를 생각할 수 없다.  
 Data navigation (데이터 탐색) : 객체 네트워크 내의 객체들 사이의 데이터 탐색은 두 모델이 다르다.
 
 ## What is JPA?
@@ -243,11 +243,11 @@ public  class  Employee  {
 다음은 예제에서 사용할 어노테이션 목록이다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDU0Mzg5OCwtNTA4MDIwNzQ5LDE3ND
-A4OTA0LDEwMTM4MDc1MjQsMTUxODE4Nzk4MywtNTk2NzMxODE5
-LDExNzk5NDQwNjMsMTQ1NDM3NzcwOSwxNTcxODQ5NTE3LDE3MD
-kwMjU2MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIy
-NywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMj
-A5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3
-MjZdfQ==
+eyJoaXN0b3J5IjpbODg4NDQ2MTUwLDEwNzQ1NDM4OTgsLTUwOD
+AyMDc0OSwxNzQwODkwNCwxMDEzODA3NTI0LDE1MTgxODc5ODMs
+LTU5NjczMTgxOSwxMTc5OTQ0MDYzLDE0NTQzNzc3MDksMTU3MT
+g0OTUxNywxNzA5MDI1NjMxLDE5NjI3MDI5MywyMTA3OTM2Mjgy
+LC01ODMwNDEyMjcsLTIwMjkyMTUzODIsNDA3OTQ2NTE5LDE3Nz
+U0MTg1OTgsLTIwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEy
+Ml19
 -->
