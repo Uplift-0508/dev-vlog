@@ -29,7 +29,7 @@ Java Persistence API 는 오라클 기업에서 제공하는 데이터베이스�
 
 초창기 EJB 버전들은 영속 계층은 javax.ejb.EntityBean 인터페이스를 사용하여 비즈니스 로직 계층과 결합된  형태로 정의되었다. 
 
-- EJB 3.0 이 소개되는 동안, 영속 계층은 분리되었고, JPA1.0 (Java Persistence API) 로 구체화되었다. 2006년 5월 11일 이 API 스펙은
+- EJB 3.0 이 소개되는 동안, 영속 계층은 분리되었고, JPA1.0 (Java Persistence API) 로 구체화되었다. 이 API 스펙은 JSR 220 을 사용해서, 2006년 5월 11일 JAVA EE5 스펙과 함께 출시되었다. 
 
 -   While introducing EJB 3.0, the persistence layer was separated and specified as JPA 1.0 (Java Persistence API). The specifications of this API were released along with the specifications of JAVA EE5 on May 11, 2006 using JSR 220.
     
@@ -44,7 +44,7 @@ JPA is an open source API, therefore various enterprise vendors such as Oracle, 
 
 **Hibernate, Eclipselink, Toplink, Spring Data JPA, etc.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjYwMjEwMCwzNjY5ODExOTksMTgwMT
+eyJoaXN0b3J5IjpbMTQzMTUzMjcyNiwzNjY5ODExOTksMTgwMT
 MzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NTI4NTYzMDhd
 fQ==
 -->
