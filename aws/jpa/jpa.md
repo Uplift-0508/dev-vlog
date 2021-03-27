@@ -25,9 +25,25 @@ Java Persistence API 는 오라클 기업에서 제공하는 데이터베이스�
 
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/jpa_provider.png)
 
+## JPA History
 
+초창기 EJB 버전들은 영속 
+Earlier versions of EJB, defined persistence layer combined with business logic layer using javax.ejb.EntityBean Interface.
+
+-   While introducing EJB 3.0, the persistence layer was separated and specified as JPA 1.0 (Java Persistence API). The specifications of this API were released along with the specifications of JAVA EE5 on May 11, 2006 using JSR 220.
+    
+-   JPA 2.0 was released with the specifications of JAVA EE6 on December 10, 2009 as a part of Java Community Process JSR 317.
+    
+-   JPA 2.1 was released with the specification of JAVA EE7 on April 22, 2013 using JSR 338.
+    
+
+## JPA Providers
+
+JPA is an open source API, therefore various enterprise vendors such as Oracle, Redhat, Eclipse, etc. provide new products by adding the JPA persistence flavor in them. Some of these products include:
+
+**Hibernate, Eclipselink, Toplink, Spring Data JPA, etc.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTIzODU0OCwzNjY5ODExOTksMTgwMT
+eyJoaXN0b3J5IjpbMTI5NzE2NzMxMywzNjY5ODExOTksMTgwMT
 MzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NTI4NTYzMDhd
 fQ==
 -->
