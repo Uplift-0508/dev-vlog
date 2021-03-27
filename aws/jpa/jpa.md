@@ -80,7 +80,10 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
   
   대부분의 당대 어플리케이션들은 데이터를 저장하기 위해서 관계형 데이터베이스를 사용한다. 최근에는 많은 회사들이, 데이터 유지 관리를 덜기 위해서, 객체형 데이터베이스로 바꾸고 있다. 이것은 객체형 데이터베이스나 객체 관계형 기술들이 저장, 검색, 업데이트, 유지 관리 처리하고 있는 것을 의미한다. 이 객체 관계형 기술의 핵심은 orm.xml 파일을 매핑하는 것이다. xml 이 컴파일에  필요하지 않기 때문에 적은 관리로 다수의 data source 들을 쉽게 변경할 수 있다. 
 
+Q. 객체 관계형 기술? 객체 데이터베이스?
+
 ## Object Relational Mapping
+
 
 Object Relational Mapping (ORM) briefly tells you about what is ORM and how it works. ORM is a programming ability to covert data from object type to relational type and vice versa.
 
@@ -103,8 +106,8 @@ Here follow the ORM architecture.
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE3MDU3OTMsNDA3OTQ2NTE5LDE3Nz
-U0MTg1OTgsLTIwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEy
-MiwxNDMxNTMyNzI2LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyOD
-AxMTE1Nyw2NTE5NTE0OSwtMTk1Mjg1NjMwOF19
+eyJoaXN0b3J5IjpbLTk0NzY2OTg3MSw0MDc5NDY1MTksMTc3NT
+QxODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIy
+LDE0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MD
+ExMTU3LDY1MTk1MTQ5LC0xOTUyODU2MzA4XX0=
 -->
