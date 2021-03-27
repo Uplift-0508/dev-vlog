@@ -219,11 +219,11 @@ public  class  Employee  {
 
 - <description> : 어플리케이션에 대한 설명을 정의한 태그.
 
-- <entity> : 데이터베이스의 테이블에 변환하여 저장하려고 하는 엔티티 클래스를 정의하는 태그. 
+- <entity> : 데이터베이스의 테이블에 변환하여 저장하려고 하는 엔티티 클래스를 정의하는 태그. 속성 클래스는 POJO 엔티티 클래스 이름을 정의한다.
     
--   **<entity>**  : tag defines the entity class which you want to convert into table in a database. Attribute class defines the POJO entity class name.
-    
--   **<table>**  : tag defines the table name. If you want to keep class name as table name then this tag is not necessary.
+- <table> : 테이블 이름을 정의하는 태그. 클래스이름을 테이블 이름으로 유지하고 싶다면 이 태그는 필요 없다.     
+
+- <attributes
     
 -   **<attributes>**  : tag defines the attributes (fields in a table).
     
@@ -242,11 +242,11 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUwMDE5NzMsMTE3OTk0NDA2MywxND
-U0Mzc3NzA5LDE1NzE4NDk1MTcsMTcwOTAyNTYzMSwxOTYyNzAy
-OTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3LC0yMDI5MjE1MzgyLD
-QwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LDc2NDYx
-OTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODExOTksMT
-gwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NTI4NTYz
-MDhdfQ==
+eyJoaXN0b3J5IjpbMTE2NTI3MTcxNiwxMTc5OTQ0MDYzLDE0NT
+QzNzc3MDksMTU3MTg0OTUxNywxNzA5MDI1NjMxLDE5NjI3MDI5
+MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUzODIsND
+A3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNzY0NjE5
+MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5OSwxOD
+AxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mjg1NjMw
+OF19
 -->
