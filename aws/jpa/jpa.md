@@ -192,13 +192,13 @@ public  class  Employee  {
     }  
 }
 ```
-위 코드는 Employee 엔티티 POJO 클래스이다.  employeeId, employeeName, salary, and deg 의 네 개의 속성은 갖는다. 이 속성들은 
-The above code is the Employee entity POJO class. It contain four attributes employeeId, employeeName, salary, and deg. Consider these attributes are the table fields in the database and eid is the primary key of this table. Now we have to design hibernate mapping file for it. The mapping file named **mapping.xml** is as follows:
+위 코드는 Employee 엔티티 POJO 클래스이다.  employeeId, employeeName, salary, and deg 의 네 개의 속성은 갖는다. 이 속성들은 데이터베이스에서 테이블 필드들이고, employeeId 는 테이블의 primary key 이다.  
+ Now we have to design hibernate mapping file for it. The mapping file named **mapping.xml** is as follows:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MDk5NTAyLDE3MDkwMjU2MzEsMTk2Mj
-cwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIyNywtMjAyOTIxNTM4
-Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3Nj
-Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
-LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
-U2MzA4XX0=
+eyJoaXN0b3J5IjpbLTEzMTgyMDE2MDgsMTcwOTAyNTYzMSwxOT
+YyNzAyOTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3LC0yMDI5MjE1
+MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LD
+c2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODEx
+OTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NT
+I4NTYzMDhdfQ==
 -->
