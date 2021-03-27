@@ -103,12 +103,43 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/object_relational_mapping.png)
 
+위 아키텍처는 3
+The above architecture explains how object data is stored into relational database in three phases.
 
+### Phase1
+
+The first phase, named as the  **Object data**  phase contains POJO classes, service interfaces and classes. It is the main business component layer, which has business logic operations and attributes.
+
+For example let us take an employee database as schema-
+
+-   Employee POJO class contain attributes such as ID, name, salary, and designation. And methods like setter and getter methods of those attributes.
+    
+-   Employee DAO/Service classes contains service methods such as create employee, find employee, and delete employee.
+    
+
+### Phase 2
+
+The second phase named as  **mapping**  or  **persistence**  phase which contains JPA provider, mapping file (ORM.xml), JPA Loader, and Object Grid.
+
+-   **JPA Provider**  : The vendor product which contains JPA flavor (javax.persistence). For example Eclipselink, Toplink, Hibernate, etc.
+    
+-   **Mapping file**  : The mapping file (ORM.xml) contains mapping configuration between the data in a POJO class and data in a relational database.
+    
+-   **JPA Loader**  : The JPA loader works like cache memory, which can load the relational grid data. It works like a copy of database to interact with service classes for POJO data (Attributes of POJO class).
+    
+-   **Object Grid**  : The Object grid is a temporary location which can store the copy of relational data, i.e. like a cache memory. All queries against the database is first effected on the data in the object grid. Only after it is committed, it effects the main database.
+    
+
+### Phase 3
+
+The third phase is the Relational data phase. It contains the relational data which is logically connected to the business component. As discussed above, only when the business component commit the data, it is stored into the database physically. Until then the modified data is stored in a cache memory as a grid format. Same is the process for obtaining data.
+
+The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzIxMjk1NiwtNTgzMDQxMjI3LC0yMD
-I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
-NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
-Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
-LTE5NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbLTExNTE2NzM5MjgsLTU4MzA0MTIyNywtMj
+AyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2
+NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMz
+Y2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5
+LC0xOTUyODU2MzA4XX0=
 -->
