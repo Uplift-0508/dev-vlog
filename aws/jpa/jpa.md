@@ -192,10 +192,10 @@ public  class  Employee  {
     }  
 }
 ```
-위 코드는 E
+위 코드는 Employee 엔티티 POJO 클래스이다. 
 The above code is the Employee entity POJO class. It contain four attributes eid, ename, salary, and deg. Consider these attributes are the table fields in the database and eid is the primary key of this table. Now we have to design hibernate mapping file for it. The mapping file named **mapping.xml** is as follows:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3ODY5MTcyLDE3MDkwMjU2MzEsMTk2Mj
+eyJoaXN0b3J5IjpbODQ1MTQwMTE1LDE3MDkwMjU2MzEsMTk2Mj
 cwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIyNywtMjAyOTIxNTM4
 Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3Nj
 Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
