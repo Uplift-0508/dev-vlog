@@ -158,7 +158,7 @@ public  class  Employee  {
         this.deg = deg;  
     }  
     
-    public  Employee(  )  {  
+    public  Employee()  {  
         super();  
     }  
     
@@ -197,10 +197,10 @@ public  class  Employee  {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3NDE1OTA2LDE3MDkwMjU2MzEsMTk2Mj
-cwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIyNywtMjAyOTIxNTM4
-Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3Nj
-Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
-LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
-U2MzA4XX0=
+eyJoaXN0b3J5IjpbLTExNjM0OTE1MCwxNzA5MDI1NjMxLDE5Nj
+I3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUz
+ODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNz
+Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
+OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mj
+g1NjMwOF19
 -->
