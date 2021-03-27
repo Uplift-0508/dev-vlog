@@ -131,14 +131,11 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ### Phase 3
 
-세번째 단계는 relational 데이터 단계이다. 비즈니스 컴포넌트와 논리적으로 연결된 relational 데이터를 포함한다. 위에 언급했듯이, 비즈니스 컴포넌트가 데이터를 commit 할 때만, 물리적으로 데이터베이스에 저장한다. 그 때까지 수정된 데이터는 grid 포맷으로 캐시 메모리에 저장된다. 
+세번째 단계는 relational 데이터 단계이다. 비즈니스 컴포넌트와 논리적으로 연결된 relational 데이터를 포함한다. 위에 언급했듯이, 비즈니스 컴포넌트가 데이터를 commit 할 때만, 물리적으로 데이터베이스에 저장한다. 그 때까지 수정된 데이터는 grid 포맷으로 캐시 메모리에 저장된다. 데이터를 조회하는 과정도 동일하다. 
 
-. Until then the modified data is stored in a cache memory as a grid format. Same is the process for obtaining data.
-
-The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
-  
+프로그램적으로 위 세 단계의 상호작용 메커니즘은 object relational mapping 으로 부른다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDQzMTQxNCwyMTA3OTM2MjgyLC01OD
+eyJoaXN0b3J5IjpbLTEwNjYwNzM2NCwyMTA3OTM2MjgyLC01OD
 MwNDEyMjcsLTIwMjkyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1
 OTgsLTIwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxND
 MxNTMyNzI2LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1
