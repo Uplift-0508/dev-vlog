@@ -242,15 +242,12 @@ public  class  Employee  {
 
 다음은 예제에서 사용할 어노테이션 목록이다. 
 
-Here is the solution: In the class definition, we can write the configuration part using annotations. The annotations are used for classes, properties, and methods. Annotations starts with ‘@’ symbol. Annotations are declared before the class, property or method is declared. All annotations of JPA are defined in javax.persistence package.
-
-Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjExNDkzMjEsLTUwODAyMDc0OSwxNz
-QwODkwNCwxMDEzODA3NTI0LDE1MTgxODc5ODMsLTU5NjczMTgx
-OSwxMTc5OTQ0MDYzLDE0NTQzNzc3MDksMTU3MTg0OTUxNywxNz
-A5MDI1NjMxLDE5NjI3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEy
-MjcsLTIwMjkyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLT
-IwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMy
-NzI2XX0=
+eyJoaXN0b3J5IjpbMTA3NDU0Mzg5OCwtNTA4MDIwNzQ5LDE3ND
+A4OTA0LDEwMTM4MDc1MjQsMTUxODE4Nzk4MywtNTk2NzMxODE5
+LDExNzk5NDQwNjMsMTQ1NDM3NzcwOSwxNTcxODQ5NTE3LDE3MD
+kwMjU2MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIy
+NywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMj
+A5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3
+MjZdfQ==
 -->
