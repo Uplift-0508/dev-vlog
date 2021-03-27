@@ -94,21 +94,21 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 - **고성능** : 많은 fetching 기술과 희망적인 잠금 기술들이 있다.
     
-- ** ** :     
--   **Reliable**  : It is highly stable and eminent. Used by many industrial programmers.
+- **신뢰할 수 있는** : 매우 안정적이고 띄어나다. 많은 산업에서 프로그래머들이 사용했다.      
     
 
 ## ORM Architecture
 
-Here follow the ORM architecture.
+다음은 ORM 아키텍처이다. 
+
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/object_relational_mapping.png)
 
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQyMTI5NjAsLTU4MzA0MTIyNywtMj
-AyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2
-NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMz
-Y2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5
-LC0xOTUyODU2MzA4XX0=
+eyJoaXN0b3J5IjpbLTYyNzIxMjk1NiwtNTgzMDQxMjI3LC0yMD
+I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
+NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
+Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
+LTE5NTI4NTYzMDhdfQ==
 -->
