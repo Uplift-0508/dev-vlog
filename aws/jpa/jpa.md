@@ -85,7 +85,7 @@ Q. 객체 관계형 기술? 객체 데이터베이스?
 ## Object Relational Mapping
 
 Object Relational Mapping (ORM) 은 간략하게 ORM 이 무엇인지 어떻게 동작하는지 알려준다. ORM 은   프로그래밍 능력이다.  
-Object Relational Mapping (ORM) briefly tells you about what is ORM and how it works. ORM is a programming ability to covert data from object type to relational type and vice versa.
+ORM is a programming ability to covert data from object type to relational type and vice versa.
 
 The main feature of ORM is mapping or binding an object to its data in the database. While mapping we have to consider the data, type of data and its relations with its self-entity or entity in any other table.
 
@@ -106,9 +106,9 @@ Here follow the ORM architecture.
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDQ0NTY5NywtMjAyOTIxNTM4Miw0MD
-c5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTky
-NjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MD
-EzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyODU2MzA4
-XX0=
+eyJoaXN0b3J5IjpbLTE1NTQ0OTQxODUsLTIwMjkyMTUzODIsND
+A3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNzY0NjE5
+MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5OSwxOD
+AxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mjg1NjMw
+OF19
 -->
