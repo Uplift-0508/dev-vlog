@@ -199,7 +199,8 @@ public  class  Employee  {
 	<entity-mappings  xmlns="http://java.sun.com/xml/ns/persistence/orm"  	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm    
    http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"  version="1.0"> 
     		<description> XML Mapping file</description>  
-    		<entity  class="Employee">  <table  name="EMPLOYEETABLE"/>  
+    		<entity  class="Employee">  
+	    		<table  name="EMPLOYEETABLE"/>  
 	    		<attributes>  
 		    		<id  name="eid">  
 			    		<generated-value  strategy="TABLE"/>  
@@ -240,11 +241,11 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2NjAxMjIyLDE1MTgxODc5ODMsLTU5Nj
-czMTgxOSwxMTc5OTQ0MDYzLDE0NTQzNzc3MDksMTU3MTg0OTUx
-NywxNzA5MDI1NjMxLDE5NjI3MDI5MywyMTA3OTM2MjgyLC01OD
-MwNDEyMjcsLTIwMjkyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1
-OTgsLTIwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxND
-MxNTMyNzI2LDM2Njk4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1
-N119
+eyJoaXN0b3J5IjpbLTE1MTQ1MzMwMTIsMTUxODE4Nzk4MywtNT
+k2NzMxODE5LDExNzk5NDQwNjMsMTQ1NDM3NzcwOSwxNTcxODQ5
+NTE3LDE3MDkwMjU2MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLT
+U4MzA0MTIyNywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQx
+ODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLD
+E0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDEx
+MTU3XX0=
 -->
