@@ -67,16 +67,18 @@ Java Persistence API 는 비즈니스 엔티티를 관계형 엔티티로 저장
 ![enter image description here](https://www.tutorialspoint.com/jpa/images/jpa_class_relationships.png)
 
 - EntityManagerFactory 와 EntityManager 는 1:다 의 관계를 가진다. EntityManagerFactory 는 EntityManager 인스턴스들의 팩토리 클래스이다. 
-- EntityManger 와 EntityTransaction 은 1:1 의 관계를 가진다. 각 Entitymanager 연산에 대해 한 개의 EntityTransaction 인스턴스가 있다. 
+- 
+- EntityManger 와 EntityTransaction 은 1:1 의 관계를 가진다. 각 EntityManager 연산에 대해 한 개의 EntityTransaction 인스턴스가 있다. 
+
+- EntityManager 와 Query 는 1:다 관계를 가진다. 다수의 쿼리는 하나의 EntityManager 인스턴스를 사용해서 실행할 수 있다. 
     
--   The relationship between EntityManager and EntityTransaction is  **one-to-one**. For each EntityManager operation, there is an EntityTransaction instance.
     
 -   The relationship between EntityManager and Query is  **one-to-many**. Many number of queries can execute using one EntityManager instance.
     
 -   The relationship between EntityManager and Entity is  **one-to-many**. One EntityManager instance can manage multiple Entities.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk3OTczNzAsMTc3NTQxODU5OCwtMj
-A5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3
-MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MT
-k1MTQ5LC0xOTUyODU2MzA4XX0=
+eyJoaXN0b3J5IjpbMjA0ODA0MTAyNCwxNzc1NDE4NTk4LC0yMD
+k1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcy
+NiwzNjY5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOT
+UxNDksLTE5NTI4NTYzMDhdfQ==
 -->
