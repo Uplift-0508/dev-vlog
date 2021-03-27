@@ -107,9 +107,9 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 ### Phase1
 
-첫 단계는 Object data 단계라고 부른다. 이는 POJO 클래스들, 서비스 인터페이스와 클래스을 포함한다. 
-The first phase, named as the  **Object data**  phase contains POJO classes, service interfaces and classes. It is the main business component layer, which has business logic operations and attributes.
+첫 단계는 Object data 단계라고 부른다. 이는 POJO 클래스들, 서비스 인터페이스와 클래스을 포함한다. 이는, 비즈니스 로직 연산과 속성을 가진, 메인 비즈니스 컴포넌트 계층이다. 
 
+예를 들어 
 For example let us take an employee database as schema-
 
 -   Employee POJO class contain attributes such as ID, name, salary, and designation. And methods like setter and getter methods of those attributes.
@@ -137,9 +137,9 @@ The third phase is the Relational data phase. It contains the relational data wh
 The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDgxNzM5MCwtNTgzMDQxMjI3LC0yMD
-I5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3
-NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNj
-Y5ODExOTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDks
-LTE5NTI4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbLTEwNzI5NzAwNTEsLTU4MzA0MTIyNywtMj
+AyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2
+NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMz
+Y2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5
+LC0xOTUyODU2MzA4XX0=
 -->
