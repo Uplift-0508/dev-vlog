@@ -53,14 +53,27 @@ The following image shows the class level architecture of JPA. It shows the core
 |      Units     | Description                         |
 |----------------|-------------------------------------|
 | **EntityManagerFactory** | EntityManager 의 팩토리 클래스이다. 다수의 EntityManager 인스턴스를 생성하고 관리한다. |
-| **EntityManager** | 인터페이스이다. 객체들의 영속성 연산들을 관리한다. 마치 쿼리 인스턴스를 위한 팩토 |
+| **EntityManager** | 인터페이스이다. 객체들의 영속성 연산들을 관리한다. 마치 쿼리 인스턴스를 위한 팩토리 처럼 동작한다. |
+| **Entity** | 엔티티들은 영속성 객체들이다. 데이터베이스의 레코드로 저장된다.   |
 
-**EntityManager**
+**Entity**
 
-It is an Interface, it manages the persistence operations on objects. It works like factory for Query instance.
+Entities are the persistence objects, stores as records in the database.
+
+**EntityTransaction**
+
+It has one-to-one relationship with EntityManager. For each EntityManager, operations are maintained by EntityTransaction class.
+
+**Persistence**
+
+This class contain static methods to obtain EntityManagerFactory instance.
+
+**Query**
+
+This interface is implemented by each JPA vendor to obtain relational objects that meet the criteria.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTkwOTg3NSwtMjA5NTU2NzU3Nyw3Nj
-Q2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5
-LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyOD
-U2MzA4XX0=
+eyJoaXN0b3J5IjpbODQxODUxNzkzLC0yMDk1NTY3NTc3LDc2ND
+YxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODExOTks
+MTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NTI4NT
+YzMDhdfQ==
 -->
