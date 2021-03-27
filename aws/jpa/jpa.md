@@ -52,9 +52,9 @@ The following image shows the class level architecture of JPA. It shows the core
 
 |      Units     | Description                         |
 |----------------|-------------------------------------|
-|EntityManagerFactory | EntityManager 의 팩토리 클래스이다. 다수의 EntityManager 인스턴스를 생성하고 관리한다.           |
+| **EntityManagerFactory** | EntityManager 의 팩토리 클래스이다. 다수의 EntityManager 인스턴스를 생성하고 관리한다. |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzEyMjM5NSw3NjQ2MTkyNjIsMzU5MT
-k1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MDEzMzUwNjUs
-NzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyODU2MzA4XX0=
+eyJoaXN0b3J5IjpbLTIwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OT
+E5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5OSwxODAxMzM1MDY1
+LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mjg1NjMwOF19
 -->
