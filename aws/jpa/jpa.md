@@ -192,13 +192,23 @@ public  class  Employee  {
     }  
 }
 ```
-위 코드는 Employee 엔티티 POJO 클래스이다.  employeeId, employeeName, salary, and deg 의 네 개의 속성은 갖는다. 이 속성들은 데이터베이스에서 테이블 필드들이고, employeeId 는 테이블의 primary key 이다. 이번에는 이에 대한 hibernate 매핑파일을 작성한다. 매핑하일
- Now we have to design hibernate mapping file for it. The mapping file named **mapping.xml** is as follows:
+위 코드는 Employee 엔티티 POJO 클래스이다.  employeeId, employeeName, salary, and deg 의 네 개의 속성은 갖는다. 이 속성들은 데이터베이스에서 테이블 필드들이고, employeeId 는 테이블의 primary key 이다. 이번에는 이에 대한 hibernate 매핑파일을 작성한다. 다음은 mapping.xml 으로 명명된 매핑파일이다.
+
+```xml
+<? xml version="1.0" encoding="UTF-8"  ?>  
+	<entity-mappings  xmlns="http://java.sun.com/xml/ns/persistence/orm"  	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm    
+   http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"  version="1.0"> 
+    		<description> XML Mapping file</description>  
+    		<entity  class="Employee">  <table  name="EMPLOYEETABLE"/>  
+    		<attributes>  
+	    		<id  name="eid">  
+	    		<generated-value  strategy="TABLE"/>  </id>  <basic  name="ename">  <column  name="EMP_NAME"  length="100"/>  </basic>  <basic  name="salary">  </basic>  <basic  name="deg">  </basic>  </attributes>  </entity>  </entity-mappings>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA5NTc0NTQsMTcwOTAyNTYzMSwxOT
-YyNzAyOTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3LC0yMDI5MjE1
-MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMDk1NTY3NTc3LD
-c2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcyNiwzNjY5ODEx
-OTksMTgwMTMzNTA2NSw3MjgwMTExNTcsNjUxOTUxNDksLTE5NT
-I4NTYzMDhdfQ==
+eyJoaXN0b3J5IjpbMTY3MTU5MTQ5MiwxNzA5MDI1NjMxLDE5Nj
+I3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEyMjcsLTIwMjkyMTUz
+ODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1NzcsNz
+Y0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Njk4MTE5
+OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwtMTk1Mj
+g1NjMwOF19
 -->
