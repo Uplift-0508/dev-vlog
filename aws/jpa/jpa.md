@@ -86,9 +86,7 @@ Q. 객체 관계형 기술? 객체 데이터베이스?
 
 Object Relational Mapping (ORM) 은 간략하게 ORM 이 무엇인지 어떻게 동작하는지 알려준다. ORM 은  데이터를 객체 타입에서 관계형 타입으로 또 그 역방향으로 변환하는  프로그래밍 능력이다.  
 
-ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하거나 바인딩하는 것이다. 매핑하는 동안 우리는 데이터와 데이터 타입과 다른 테이블ㅇ 관계들을 고려해야한다. 
-
-The main feature of ORM is mapping or binding an object to its data in the database. While mapping we have to consider the data, type of data and its relations with its self-entity or entity in any other table.
+ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하거나 바인딩하는 것이다. 매핑할 때, 우리는 데이터와 데이터 타입과 다른 테이블의 엔티티와 혹은 동일한 테이블의 엔티티와의 관계들을 고려해야한다. 
 
 ## Advanced Features
 
@@ -107,7 +105,7 @@ Here follow the ORM architecture.
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDM4ODM2OCwtMjAyOTIxNTM4Miw0MD
+eyJoaXN0b3J5IjpbLTQ1NDczMTA4NywtMjAyOTIxNTM4Miw0MD
 c5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTky
 NjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MD
 EzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyODU2MzA4
