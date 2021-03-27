@@ -120,9 +120,9 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 두 번째 단계는 **Mapping/Persistence** 단계로 부른다. 이 단계는 JPA provider, mapping file (ORM.xml), JPA Loader, Object Grid 를 포함한다. 
 
-- **JPA Provider**
--   **JPA Provider**  : The vendor product which contains JPA flavor (javax.persistence). For example Eclipselink, Toplink, Hibernate, etc.
+- **JPA Provider** : JPA flavor (javax.persistence) 를 포함하는 회사 제품. 예를 들어 Eclipselink, Toplink, Hibernate 등.
     
+- **Mapping file** : mapping file (ORM.xml) 은,  mapping configuration 을 포함한다.     
 -   **Mapping file**  : The mapping file (ORM.xml) contains mapping configuration between the data in a POJO class and data in a relational database.
     
 -   **JPA Loader**  : The JPA loader works like cache memory, which can load the relational grid data. It works like a copy of database to interact with service classes for POJO data (Attributes of POJO class).
@@ -137,7 +137,7 @@ The third phase is the Relational data phase. It contains the relational data wh
 The mechanism of the programmatic interaction of above three phases is called as object relational mapping.
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MDY0NzY2LC01ODMwNDEyMjcsLTIwMj
+eyJoaXN0b3J5IjpbODA4MDc5NjM4LC01ODMwNDEyMjcsLTIwMj
 kyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLTIwOTU1Njc1
 NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMyNzI2LDM2Nj
 k4MTE5OSwxODAxMzM1MDY1LDcyODAxMTE1Nyw2NTE5NTE0OSwt
