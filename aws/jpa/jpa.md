@@ -92,9 +92,9 @@ ORM 의 주요 특징은 데이터베이스의 데이터와 객체를 매핑하�
 
 - **자연스러운 영속성** : 객체 지향적 클래스들을 사용해서 영속성 클래스들을 작성할 수 있다.
 
-- **고성능** : 
--   **High Performance**  : It has many fetching techniques and hopeful locking techniques.
+- **고성능** : 많은 fetching 기술과 희망적인 잠금 기술들이 있다.
     
+- ** ** :     
 -   **Reliable**  : It is highly stable and eminent. Used by many industrial programmers.
     
 
@@ -106,9 +106,9 @@ Here follow the ORM architecture.
 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzA0MTIyNywtMjAyOTIxNTM4Miw0MD
-c5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2NzU3Nyw3NjQ2MTky
-NjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMzY2OTgxMTk5LDE4MD
-EzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5LC0xOTUyODU2MzA4
-XX0=
+eyJoaXN0b3J5IjpbLTEyMzQyMTI5NjAsLTU4MzA0MTIyNywtMj
+AyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMjA5NTU2
+NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3MjYsMz
+Y2OTgxMTk5LDE4MDEzMzUwNjUsNzI4MDExMTU3LDY1MTk1MTQ5
+LC0xOTUyODU2MzA4XX0=
 -->
