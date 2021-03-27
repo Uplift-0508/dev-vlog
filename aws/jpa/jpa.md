@@ -229,7 +229,7 @@ public  class  Employee  {
 
 - <basic> : 테이블의 탐은 속성들을 정의하는데 사용하는 태그.    
     
-- <column-name>    
+- <column-name> :     
 -   **<column-name>**  : tag is used to define user defined table field name.
     
 
@@ -241,7 +241,7 @@ Here is the solution: In the class definition, we can write the configuration pa
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjUzMDU5MywxNTE4MTg3OTgzLC01OT
+eyJoaXN0b3J5IjpbMTkwMDQyMDY2MywxNTE4MTg3OTgzLC01OT
 Y3MzE4MTksMTE3OTk0NDA2MywxNDU0Mzc3NzA5LDE1NzE4NDk1
 MTcsMTcwOTAyNTYzMSwxOTYyNzAyOTMsMjEwNzkzNjI4MiwtNT
 gzMDQxMjI3LC0yMDI5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4
