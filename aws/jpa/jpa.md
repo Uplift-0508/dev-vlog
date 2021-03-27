@@ -240,17 +240,17 @@ public  class  Employee  {
 여기 해결책이 있다.
 클래스 정의 안에 어노테이션을 사용해서 configuration 파트를 작성할 수 있다. 어노테이션들은 클래스, 필드, 메소드들에 사용할 수 있다. 어노테이션은 @ 기호로 시작한다. 어노테이션들은 클래스, 필드, 메소드 전에 선언된다. 모든 JPA 어노테이션들은 javax.persistence 패키지 안에 정의된다. 
 
-
+다음은 예제에서 사용할 어노테이션 목록이다. 
 
 Here is the solution: In the class definition, we can write the configuration part using annotations. The annotations are used for classes, properties, and methods. Annotations starts with ‘@’ symbol. Annotations are declared before the class, property or method is declared. All annotations of JPA are defined in javax.persistence package.
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NjYyNTg2LC01MDgwMjA3NDksMTc0MD
-g5MDQsMTAxMzgwNzUyNCwxNTE4MTg3OTgzLC01OTY3MzE4MTks
-MTE3OTk0NDA2MywxNDU0Mzc3NzA5LDE1NzE4NDk1MTcsMTcwOT
-AyNTYzMSwxOTYyNzAyOTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3
-LC0yMDI5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMD
-k1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcy
-Nl19
+eyJoaXN0b3J5IjpbLTEyMjExNDkzMjEsLTUwODAyMDc0OSwxNz
+QwODkwNCwxMDEzODA3NTI0LDE1MTgxODc5ODMsLTU5NjczMTgx
+OSwxMTc5OTQ0MDYzLDE0NTQzNzc3MDksMTU3MTg0OTUxNywxNz
+A5MDI1NjMxLDE5NjI3MDI5MywyMTA3OTM2MjgyLC01ODMwNDEy
+MjcsLTIwMjkyMTUzODIsNDA3OTQ2NTE5LDE3NzU0MTg1OTgsLT
+IwOTU1Njc1NzcsNzY0NjE5MjYyLDM1OTE5NTEyMiwxNDMxNTMy
+NzI2XX0=
 -->
