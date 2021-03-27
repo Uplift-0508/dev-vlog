@@ -238,17 +238,19 @@ public  class  Employee  {
 일반적으로 xml 파일들은 특정 컴포넌트를 설정하거나 두 개의 다른 컴포넌트 스펙을 매핑하기 위해 사용한다. 지금은 프래임워크에서 별도로 xml 파일을 유지해야한다. 이것은 매핑 xml 파일을 작성할 때, mapping.xml 파일 안에 entity 태그와 POJO 클래스 속성들을 비교해야한다는 것을 의미한다. 
 
 여기 해결책이 있다.
-클래스 정의 안에 어노테이션을 사용해서 configuration 파트를 작성할 수 있다. 어노테이션들은 클래스, 필드, 메소드들에 사용할 수 있다. 
+클래스 정의 안에 어노테이션을 사용해서 configuration 파트를 작성할 수 있다. 어노테이션들은 클래스, 필드, 메소드들에 사용할 수 있다. 어노테이션은 @ 기호로 시작한다. 어노테이션들은 클래스, 필드, 메소드 전에 선언된다. 모든 JPA 어노테이션들은 javax.persistence 패키지 안에 정의된다. 
+
+
 
 Here is the solution: In the class definition, we can write the configuration part using annotations. The annotations are used for classes, properties, and methods. Annotations starts with ‘@’ symbol. Annotations are declared before the class, property or method is declared. All annotations of JPA are defined in javax.persistence package.
 
 Here follows the list of annotations used in our examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDIxMTY0OCwtNTA4MDIwNzQ5LDE3ND
-A4OTA0LDEwMTM4MDc1MjQsMTUxODE4Nzk4MywtNTk2NzMxODE5
-LDExNzk5NDQwNjMsMTQ1NDM3NzcwOSwxNTcxODQ5NTE3LDE3MD
-kwMjU2MzEsMTk2MjcwMjkzLDIxMDc5MzYyODIsLTU4MzA0MTIy
-NywtMjAyOTIxNTM4Miw0MDc5NDY1MTksMTc3NTQxODU5OCwtMj
-A5NTU2NzU3Nyw3NjQ2MTkyNjIsMzU5MTk1MTIyLDE0MzE1MzI3
-MjZdfQ==
+eyJoaXN0b3J5IjpbNzc2NjYyNTg2LC01MDgwMjA3NDksMTc0MD
+g5MDQsMTAxMzgwNzUyNCwxNTE4MTg3OTgzLC01OTY3MzE4MTks
+MTE3OTk0NDA2MywxNDU0Mzc3NzA5LDE1NzE4NDk1MTcsMTcwOT
+AyNTYzMSwxOTYyNzAyOTMsMjEwNzkzNjI4MiwtNTgzMDQxMjI3
+LC0yMDI5MjE1MzgyLDQwNzk0NjUxOSwxNzc1NDE4NTk4LC0yMD
+k1NTY3NTc3LDc2NDYxOTI2MiwzNTkxOTUxMjIsMTQzMTUzMjcy
+Nl19
 -->
