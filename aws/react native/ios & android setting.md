@@ -20,6 +20,9 @@ package.lock?
 
 npx react-native run-android
 npm clean
+npm 명령어들
+
+brew
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODY2ODE5OV19
+eyJoaXN0b3J5IjpbMTEwNzQ0ODgwOF19
 -->
