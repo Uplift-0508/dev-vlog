@@ -16,6 +16,10 @@ cocoapod
 pod.lock
 package.lock?
 .env
+
+
+npx react-native run-android
+npm clean
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzQ5MDcwOV19
+eyJoaXN0b3J5IjpbLTM1ODY2ODE5OV19
 -->
