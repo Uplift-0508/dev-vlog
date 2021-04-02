@@ -7,6 +7,15 @@ npm i
 - community.mobileprovision (실행 파일)
 
 - GoogleService-Info.plist (firebase 사용을 위한 config 파일)
+
+firebase
+
+cocoapod
+
+
+pod.lock
+package.lock?
+.env
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjA2NjYxMV19
+eyJoaXN0b3J5IjpbLTg2NzQ5MDcwOV19
 -->
