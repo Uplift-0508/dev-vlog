@@ -23,6 +23,8 @@ npm clean
 npm 명령어들
 
 brew
+
+/ios/AAA.xcworkspace
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzQ0ODgwOF19
+eyJoaXN0b3J5IjpbLTQzNDU0MzA4MF19
 -->
