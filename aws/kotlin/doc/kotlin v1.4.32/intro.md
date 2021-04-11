@@ -27,7 +27,8 @@ kotlin 은 가장 pythonic 한 언어라 여겨지기도 한다.
 개발자의 속도..
 얼마나 빨리 무언가를 만들 수 있는지
 그리고 얼마나 빨리 실행되는지
+걱정하고 싶은 것 같은 느낌..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc3NTk4MzgsMjA2NDAwMTMwOCwxMT
-cxNzkyNDQ1LDQ3NjM1MDk0Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTc0MjEyNDI0MiwyMDY0MDAxMzA4LDExNz
+E3OTI0NDUsNDc2MzUwOTQzLDczMDk5ODExNl19
 -->
