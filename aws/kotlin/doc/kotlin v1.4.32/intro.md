@@ -22,8 +22,8 @@ Safe : 안전하다.
 일하는 방식 인지하는 방식을 바꾼다.
 자바는 모든 것이 객체여야 한다는 생각을 하게 하는데
 이것이 디자인적인 사고를 왜곡한다.
-kotlin 은 가장 phy
+kotlin 은 가장 pythonic 한 언어라 여겨지기도 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3MTYzNTkxLDExNzE3OTI0NDUsNDc2Mz
-UwOTQzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjA2NDAwMTMwOCwxMTcxNzkyNDQ1LDQ3Nj
+M1MDk0Myw3MzA5OTgxMTZdfQ==
 -->
