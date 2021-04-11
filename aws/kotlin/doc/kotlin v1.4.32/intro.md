@@ -16,7 +16,9 @@ Safe : 안전하다.
 얼마나 자주 장황함을 제거해주는가
 클래스와 함수가 없다
 
+자바를 사용하면 사람들은 클래스 측면에서 생각해야 한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NTExNDc2LDQ3NjM1MDk0Myw3MzA5OT
+eyJoaXN0b3J5IjpbNDQ2MTg4NTYyLDQ3NjM1MDk0Myw3MzA5OT
 gxMTZdfQ==
 -->
