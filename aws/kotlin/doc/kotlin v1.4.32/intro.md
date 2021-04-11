@@ -26,14 +26,14 @@ kotlin 은 가장 pythonic 한 언어라 여겨지기도 한다.
 nullpoint exception 위험이 없다.
 
 kotlin 은 android 전용이 아니다.
-
+kotlin 은 jvm 전용이 아니다.
 
 개발자의 속도..
 얼마나 빨리 무언가를 만들 수 있는지
 그리고 얼마나 빨리 실행되는지
 걱정하고 싶은 것 같은 느낌..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU4NjA5MjEsLTc0MjEyNDI0MiwyMD
-Y0MDAxMzA4LDExNzE3OTI0NDUsNDc2MzUwOTQzLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbMTMxNDc1MTg5MiwtNzQyMTI0MjQyLDIwNj
+QwMDEzMDgsMTE3MTc5MjQ0NSw0NzYzNTA5NDMsNzMwOTk4MTE2
+XX0=
 -->
