@@ -5,8 +5,9 @@
 that makes developers happier.
 
 회사에서 kotlin 을 주 언어로 사용하고 있어서, kotlin 을 사용하기 시작했다. 
-아직도 java 에 익숙해서 좀 어색하긴하지만 차근차근 익혀서 익숙해져야지.
+kotlin 은 JetBrains 에서 개발된 언어이고 오픈소스다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAxMDY4MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0MzQyMzIwMzEsNzMwOTk4MTE2XX0=
 -->
