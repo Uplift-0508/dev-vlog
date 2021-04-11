@@ -23,12 +23,14 @@ Safe : 안전하다.
 자바는 모든 것이 객체여야 한다는 생각을 하게 하는데
 이것이 디자인적인 사고를 왜곡한다.
 kotlin 은 가장 pythonic 한 언어라 여겨지기도 한다.
+nullpoint exception 위험이 없다.
 
 개발자의 속도..
 얼마나 빨리 무언가를 만들 수 있는지
 그리고 얼마나 빨리 실행되는지
 걱정하고 싶은 것 같은 느낌..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjEyNDI0MiwyMDY0MDAxMzA4LDExNz
-E3OTI0NDUsNDc2MzUwOTQzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzc1OTY4MjAsLTc0MjEyNDI0MiwyMDY0MD
+AxMzA4LDExNzE3OTI0NDUsNDc2MzUwOTQzLDczMDk5ODExNl19
+
 -->
