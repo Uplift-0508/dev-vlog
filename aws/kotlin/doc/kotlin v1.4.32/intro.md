@@ -23,7 +23,11 @@ Safe : 안전하다.
 자바는 모든 것이 객체여야 한다는 생각을 하게 하는데
 이것이 디자인적인 사고를 왜곡한다.
 kotlin 은 가장 pythonic 한 언어라 여겨지기도 한다.
+
+개발자의 속도..
+얼마나 빨리 무언가를 만들 수 있는지
+그리고 얼마나 빨리 실행되는지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDAwMTMwOCwxMTcxNzkyNDQ1LDQ3Nj
-M1MDk0Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NDc3NTk4MzgsMjA2NDAwMTMwOCwxMT
+cxNzkyNDQ1LDQ3NjM1MDk0Myw3MzA5OTgxMTZdfQ==
 -->
