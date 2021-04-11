@@ -17,8 +17,8 @@ Safe : 안전하다.
 클래스와 함수가 없다
 
 자바를 사용하면 사람들은 클래스 측면에서 생각해야 한다.
-
+코틀린은 다르기 때문에 더이상 그럴필요가 없다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MTg4NTYyLDQ3NjM1MDk0Myw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbMTY5MTM5NDQ3Nyw0NzYzNTA5NDMsNzMwOT
+k4MTE2XX0=
 -->
