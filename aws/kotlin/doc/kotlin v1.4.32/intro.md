@@ -20,8 +20,9 @@ Safe : 안전하다.
 코틀린은 다르기 때문에 더이상 그럴필요가 없다.
 때문에 엔티티가 정말로 필요한지 결정할 수 있다.
 일하는 방식 인지하는 방식을 바꾼다.
-wkqk
+자바는 모든 것이 객체여야 한다는 생각을 하게 하는데
+이것이 디자인적인 사고를 왜곡한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTY4NTc1NywxMTcxNzkyNDQ1LDQ3Nj
-M1MDk0Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNjIxODAzOTAsMTE3MTc5MjQ0NSw0Nz
+YzNTA5NDMsNzMwOTk4MTE2XX0=
 -->
