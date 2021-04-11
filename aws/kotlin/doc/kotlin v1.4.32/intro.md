@@ -20,7 +20,8 @@ Safe : 안전하다.
 코틀린은 다르기 때문에 더이상 그럴필요가 없다.
 때문에 엔티티가 정말로 필요한지 결정할 수 있다.
 일하는 방식 인지하는 방식을 바꾼다.
+wkqk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTc5MjQ0NSw0NzYzNTA5NDMsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTY5OTY4NTc1NywxMTcxNzkyNDQ1LDQ3Nj
+M1MDk0Myw3MzA5OTgxMTZdfQ==
 -->
