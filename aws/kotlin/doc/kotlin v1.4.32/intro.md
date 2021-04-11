@@ -27,13 +27,15 @@ nullpoint exception 위험이 없다.
 
 kotlin 은 android 전용이 아니다.
 kotlin 은 jvm 전용이 아니다. 멀티플랫폼의 가능성을 열어두고 있다.
+서로 다른 벡엔드간의 코드 공유
+kotlin 코드로 작성하고 다른 벡엔드 코드로 컴파일한다.
 
 개발자의 속도..
 얼마나 빨리 무언가를 만들 수 있는지
 그리고 얼마나 빨리 실행되는지
 걱정하고 싶은 것 같은 느낌..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI4OTI5MTMsLTc0MjEyNDI0MiwyMD
-Y0MDAxMzA4LDExNzE3OTI0NDUsNDc2MzUwOTQzLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTQxMTg5MzMxMywtNzQyMTI0MjQyLDIwNj
+QwMDEzMDgsMTE3MTc5MjQ0NSw0NzYzNTA5NDMsNzMwOTk4MTE2
+XX0=
 -->
