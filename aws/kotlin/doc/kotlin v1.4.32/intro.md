@@ -6,7 +6,7 @@ Modern : 현대적이다.
 Concise :  간결하다.
 Safe : 안전하다.
 
- 무엇으로 생산성을 이끄는가.  
+무엇으로 생산성을 이끄는가.  
 실제 사람들의 삶을 어떻게 더 쉽게 만들수 있는가.  
 사람들의 실제 문제를 어떻게 해결할지 고민한다.  
 언어를 볼때, 개발자 경험을 먼저 본다.  
@@ -35,7 +35,7 @@ kotlin 코드로 작성하고 다른 벡엔드 코드로 컴파일한다.
 그리고 얼마나 빨리 실행되는지
 걱정하고 싶은 것 같은 느낌..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTg5MzMxMywtNzQyMTI0MjQyLDIwNj
-QwMDEzMDgsMTE3MTc5MjQ0NSw0NzYzNTA5NDMsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbMzY4MjA2OTUzLC00MTE4OTMzMTMsLTc0Mj
+EyNDI0MiwyMDY0MDAxMzA4LDExNzE3OTI0NDUsNDc2MzUwOTQz
+LDczMDk5ODExNl19
 -->
