@@ -94,46 +94,70 @@ Spring Application을 구동할 때 메서드를 실행시키는 방법에 대�
 
 JPA 영속성 컨텍스트의 이점(5가지)을 설명해주세요.JPA Propagation 전파단계를 설명해주세요.JPA를 쓴다면 그 이유에 대해서 설명해주세요.N + 1 문제가 발생하는 이유와 이를 해결하는 방법을 설명해주세요.
 
-### [](https://github.com/ksundong/backend-interview-question#python)Python
+### Python
 
 GIL에 대해 설명해주세요.Magic method에 대해 설명해주세요.
 
-## [](https://github.com/ksundong/backend-interview-question#%EA%B8%B0%ED%83%80)기타
+## 기타
 
-### [](https://github.com/ksundong/backend-interview-question#%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85)트러블 슈팅
+### 트러블 슈팅
 
 대용량 트래픽에서 장애가 발생하면 어떻게 대응할 것인가요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4)디자인 패턴
+### 디자인 패턴
 
 싱글톤 패턴에 대해서 설명해주세요.(생각보다 어려움)가교 패턴(브릿지 패턴)에 대해서 설명해주세요.전략 패턴에 대해서 설명해주세요.빌더 패턴에 대해서 설명해주세요.팩토리 메서드 패턴에 대해서 설명해주세요.퍼사드 패턴에 대한 예를 들어주세요.
 
-### [](https://github.com/ksundong/backend-interview-question#%ED%85%8C%EC%8A%A4%ED%8A%B8)테스트
+### 테스트
 
-테스트 코드에 대해서 어떻게 생각하고, 작성하나요?TDD를 알고 있나요? TDD에 대해서 어떻게 생각하나요?테스트 커버리지에 대해서 어떻게 생각하나요?
+테스트 코드에 대해서 어떻게 생각하고, 작성하나요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%9D%B8%ED%94%84%EB%9D%BC%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C)인프라/클라우드
+TDD를 알고 있나요? 
 
-AWS 인프라를 구축해보았다면 설명해주세요.로드 밸런서에 대해서 설명해주세요.리버스 프록시에 대해서 설명해주세요.Fault-tolerant(무정지) 시스템으로 가기 위해 필요한 방법에 대한 생각을 말해주세요.
+TDD에 대해서 어떻게 생각하나요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88)컨테이너
+테스트 커버리지에 대해서 어떻게 생각하나요?
+
+### 인프라/클라우드
+
+AWS 인프라를 구축해보았다면 설명해주세요.
+
+로드 밸런서에 대해서 설명해주세요.
+
+리버스 프록시에 대해서 설명해주세요.
+
+Fault-tolerant(무정지) 시스템으로 가기 위해 필요한 방법에 대한 생각을 말해주세요.
+
+### 컨테이너
 
 제가 아직 도커, 쿠버네티스에 익숙하지 않아 공부가 좀 더 필요합니다.  
 관련해서 질문을 받아본적은 없으나, 일반적인 질문을 담아보았습니다.
 
-Docker란 무엇이고 컨테이너 가상화를 왜 사용할까요?컨테이너 환경에서의 디버깅은 어떤식으로 하며 상대적으로 어려운 점은 무엇인가요?
+Docker란 무엇이고 컨테이너 가상화를 왜 사용할까요?
 
-### [](https://github.com/ksundong/backend-interview-question#devops)DevOps
+컨테이너 환경에서의 디버깅은 어떤식으로 하며 상대적으로 어려운 점은 무엇인가요?
+
+### DevOps
 
 DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지만 DevOps가 무엇인지 정도는 알아두는게 좋을 것 같습니다.
 
-CI/CD가 무엇인가요? 왜 CI/CD가 장점이 될까요?DevOps가 무엇인지 설명해주세요.
+CI/CD가 무엇인가요? 
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98)커뮤니케이션
+왜 CI/CD가 장점이 될까요?
+
+DevOps가 무엇인지 설명해주세요.
+
+### 커뮤니케이션
 
 정답이 없는 질문입니다. 면접관마다 의도하는 답이 다 다를테니 자신만의 방법을 한 번 쯤 생각해보고 답변에 막힘이 없도록 준비합시다.
 
-어떤 기술이나 방법론이 좋아보일 때, 이를 어떻게 설득할 것인가요?일정이 예상보다 지연될 것 같습니다. 어떻게 해결하실 것인가요?팀원과의 갈등이 있었나요? 있었다면 어떻게 대처했나요?
+어떤 기술이나 방법론이 좋아보일 때, 이를 어떻게 설득할 것인가요?
+
+일정이 예상보다 지연될 것 같습니다. 
+
+어떻게 해결하실 것인가요?
+
+팀원과의 갈등이 있었나요? 있었다면 어떻게 대처했나요?
 
 ### [](https://github.com/ksundong/backend-interview-question#%EA%B0%9C%EC%9D%B8%EC%9D%98-%EC%97%AD%EB%9F%89)개인의 역량
 
@@ -159,5 +183,5 @@ protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?gRPC는 
 
 프로젝트를 수행할 때, 내가 이 기술을 단순히 좋아보여서 사용한 것이 아니라, 많은 고민을 했음을 보여주도록 하세요. 가장 간단한 질문으로는 '왜 그 기술을 사용했나요?', '그 기술 말고 다른 기술은 왜 사용하지 않았나요?', '대체할만한 기술이 있나요?' 등이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MzEyNzk0XX0=
+eyJoaXN0b3J5IjpbLTI3MzMzMzQ1Ml19
 -->
