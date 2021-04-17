@@ -159,21 +159,27 @@ DevOps가 무엇인지 설명해주세요.
 
 팀원과의 갈등이 있었나요? 있었다면 어떻게 대처했나요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EA%B0%9C%EC%9D%B8%EC%9D%98-%EC%97%AD%EB%9F%89)개인의 역량
+### 개인의 역량
 
-본인이 수행한 프로젝트 중 상용화 가능한 프로젝트가 있나요?기술을 습득할 때 어떤 식으로 습득하나요?
+본인이 수행한 프로젝트 중 상용화 가능한 프로젝트가 있나요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%B5%9C%EC%8B%A0%EA%B8%B0%EC%88%A0%EC%97%90-%EA%B4%80%EC%8B%AC%EC%9D%B4-%EC%9E%88%EB%8A%94%EC%A7%80)최신기술에 관심이 있는지
+기술을 습득할 때 어떤 식으로 습득하나요?
+
+### 최신기술에 관심이 있는지
 
 최신기술에 관심이 있는지 정도를 확인하고자 함입니다. 너무 정확하게 말하지 않아도 관심이 있다는 인상정도를 줄 수 있다면 좋겠습니다.  
 그 회사의 기술 스택을 찾아보고 관심을 가져봤다 정도의 느낌을 줄 수 있어야합니다.  
 사용까지 해보면 더더욱 좋을 것 같습니다.
 
-protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?gRPC는 무엇이며, RPC는 무엇인가요? 왜 쓸까요?쿠버네티스가 무엇인가요? 왜 쿠버네티스를 쓸까요?
+protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%9B%B9%EC%84%9C%EB%B2%84%EC%9D%98-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95)웹서버의 동작과정
+gRPC는 무엇이며, RPC는 무엇인가요? 왜 쓸까요?
 
-## [](https://github.com/ksundong/backend-interview-question#%EB%A9%B4%EC%A0%91-%EA%BF%80%ED%8C%81)면접 꿀팁
+쿠버네티스가 무엇인가요? 왜 쿠버네티스를 쓸까요?
+
+### 웹서버의 동작과정
+
+## 면접 꿀팁
 
 회사의 기술스택에 관심을 가져보세요. 학습능력이 좋음을 어떤식으로 보여줄 수 있을까요?
 
@@ -183,5 +189,5 @@ protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?gRPC는 
 
 프로젝트를 수행할 때, 내가 이 기술을 단순히 좋아보여서 사용한 것이 아니라, 많은 고민을 했음을 보여주도록 하세요. 가장 간단한 질문으로는 '왜 그 기술을 사용했나요?', '그 기술 말고 다른 기술은 왜 사용하지 않았나요?', '대체할만한 기술이 있나요?' 등이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzMzMzQ1Ml19
+eyJoaXN0b3J5IjpbODI2ODk1ODk0XX0=
 -->
