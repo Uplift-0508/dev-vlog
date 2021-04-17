@@ -272,9 +272,9 @@ CI/CD가 무엇인가요? 왜 CI/CD가 장점이 될까요?DevOps가 무엇인�
 
 protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?gRPC는 무엇이며, RPC는 무엇인가요? 왜 쓸까요?쿠버네티스가 무엇인가요? 왜 쿠버네티스를 쓸까요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%9B%B9%EC%84%9C%EB%B2%84%EC%9D%98-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95)웹서버의 동작과정
+### 웹서버의 동작과정
 
-## [](https://github.com/ksundong/backend-interview-question#%EB%A9%B4%EC%A0%91-%EA%BF%80%ED%8C%81)면접 꿀팁
+## 면접 꿀팁
 
 회사의 기술스택에 관심을 가져보세요. 학습능력이 좋음을 어떤식으로 보여줄 수 있을까요?
 
@@ -370,9 +370,9 @@ CI/CD가 무엇인가요? 왜 CI/CD가 장점이 될까요?DevOps가 무엇인�
 
 protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?gRPC는 무엇이며, RPC는 무엇인가요? 왜 쓸까요?쿠버네티스가 무엇인가요? 왜 쿠버네티스를 쓸까요?
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%9B%B9%EC%84%9C%EB%B2%84%EC%9D%98-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95)웹서버의 동작과정
+### 웹서버의 동작과정
 
-## [](https://github.com/ksundong/backend-interview-question#%EB%A9%B4%EC%A0%91-%EA%BF%80%ED%8C%81)면접 꿀팁
+## 면접 꿀팁
 
 회사의 기술스택에 관심을 가져보세요. 학습능력이 좋음을 어떤식으로 보여줄 수 있을까요?
 
@@ -384,5 +384,5 @@ protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?gRPC는 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQyOTE0OTVdfQ==
+eyJoaXN0b3J5IjpbLTExNTQ0NjQ0ODddfQ==
 -->
