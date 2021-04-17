@@ -197,17 +197,17 @@ gRPC는 무엇이며, RPC는 무엇인가요? 왜 쓸까요?
 
 시간 복잡도를 계산해주세요.배열과 링크드 리스트의 차이를 설명해주세요.List와 Set의 차이에 대해서 설명해주세요.Hash Function, HashTable에 대해서 설명해주세요.Stack, Queue에 대해서 설명해주세요.Heap, Priority Queue에 대해서 설명해주세요.Tree, Binary Tree, BST, AVL Tree에 대해서 설명해주세요.BST의 최악의 경우의 예와 시간복잡도에 대해서 설명해주세요.피보나치 수열을 코드로 구현하는 방법에 대해서 설명해주세요.DFS, BFS에 대해서 설명해주세요.정렬, 탐색에 대해 설명해주세요.
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%95%94%ED%98%B8%ED%95%99%EB%B3%B4%EC%95%88%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%A0%95%EB%8F%84)암호학/보안(간단한 정도)
+### 암호학/보안(간단한 정도)
 
 비대칭키 암호화, 대칭키 암호화에 대해 간단히 설명해주세요.단방향 암호화에 대해서 간단히 설명해주세요.JWT에 대해서 간단히 설명해주세요.OAuth에 대해서 간단히 설명해주세요.JWT와 OAuth의 차이는 무엇이 있을까요?SQL Injection에 대해서 간단히 설명해주세요.XSS에 대해서 간단히 설명해주세요.CSRF에 대해서 간단히 설명해주세요.
 
-### [](https://github.com/ksundong/backend-interview-question#%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC)컴파일러
+### 컴파일러
 
 스크립트 언어와 컴파일 언어를 나열하고 차이점을 설명해주세요.
 
-## [](https://github.com/ksundong/backend-interview-question#%EC%96%B8%EC%96%B4-%EA%B4%80%EB%A0%A8)언어 관련
+## 언어 관련
 
-### [](https://github.com/ksundong/backend-interview-question#java)Java
+### Java
 
 JVM의 구조와 Java의 실행방식을 설명해주세요.GC가 무엇인지, 필요한 이유는 무엇인지, 동작방식에 대해 설명해주세요.컬렉션 프레임워크에 대해서 설명해주세요.제네릭에 대해서 설명해주세요.애노테이션에 대해서 설명해주세요.오버라이딩과 오버로딩이 무엇이며 어떤 차이가 있을까요?인터페이스와 추상클래스의 차이점에 대해 설명해주세요.클래스는 무엇이고 객체는 무엇인가요?정적(static)이란 무엇인가요?자바의 원시타입들은 무엇이 있으며 각각 몇 바이트를 차지하나요?접근 제어자의 종류와 이에 대해 설명해주세요.객체지향에 대해서 설명해주세요.SOLID(객체지향 5대원칙)에 대해서 설명해주세요.동일성(identity)와 동등성(equality)에 대해 설명해주세요. (equals(), ==)원시타입과 참조타입의 차이에 대해 설명해주세요.String, StringBuilder, StringBuffer 각각의 차이에 대해 설명해주세요.Checked Exception과 Unchecked Exception에 대해 설명해주세요. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까요?Java8에서 추가된 기능에 대해서 설명해주세요.try-with-resource에 대해서 설명해주세요.강한 결합과 느슨한 결합이 무엇인지 설명해주세요.직렬화와 역직렬화에 대해서 설명해주세요.자바의 동시성 이슈(공유자원 접근)에 대해 설명해주세요.Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.자바에서 null을 안전하게 다루는 방법에 대해 설명해주세요.
 
@@ -388,5 +388,5 @@ protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?gRPC는 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTk1MTE5XX0=
+eyJoaXN0b3J5IjpbMTQ0NzEyNTQzNiwtNjI1OTUxMTldfQ==
 -->
