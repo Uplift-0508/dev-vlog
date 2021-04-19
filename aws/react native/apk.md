@@ -91,9 +91,13 @@ AAB 는 `android/app/build/outputs/bundle/release/app.aab` 아래에 생성된�
 
 구글 플레이가 AAB 형식을 받아들이기 위해서, 구글 플레이에서 signing 한 앱이 구글 플레이 콘솔에서 앱에 대한 설정이 되어 있어야 한다. 구글플레이에서 App Signing 을 사용하지 않는 현재 존재하는 앱을 업데이트하기위해서는 공식문서에 migration section 을 확인하자. 
 
+## 앱의 release build 테스트하기
+
+플레이스토어에 release build 를 업로드하기 전에 테스트를 철저히 해야한다. 
+사전에 설치했던 이전버전들은 다 삭제하고 프로젝트 루트 위치에서 아래 명령어를 사용해서 디바이스에 새로 설치
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzA2MTc1NSwtMTg3NDc3MjIyOSwzND
-Q0MTk5NDUsLTUyODE5MzYzOCwtMTM3NzcyODQzNywtMTMwMTEy
-NzMyN119
+eyJoaXN0b3J5IjpbLTE2ODczNjQ3MzIsLTE4NzQ3NzIyMjksMz
+Q0NDE5OTQ1LC01MjgxOTM2MzgsLTEzNzc3Mjg0MzcsLTEzMDEx
+MjczMjddfQ==
 -->
