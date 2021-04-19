@@ -14,8 +14,9 @@ upload key 생성하기
 
 keytool 을 사용해서 private signing key 를 생성할 수 있다. 윈도우에선 keytool 이 `C:₩ProgramFiles₩Java₩jdkx.x.x_x₩bin` 에서 실행되어야 한다. 
 `keytool -genkeypair -v -storetype RKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000`
-dl
+이 명령은 키 저장소와 키 암호와 키 고유 이름 필드에 대한 암호를 묻는 메시지를 보여준다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY5MjIwMTcsLTEzNzc3Mjg0MzcsLT
-EzMDExMjczMjddfQ==
+eyJoaXN0b3J5IjpbMTMxNzI3NzAzNSwtMTM3NzcyODQzNywtMT
+MwMTEyNzMyN119
 -->
