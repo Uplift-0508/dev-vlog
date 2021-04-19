@@ -31,7 +31,7 @@ keystore 는 single key 를 포함하고 10000 일 동안 유효하다. alias �
 
 keystore file 은 private 하게 유지하자. upload key 를 유실하면 별도 지침에 따라 가이드 문서를 참고한다.
 
-그레들 변수 설정하기
+## 그레들 변수 설정하기
 
 1. `my-upload-key.keystore` 파일을 프로젝트 폴더 안에 `android/app` 디렉토리에 위치시킨다.
 2. `~/.gradle/gradle.properties` 혹은 `android/gradle.properties` 파일을 수정한다. 아래 내용을 추가한다. 
@@ -45,9 +45,10 @@ MYAPP_UPLOAD_KEY_PASSWORD=*****
 
 이 변수들은 global gradle variables 가 될 것이다. 
 이후에 앱을 sign 하기 위해서 Gradle config 내부에서 사용할 수 있다.
-그런데 위 그레들 설정 파일에 패스워드를 플레인텍스트로 둘 경우 보안상의 위험이 있기 때문에 keychain 을 사용하는 것을 권장한다. 
+그런데 위 그레들 설정 파일에 패스워드를 플레인텍스트로 둘 경우 보안상의 위험이 있기 때문에 keychain 을 사용하는 것을 권장한다. https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMzQ4MTAsLTEzNzc3Mjg0MzcsLTEzMD
-ExMjczMjddfQ==
+eyJoaXN0b3J5IjpbMzMwMjUzOTYxLC0xMzc3NzI4NDM3LC0xMz
+AxMTI3MzI3XX0=
 -->
