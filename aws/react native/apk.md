@@ -98,10 +98,12 @@ AAB 는 `android/app/build/outputs/bundle/release/app.aab` 아래에 생성된�
 `npx react-native run-android --variant=relase`
 
 `--variant release` 는 위에 설명한 대로 singing 을 셋업했다면 사용할 수 있다.
-모든 실행중인 bundler instance 는 종료할 수 있다. 모든 프레임ㅇ
+모든 실행중인 bundler instance 는 종료할 수 있다. 모든 프레임워크와 JavaScript code 는 APK 의 assets 에 번들되었기 때문이다. 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4NjY5NjAyLC0xODc0NzcyMjI5LDM0ND
-QxOTk0NSwtNTI4MTkzNjM4LC0xMzc3NzI4NDM3LC0xMzAxMTI3
-MzI3XX0=
+eyJoaXN0b3J5IjpbLTYxNDg0MjkzOCwtMTg3NDc3MjIyOSwzND
+Q0MTk5NDUsLTUyODE5MzYzOCwtMTM3NzcyODQzNywtMTMwMTEy
+NzMyN119
 -->
