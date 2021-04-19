@@ -27,8 +27,11 @@ keystore 는 single key 를 포함하고 10000 일 동안 유효하다. alias �
 `/Library/Java/JavaVirtualMachines/jdkX.X.X-XXX.jdk/Contents/Home`
 
 `cd /your/jdk/path` 명령어를 사용해서 해당 디렉토리로 이동하자. 그리고 아래 처럼 sudo 명령어를 함께 써서 keytool 명령어를 사용하자.
-`sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA keysize 2048 -validity 100`
+`sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA keysize 2048 -validity 10000`
+
+keystore file 은 private 하게 유지하자. upload key 를 유실하면 별도 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgzNTc1MzcsLTEzNzc3Mjg0MzcsLT
-EzMDExMjczMjddfQ==
+eyJoaXN0b3J5IjpbLTgxNDUwMzU5MiwtMTM3NzcyODQzNywtMT
+MwMTEyNzMyN119
 -->
