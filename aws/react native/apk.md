@@ -94,10 +94,14 @@ AAB 는 `android/app/build/outputs/bundle/release/app.aab` 아래에 생성된�
 ## 앱의 release build 테스트하기
 
 플레이스토어에 release build 를 업로드하기 전에 테스트를 철저히 해야한다. 
-사전에 설치했던 이전버전들은 다 삭제하고 프로젝트 루트 위치에서 아래 명령어를 사용해서 디바이스에 새로 설치
+사전에 설치했던 이전버전들은 다 삭제하고 프로젝트 루트 위치에서 아래 명령어를 사용해서 디바이스에 새로 설치해야한다.
+`npx react-native run-android --variant=relase`
+
+`--variant release` 는 위에 설명한 대로 singing 을 셋업했다면 사용할 수 있다.
+모든 실행중인 bundler instance 는 종료할 수 있다. 모든 프레임ㅇ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODczNjQ3MzIsLTE4NzQ3NzIyMjksMz
-Q0NDE5OTQ1LC01MjgxOTM2MzgsLTEzNzc3Mjg0MzcsLTEzMDEx
-MjczMjddfQ==
+eyJoaXN0b3J5IjpbNjM4NjY5NjAyLC0xODc0NzcyMjI5LDM0ND
+QxOTk0NSwtNTI4MTkzNjM4LC0xMzc3NzI4NDM3LC0xMzAxMTI3
+MzI3XX0=
 -->
