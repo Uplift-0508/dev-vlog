@@ -87,8 +87,10 @@ Gradle 의 `bundleRelease` 는 앱을 실행시키기 위해 필요한 모든 Ja
 `gradle.properties` 가 `org.gradle.configureondemand=true` 를 포함하지 않도록 한다. 그러면 relase build 가 JS 와 assets 을 앱 바이너리로 번들링하는 것을 스킵하게 한다.
 
 AAB 는 `android/app/build/outputs/bundle/release/app.aab` 아래에 생성된다. 
-그러면 구글 플레이에 업로드할 준비
+그러면 구글 플레이에 업로드할 준비가 된 것이다.
+
+구글 플레이가 AAB 형식을 받아들이기 위해서, 구글 플레이에서 singing 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3MjgzNDE2LC01MjgxOTM2MzgsLTEzNz
+eyJoaXN0b3J5IjpbMzQ0NDE5OTQ1LC01MjgxOTM2MzgsLTEzNz
 c3Mjg0MzcsLTEzMDExMjczMjddfQ==
 -->
