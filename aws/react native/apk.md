@@ -17,8 +17,11 @@ keytool 을 사용해서 private signing key 를 생성할 수 있다. 윈도우
 이 명령은 키 저장소와 키 암호와 키 고유 이름 필드에 대한 암호를 묻는 메시지를 보여준다.
 그러면 my-upload-key.keystore 라는 이름의 파일로 keystore 를 생성한다.
 
-keystore 는 single key 를 포함하고 10000 일 동안 유효하다. 
+keystore 는 single key 를 포함하고 10000 일 동안 유효하다. alias 는 나중에 앱을 singing 할 때 사용할 이름이다. 
+따라서 기록해두는 것이 좋다.
+
+맥에서는 JDK bin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjE4MzkxNiwtMTM3NzcyODQzNywtMT
-MwMTEyNzMyN119
+eyJoaXN0b3J5IjpbOTI3MTczMzIsLTEzNzc3Mjg0MzcsLTEzMD
+ExMjczMjddfQ==
 -->
