@@ -89,9 +89,9 @@ Gradle 의 `bundleRelease` 는 앱을 실행시키기 위해 필요한 모든 Ja
 AAB 는 `android/app/build/outputs/bundle/release/app.aab` 아래에 생성된다. 
 그러면 구글 플레이에 업로드할 준비가 된 것이다.
 
-구글 플레이가 AAB 형식을 받아들이기 위해서, 구글 플레이에서 signing 한 앱ㅇ
+구글 플레이가 AAB 형식을 받아들이기 위해서, 구글 플레이에서 signing 한 앱이 구글 플레이 콘솔에서 앱에 대한 설정이 되어 있어야 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjYzMTI5NywtMTg3NDc3MjIyOSwzND
-Q0MTk5NDUsLTUyODE5MzYzOCwtMTM3NzcyODQzNywtMTMwMTEy
-NzMyN119
+eyJoaXN0b3J5IjpbOTM3MzE4MDU4LC0xODc0NzcyMjI5LDM0ND
+QxOTk0NSwtNTI4MTkzNjM4LC0xMzc3NzI4NDM3LC0xMzAxMTI3
+MzI3XX0=
 -->
