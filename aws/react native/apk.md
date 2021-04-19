@@ -12,8 +12,8 @@ release key 는 이후 업데이트가 있을 때 사용된다.
 
 upload key 생성하기
 
-keytool 을 사용해서 private signing key 를 생성할 수 있다. 
+keytool 을 사용해서 private signing key 를 생성할 수 있다. 윈도우에선 keytool 이 `C:₩ProgramFiles₩Java₩jdkx.x.x_x₩bin` 에서 실행되어야 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTM3MjMyMiwtMTM3NzcyODQzNywtMT
+eyJoaXN0b3J5IjpbLTg5OTU0MDE1MSwtMTM3NzcyODQzNywtMT
 MwMTEyNzMyN119
 -->
