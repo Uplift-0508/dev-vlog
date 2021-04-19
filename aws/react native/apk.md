@@ -49,9 +49,23 @@ MYAPP_UPLOAD_KEY_PASSWORD=*****
 
 ## Gradle config 에 signing config 추가하기
 마지막 configuration 단계는 
-upload key 를 사용해서 Release builds 를 signed 되도록 ㅅ
+upload key 를 사용해서 Release builds 를 signed 되도록 셋업하는 것이다.
+프로젝트 폴더 내에 있는 `android/app/build.gradle` 파일을 수정하고 signing config 를 추가한다.
+```
+android {
+	...
+	defaultConfig {...}
+	signingConfigs {
+		release {
+			if (project.hasProperty('MYAPP_UPLOA)) {
+			
+			}
+		}
+	}
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NjM3NzExLC0xMzc3NzI4NDM3LC0xMz
-AxMTI3MzI3XX0=
+eyJoaXN0b3J5IjpbMTcxOTM0MDE2OSwtMTM3NzcyODQzNywtMT
+MwMTEyNzMyN119
 -->
