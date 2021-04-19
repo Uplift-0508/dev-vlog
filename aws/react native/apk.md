@@ -57,15 +57,25 @@ android {
 	defaultConfig {...}
 	signingConfigs {
 		release {
-			if (project.hasProperty('MYAPP_UPLOA)) {
-			
+			if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+				storeFile file(MYAPP_UPLOAD_STORE_FILE)
+				storePassword MYAPP_UPLOAD_STORE_PASSWORD
+				keyAlias MYAPP_UPLOAD_KEY_ALIAS
+				keyPassword MYAPP_UPLOAD_KEY_PASSWORD
 			}
+		}
+	}
+	buildTypes {
+		release {
+			...
+			signingConfig signingConfigs.release
 		}
 	}
 }
 ```
 
+AA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTM0MDE2OSwtMTM3NzcyODQzNywtMT
+eyJoaXN0b3J5IjpbLTE2NTA0MDMxMCwtMTM3NzcyODQzNywtMT
 MwMTEyNzMyN119
 -->
