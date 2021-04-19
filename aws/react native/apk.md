@@ -82,8 +82,8 @@ cd android
 ./bradlew bundleRelease
 ```
 
-Gradle 의 `bundleRelease` 는 모든 JavaScript 를 번들
+Gradle 의 `bundleRelease` 는 앱을 실행시키기 위해 필요한 모든 JavaScript 를 AAB (Android App Bundle) 에 번들한다. JavaScript bundle 하는 방법을 변경할 필요가 있거나 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzcyOTk1MCwtNTI4MTkzNjM4LC0xMz
+eyJoaXN0b3J5IjpbMTM5OTM5NDA0NywtNTI4MTkzNjM4LC0xMz
 c3NzI4NDM3LC0xMzAxMTI3MzI3XX0=
 -->
