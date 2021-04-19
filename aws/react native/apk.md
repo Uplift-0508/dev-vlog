@@ -10,8 +10,10 @@ release key 는 이후 업데이트가 있을 때 사용된다.
 안드로이드 개발자 도큐먼트에 signing your application 페이지에서 이에 대해 자세히 설명한다. 
 이 가이드는 간단하게 과정에 대해 다루고 javascript 번들을 패키지하기 위해 필요한 단계들을 목록화 해두었다.
 
+upload key 생성하기
 
+keytool 을 사용해서 private signing key 를 생성할 수 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc3Mjg0MzcsLTEzMDExMjczMjddfQ
-==
+eyJoaXN0b3J5IjpbLTU2NTM3MjMyMiwtMTM3NzcyODQzNywtMT
+MwMTEyNzMyN119
 -->
