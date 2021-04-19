@@ -77,7 +77,13 @@ android {
 ## release AAB 를 생성하기
 
 터미널에 다음을 실행한다.
+```
+cd android
+./bradlew bundleRelease
+```
+
+Gradle 의 `bundleRelease` 는 모든 JavaScript 를 번들
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODE5MzYzOCwtMTM3NzcyODQzNywtMT
-MwMTEyNzMyN119
+eyJoaXN0b3J5IjpbLTg5NzcyOTk1MCwtNTI4MTkzNjM4LC0xMz
+c3NzI4NDM3LC0xMzAxMTI3MzI3XX0=
 -->
