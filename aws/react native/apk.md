@@ -82,8 +82,8 @@ cd android
 ./bradlew bundleRelease
 ```
 
-Gradle 의 `bundleRelease` 는 앱을 실행시키기 위해 필요한 모든 JavaScript 를 AAB (Android App Bundle) 에 번들한다. JavaScript bundle 하는 방법을 변경할 필요가 있거나 그릴 수 있는 resources 들을 bundle 하는 방법을 변경할 필요가 있으면 (예를 들어 default 파일이나 폴더의 이름들을 변경하거나 프로젝트의 일반 구조를 변경할 때), `android/app/build.gradle` 을 살펴본다. 
+Gradle 의 `bundleRelease` 는 앱을 실행시키기 위해 필요한 모든 JavaScript 를 AAB (Android App Bundle) 에 번들한다. JavaScript bundle 하는 방법을 변경할 필요가 있거나 그릴 수 있는 resources 들을 bundle 하는 방법을 변경할 필요가 있으면 (예를 들어 default 파일이나 폴더의 이름들을 변경하거나 프로젝트의 일반 구조를 변경할 때), `android/app/build.gradle` 을 살펴보고 이 변경사항들을 어떻게 반영할지 살펴본다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE5NjU4NTMsLTUyODE5MzYzOCwtMT
-M3NzcyODQzNywtMTMwMTEyNzMyN119
+eyJoaXN0b3J5IjpbMzA4NTk0NDI3LC01MjgxOTM2MzgsLTEzNz
+c3Mjg0MzcsLTEzMDExMjczMjddfQ==
 -->
