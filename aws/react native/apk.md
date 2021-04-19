@@ -20,8 +20,14 @@ keytool 을 사용해서 private signing key 를 생성할 수 있다. 윈도우
 keystore 는 single key 를 포함하고 10000 일 동안 유효하다. alias 는 나중에 앱을 singing 할 때 사용할 이름이다. 
 따라서 기록해두는 것이 좋다.
 
-맥에서는 JDK bin
+맥에서는 JDK bin 폴더의 위치가 확실하지 않다면 다음 명령으로 확인할 수 있다.
+`/usr/libexec/java_home`
+
+그 결과 아래 처럼 JDK 디렉토리를 보여준다. 
+`/Library/Java/JavaVirtualMachines/jdkX.X.X-XXX.jdk/Contents/Home`
+
+'c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MTczMzIsLTEzNzc3Mjg0MzcsLTEzMD
-ExMjczMjddfQ==
+eyJoaXN0b3J5IjpbMTAwNDE4MzM3OSwtMTM3NzcyODQzNywtMT
+MwMTEyNzMyN119
 -->
