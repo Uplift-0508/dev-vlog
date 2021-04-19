@@ -45,9 +45,9 @@ MYAPP_UPLOAD_KEY_PASSWORD=*****
 
 이 변수들은 global gradle variables 가 될 것이다. 
 이후에 앱을 sign 하기 위해서 Gradle config 내부에서 사용할 수 있다.
-
+그런데 위 그레들 설정 파일에 패스워드를 플레인텍스트로 둘 경우 보안상의 위험이 있기 때문에 keychain 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5NTgyNTU3LC0xMzc3NzI4NDM3LC0xMz
-AxMTI3MzI3XX0=
+eyJoaXN0b3J5IjpbMTYxNzg3MDk3NywtMTM3NzcyODQzNywtMT
+MwMTEyNzMyN119
 -->
