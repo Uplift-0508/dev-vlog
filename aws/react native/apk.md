@@ -36,7 +36,14 @@ keystore file 은 private 하게 유지하자. upload key 를 유실하면 별�
 1. `my-upload-key.keystore` 파일을 프로젝트 폴더 안에 `android/app` 디렉토리에 위치시킨다.
 2. `~/.gradle/gradle.properties` 혹은 `android/gradle.properties` 파일을 수정한다. 아래 내용을 추가한다. 
 
+```
+MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
+MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
+MYAPP_UPLOAD_STORE_PASSWORD=*****
+MYAPP_UPLOAD_KEY_PASSWORD=*****
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODc5MDI4NCwtMTM3NzcyODQzNywtMT
-MwMTEyNzMyN119
+eyJoaXN0b3J5IjpbNDE5NzkyOTk5LC0xMzc3NzI4NDM3LC0xMz
+AxMTI3MzI3XX0=
 -->
