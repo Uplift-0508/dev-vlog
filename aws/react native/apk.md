@@ -74,7 +74,7 @@ android {
 }
 ```
 
-## release AAB 를 생성하기
+## release AAB (Android App Bundle) 를 생성하기
 
 터미널에 다음을 실행한다.
 ```
@@ -84,8 +84,8 @@ cd android
 
 Gradle 의 `bundleRelease` 는 앱을 실행시키기 위해 필요한 모든 JavaScript 를 AAB (Android App Bundle) 에 번들한다. JavaScript bundle 하는 방법을 변경할 필요가 있거나 그릴 수 있는 resources 들을 bundle 하는 방법을 변경할 필요가 있으면 (예를 들어 default 파일이나 폴더의 이름들을 변경하거나 프로젝트의 일반 구조를 변경할 때), `android/app/build.gradle` 을 살펴보고 이 변경사항들을 어떻게 반영할지 살펴본다. 
 
-`gradle.properties` 가 `org.gradle.configureondemand=true` 를 포함하지 않도록 한다. JS 를 번들링하는 것을 스킵하고 앱 바이너리
+`gradle.properties` 가 `org.gradle.configureondemand=true` 를 포함하지 않도록 한다. JS 를 번들링하는 것을 스킵하고 앱 바이너리로 번들
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTkzNDk0NSwtNTI4MTkzNjM4LC0xMz
-c3NzI4NDM3LC0xMzAxMTI3MzI3XX0=
+eyJoaXN0b3J5IjpbLTIxMDkyMTQ5NzQsLTUyODE5MzYzOCwtMT
+M3NzcyODQzNywtMTMwMTEyNzMyN119
 -->
