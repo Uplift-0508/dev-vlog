@@ -74,8 +74,10 @@ android {
 }
 ```
 
-AA
+## release AAB 를 생성하기
+
+터미널에 다음을 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA0MDMxMCwtMTM3NzcyODQzNywtMT
+eyJoaXN0b3J5IjpbLTUyODE5MzYzOCwtMTM3NzcyODQzNywtMT
 MwMTEyNzMyN119
 -->
