@@ -8,7 +8,10 @@ release key 는 이후 업데이트가 있을 때 사용된다.
 2017 년 이후 구글 플레이의 App signing 기능 덕분에 구글 플레이에서 자동적으로 signing release 가 가능하게 되었다. 
 반면, 어플리케이션 바이너리가 구글 플레이에 업로드 되기 전에 하나의 upload key 로 서명되어야 한다. 
 안드로이드 개발자 도큐먼트에 signing your application 페이지에서 이에 대해 자세히 설명한다. 
+이 가이드는 간단하게 과정에 대해 다루고 javascript 번들을 패키지하기 위해 필요한 단계들을 목록화 해두었다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDQ1MTQzLC0xMzAxMTI3MzI3XX0=
+eyJoaXN0b3J5IjpbLTEzNzc3Mjg0MzcsLTEzMDExMjczMjddfQ
+==
 -->
