@@ -100,12 +100,9 @@ AAB 는 `android/app/build/outputs/bundle/release/app.aab` 아래에 생성된�
 `--variant release` 는 위에 설명한 대로 singing 을 셋업했다면 사용할 수 있다.
 모든 실행중인 bundler instance 는 종료할 수 있다. 모든 프레임워크와 JavaScript code 는 APK 의 assets 에 번들되었기 때문이다. 
 
-## 다른 스토어에 올리기
-
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk4NjIwOTgsLTE4NzQ3NzIyMjksMz
-Q0NDE5OTQ1LC01MjgxOTM2MzgsLTEzNzc3Mjg0MzcsLTEzMDEx
-MjczMjddfQ==
+eyJoaXN0b3J5IjpbLTY1MzI1NjcyLC0xMzU5ODYyMDk4LC0xOD
+c0NzcyMjI5LDM0NDQxOTk0NSwtNTI4MTkzNjM4LC0xMzc3NzI4
+NDM3LC0xMzAxMTI3MzI3XX0=
 -->
