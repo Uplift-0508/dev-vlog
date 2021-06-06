@@ -2,7 +2,7 @@
 스프링 코어 중에서도 특히 중요한 것은 DI (Dependency Injection) 와 AOP (Aspect Oriented Programming) 다. 
 
 ## DI
-보통 엔터프라이즈 어플리케이션을 개발할 때는 하나의 처리를 수행하기 위해 여러 개의 컴포넌트를 조합해서 구현한다. 컴폰
+보통 엔터프라이즈 어플리케이션을 개발할 때는 하나의 처리를 수행하기 위해 여러 개의 컴포넌트를 조합해서 구현한다. 컴포넌트에는 '공통으로 사용되는 기능 컴포넌트', '데이터베이스에 접근하기 위한 컴포넌트', '외부 시스템이나 서비스에 접속하기 위한 컴포넌트' 등 다양한 컴포넌트가 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ5NTE5ODFdfQ==
+eyJoaXN0b3J5IjpbLTExODc3MzgyXX0=
 -->
