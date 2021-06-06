@@ -6,7 +6,7 @@
 
 어떤 클래스가 필요로 하는 컴포넌트를 외부에서 생성한 후, 내부에서 사용 가능하게 만들어 주는 과정을 '의존성 주입(DI)한다' 또는 '인젝션(Injection) 한다' 라고 말한다. 그리고 이러한 의존성 주입을 자동으로 처리하는 기반을 'DI 컨테이너' 라고 한다. 
 
-
+스프링 프레임워크가 제공하는 기능 중 가장 중요한 것이 DI 컨테이너 기능이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0MTg5MDY3LDE0NDkyNjM0ODFdfQ==
+eyJoaXN0b3J5IjpbLTkyNjcxNTc2OCwxNDQ5MjYzNDgxXX0=
 -->
