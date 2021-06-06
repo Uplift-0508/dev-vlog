@@ -37,8 +37,10 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 |----------------|-------------------------------|
 |자바 기반 설정 방식 | 자바 클래스에 @Configuration 어노테이션을 메소드에 @Bean 어노테이션을 사용해 빈을 정의하는 방법. 특히 스프링 부트에서 많이 활용된다.
 |XML 기반 설정 방식 | XML 파일을 사용하는 방법으로 <bean> 요소의 class 속성에 자바에서 패키지에 클래스명까지 붙여 쓴 완전한 클래스 이름을 기술하면 빈이 정의된다. 
-|
+|어노테이션 기반 설정 방식 | @Component 같은 마커 어노테이션이 부여된 클래스를 탐색해서 (Component Scan) DI 컨테이너에 빈을 자동으로 등록하는 방법.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3NTc0NjI0LDE1ODk0ODA3NzAsMTk1OD
-AxMDkyMSwxODE5NzgzNjk4LDE0NDkyNjM0ODFdfQ==
+eyJoaXN0b3J5IjpbMTk3NzkwNDM0MSwxNTg5NDgwNzcwLDE5NT
+gwMTA5MjEsMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
 -->
