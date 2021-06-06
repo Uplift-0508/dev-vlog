@@ -35,8 +35,9 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 ### 대표적인 빈 설정 방법
 |        방법        |설명                         |
 |----------------|-------------------------------|
-|자바 기반 설정 방식 | 
+|자바 기반 설정 방식 | 자바 클래스에 @Configuration 어노테이션을 메소드에 @Bean 어노테이션을 사용해 빈을 정의하는 방법. 특히 스프링 부트에서 많이 활용된다.
+|XML 기반 설정 방식 | XML 파일을 사용하는 방법으로 <bean> 요소의 class 속성에 자바에서 패키지에 클래스명까지 붙여 쓴 오
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mjg4OTAzNCwxNTg5NDgwNzcwLDE5NT
+eyJoaXN0b3J5IjpbMTEwMjU3MDcxMywxNTg5NDgwNzcwLDE5NT
 gwMTA5MjEsMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
 -->
