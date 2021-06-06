@@ -11,6 +11,9 @@
 DI 컨테이너를 통해 각 컴포넌트의 인스턴스를 생성하고 통합 관리하면서 얻을 수 있는 장점은 컴포넌트 간의 의존성 해결 뿐만 아니라 인스턴스 스코프 관리도 DI 컨테이너가 대신한다. 또 각 인스턴스가 필요로 하는 공통 처리 코드를 외부에 자동으로 끼워넣는 AOP 기능도 DI 컨테이너가 대신한다. 
 
 DI 는 의존성 주입이라고하며, IoC 라고 하는 소프트웨어 디자인 패턴이다. IoC 는 인스턴스를 제어하는 주도권이 역전된다는 의미다. 컴포넌트를 구성하는 인스턴스의 생성과 의존 관계의 연결 처리를 해당 소스코드가 아닌 DI 컨테이너에서 대신해주기 때문에 제어가 역전됐다고 한다. 
+
+DI 커
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
+eyJoaXN0b3J5IjpbLTE3ODI5NDM5NSwxODE5NzgzNjk4LDE0ND
+kyNjM0ODFdfQ==
 -->
