@@ -21,8 +21,8 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 - 의존하는 컴포넌트 간의 결합도를 낮춰서 단위 테스트하기 쉽게 만든다.
 
 ## ApplicationContext 와 빈 정의
-
+스프링 프레임워크에서는 ApplicationContext 가 DI 컨테이너의 역할을 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODAxNzIzMSwxODE5NzgzNjk4LDE0ND
+eyJoaXN0b3J5IjpbMTk1ODAxMDkyMSwxODE5NzgzNjk4LDE0ND
 kyNjM0ODFdfQ==
 -->
