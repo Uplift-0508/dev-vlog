@@ -20,8 +20,9 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 - AOP 방식으로 공통 기능을 집어넣을 수 있다.
 - 의존하는 컴포넌트 간의 결합도를 낮춰서 단위 테스트하기 쉽게 만든다.
 
+## ApplicationContext 와 빈 정의
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzQ2ODU3MywxODE5NzgzNjk4LDE0ND
+eyJoaXN0b3J5IjpbMTgwODAxNzIzMSwxODE5NzgzNjk4LDE0ND
 kyNjM0ODFdfQ==
 -->
