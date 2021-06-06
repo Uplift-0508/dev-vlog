@@ -47,8 +47,10 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 |XML 기반의 설정방식. ClassPathXmlApplicationContext 생성자에 XML 파일을 인수로 전달. 경로에 접두어가 생략된 경우 클래스패스 안에서 상대 경로로 설정 파일을 탐색. | ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/spring/applicationContext.xml");
 |XML 기반의 설정 방식으로 FileSystemXmlApplicationContext 의 생성자에 XML 파일을 인수로 전달. 경로에 접두어가 생략된 경우 JVM 작업 디렉터리 안에서 상대 경로로 설정 파일 탐색.
 
-A
+ApplicationContext 단독 어플리케이션에서 스프링 프레임워크를 사용하거나 
+JUnit 으로 만든 테스트 케이스 안에서 스프링 프레임워크를 그동할 때 사용된다. 반면 웹 어플리케이션에서는 스프링 MVC 를 활용하게 되는데, 이 때 ApplicationContext 를 웹 환경에 맞게 확장한 WebApplicationContext 를 사용한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzAxMjc3OSwxNTg5NDgwNzcwLDE5NT
-gwMTA5MjEsMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
+eyJoaXN0b3J5IjpbNDg4NDg2NjYzLDE1ODk0ODA3NzAsMTk1OD
+AxMDkyMSwxODE5NzgzNjk4LDE0NDkyNjM0ODFdfQ==
 -->
