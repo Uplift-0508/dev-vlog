@@ -32,8 +32,9 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 |가져오려는 빈의 이름과 타입을 지정하는 방법. 지정한 타입에 해당하는 빈이 DI 컨테이너에 여러 개 있을 때 이름으로 구분하기 위해 사용. | UserService userService = context.getBean("userService", UserService.class);
 |가져오려는 빈의 이름을 지정하는 방법. | UserService userService = (UserService) context.getBean("userService");
 
+### 대표적인 빈 설정 방법
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg3OTg5NTAsMTU4OTQ4MDc3MCwxOT
-U4MDEwOTIxLDE4MTk3ODM2OTgsMTQ0OTI2MzQ4MV19
+eyJoaXN0b3J5IjpbODk3OTQzNDQ1LDE1ODk0ODA3NzAsMTk1OD
+AxMDkyMSwxODE5NzgzNjk4LDE0NDkyNjM0ODFdfQ==
 -->
