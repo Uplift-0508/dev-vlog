@@ -50,7 +50,8 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 ApplicationContext 단독 어플리케이션에서 스프링 프레임워크를 사용하거나 
 JUnit 으로 만든 테스트 케이스 안에서 스프링 프레임워크를 그동할 때 사용된다. 반면 웹 어플리케이션에서는 스프링 MVC 를 활용하게 되는데, 이 때 ApplicationContext 를 웹 환경에 맞게 확장한 WebApplicationContext 를 사용한다.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4NDg2NjYzLDE1ODk0ODA3NzAsMTk1OD
-AxMDkyMSwxODE5NzgzNjk4LDE0NDkyNjM0ODFdfQ==
+eyJoaXN0b3J5IjpbLTk3NzEzMzcwNywxNTg5NDgwNzcwLDE5NT
+gwMTA5MjEsMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
 -->
