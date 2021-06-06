@@ -23,7 +23,8 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 ## ApplicationContext 와 빈 정의
 스프링 프레임워크에서는 ApplicationContext 가 DI 컨테이너의 역할을 한다. 
 
+@Configuration 과 @Bean 어노테이션을 사용해서 DI 컨테이너에 컴포넌트를 등록하면 어플리케이션은 DI 컨테이너에 있는 Bean 을 ApplicationContext 인스턴스를 통해 가져올 수 있다. 스프링 프렝미
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg1NjIxNTMsMTk1ODAxMDkyMSwxOD
-E5NzgzNjk4LDE0NDkyNjM0ODFdfQ==
+eyJoaXN0b3J5IjpbMTk0NTYwODA5NCwxOTU4MDEwOTIxLDE4MT
+k3ODM2OTgsMTQ0OTI2MzQ4MV19
 -->
