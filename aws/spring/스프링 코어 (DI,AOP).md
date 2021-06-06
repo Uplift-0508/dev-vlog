@@ -39,8 +39,12 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 |XML 기반 설정 방식 | XML 파일을 사용하는 방법으로 <bean> 요소의 class 속성에 자바에서 패키지에 클래스명까지 붙여 쓴 완전한 클래스 이름을 기술하면 빈이 정의된다. 
 |어노테이션 기반 설정 방식 | @Component 같은 마커 어노테이션이 부여된 클래스를 탐색해서 (Component Scan) DI 컨테이너에 빈을 자동으로 등록하는 방법.
 
-### ApplicationContext 
+### ApplicationContext 생성 방법
+|        방법        |설명                         |
+|----------------|-------------------------------|
+|자바 기반의 설정 방식. AnnotationConfigApplicationContext 생성자에 @Configuration 어노테이션이 붙은 클래스를 인수로 전달.| ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class)
+|어노테이션 기반의 설정 방식으로 AnnotationConfigApplicationContext 생성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI0NTk4OSwxNTg5NDgwNzcwLDE5NT
-gwMTA5MjEsMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
+eyJoaXN0b3J5IjpbLTg2MzMzMzM3LDE1ODk0ODA3NzAsMTk1OD
+AxMDkyMSwxODE5NzgzNjk4LDE0NDkyNjM0ODFdfQ==
 -->
