@@ -33,8 +33,10 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 |가져오려는 빈의 이름을 지정하는 방법. | UserService userService = (UserService) context.getBean("userService");
 
 ### 대표적인 빈 설정 방법
-
+|        방법        |설명                         |
+|----------------|-------------------------------|
+|자바 기반 설정 방식 | 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3OTQzNDQ1LDE1ODk0ODA3NzAsMTk1OD
-AxMDkyMSwxODE5NzgzNjk4LDE0NDkyNjM0ODFdfQ==
+eyJoaXN0b3J5IjpbMTE3Mjg4OTAzNCwxNTg5NDgwNzcwLDE5NT
+gwMTA5MjEsMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
 -->
