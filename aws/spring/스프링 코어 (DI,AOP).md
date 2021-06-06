@@ -44,8 +44,11 @@ DI 컨테이너에서 인스턴스를 관리하는 방법의 장점 :
 |----------------|-------------------------------|
 |자바 기반의 설정 방식. AnnotationConfigApplicationContext 생성자에 @Configuration 어노테이션이 붙은 클래스를 인수로 전달.| ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 |어노테이션 기반의 설정 방식. AnnotationConfigApplicationContext 생성자에 패키지명을 인수로 전달. 지정된 패키지 이하의 경로에서 컴포넌트를 스캔. | ApplicationContext context = new AnnotationConfigApplicationContext("com.example.app");
-|XML 기반의 설정방식. ClassPathXmlApplicationContext 생성자에 XML 파일을 인수로 전달. 경로에 접두어가 생략된 경우 클래스패스 안에서 상대 경로로 설정 파일을 탐색. | App
+|XML 기반의 설정방식. ClassPathXmlApplicationContext 생성자에 XML 파일을 인수로 전달. 경로에 접두어가 생략된 경우 클래스패스 안에서 상대 경로로 설정 파일을 탐색. | ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/spring/applicationContext.xml");
+|XML 기반의 설정 방식으로 FileSystemXmlApplicationContext 의 생성자에 XML 파일을 인수로 전달. 경로에 접두어가 생략된 경우 JVM 작업 디렉터리 안에서 상대 경로로 설정 파일 탐색.
+
+A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM5NTI4MCwxNTg5NDgwNzcwLDE5NT
+eyJoaXN0b3J5IjpbMTczNzAxMjc3OSwxNTg5NDgwNzcwLDE5NT
 gwMTA5MjEsMTgxOTc4MzY5OCwxNDQ5MjYzNDgxXX0=
 -->
